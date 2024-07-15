@@ -5,7 +5,8 @@ from datetime import datetime
 
 dhis2_auth = ('user', 'Passwork')
 urlBase = "https://dominio_instancia/api/"
-url = urlBase+"38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=5"
+
+url = urlBase+"38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=5"
 url2 = urlBase+"29/categoryOptions"
 url3 = urlBase+"29/options?fields=name&filter=optionSet.id:in:[PrAA7nJPXke,IQ7u8KsQfco]&filter=code:eq:"
 url4 = urlBase+"29/categoryOptions?filter=name:ne:default&fields=id,name&filter=identifiable:token:"
@@ -60,8 +61,6 @@ def carga(data_import):
     postData = requests.post(url11,data=json.dumps({"dataValues": data}), auth=dhis2_auth, headers=headers) # carga del objecto
     _data_postData=json.loads(postData.text)
     id_import=_data_postData['response']['id']
-    print(id_import)
-    print(postData.status_code)
     if (postData.status_code==200):
         response_import = requests.get(url12+id_import, auth=dhis2_auth) # se realiza la consulta para consultar el id de CO
         print(json.loads(response_import.text)) #status de proceso

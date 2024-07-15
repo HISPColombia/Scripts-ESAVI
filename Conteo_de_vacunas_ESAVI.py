@@ -3,9 +3,11 @@ import json
 import pandas as pd
 
 
+
 dhis2_auth = ('user', 'Passwork')
 urlBase = "https://dominio_instancia/api/"
-url = urlBase+'38/analytics/events/query/aFGRl00bzio?dimension=ou%3AwUk6JZc0ljI,NI0QRzJvQ0k,oindugucx72%3AIN%3A2%3B1%3B3,lSpdre0srBn.uSVcZzSM3zg,lSpdre0srBn.dOkuCjpD978,lSpdre0srBn.g9PjywVj2fs,lSpdre0srBn.VrzEutEnzSJ,lSpdre0srBn.menOXwIFZh5,lSpdre0srBn.f4WCAVwjHz0,lSpdre0srBn.OU5klvkk3SM,lSpdre0srBn.H3TKHMFIN6V,lSpdre0srBn.X3PxqaO5f9r,lSpdre0srBn.ysWILv7evq2,lSpdre0srBn.sNAzULL8qKr,lSpdre0srBn.U7GsOtvm5XJ,lSpdre0srBn.wmEHb59whXs,lSpdre0srBn.bNGwInf25MO,lSpdre0srBn.SAZugYdkOZK,lSpdre0srBn.z2I8yMDvyXA,lSpdre0srBn.LYariSd5cEq,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,NI0QRzJvQ0k,oindugucx72,lSpdre0srBn.uSVcZzSM3zg,lSpdre0srBn.dOkuCjpD978,lSpdre0srBn.g9PjywVj2fs,lSpdre0srBn.VrzEutEnzSJ,lSpdre0srBn.menOXwIFZh5,lSpdre0srBn.f4WCAVwjHz0,lSpdre0srBn.OU5klvkk3SM,lSpdre0srBn.H3TKHMFIN6V,lSpdre0srBn.X3PxqaO5f9r,lSpdre0srBn.ysWILv7evq2,lSpdre0srBn.sNAzULL8qKr,lSpdre0srBn.U7GsOtvm5XJ,lSpdre0srBn.wmEHb59whXs,lSpdre0srBn.bNGwInf25MO,lSpdre0srBn.SAZugYdkOZK,lSpdre0srBn.z2I8yMDvyXA,lSpdre0srBn.LYariSd5cEq,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=400'
+
+url = urlBase+'38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,oindugucx72,NI0QRzJvQ0k,oindugucx72%3AIN%3A2%3B1%3B3,lSpdre0srBn.uSVcZzSM3zg,lSpdre0srBn.dOkuCjpD978,lSpdre0srBn.g9PjywVj2fs,lSpdre0srBn.VrzEutEnzSJ,lSpdre0srBn.menOXwIFZh5,lSpdre0srBn.f4WCAVwjHz0,lSpdre0srBn.OU5klvkk3SM,lSpdre0srBn.H3TKHMFIN6V,lSpdre0srBn.X3PxqaO5f9r,lSpdre0srBn.ysWILv7evq2,lSpdre0srBn.sNAzULL8qKr,lSpdre0srBn.U7GsOtvm5XJ,lSpdre0srBn.wmEHb59whXs,lSpdre0srBn.bNGwInf25MO,lSpdre0srBn.SAZugYdkOZK,lSpdre0srBn.z2I8yMDvyXA,lSpdre0srBn.LYariSd5cEq,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,NI0QRzJvQ0k,oindugucx72,lSpdre0srBn.uSVcZzSM3zg,lSpdre0srBn.dOkuCjpD978,lSpdre0srBn.g9PjywVj2fs,lSpdre0srBn.VrzEutEnzSJ,lSpdre0srBn.menOXwIFZh5,lSpdre0srBn.f4WCAVwjHz0,lSpdre0srBn.OU5klvkk3SM,lSpdre0srBn.H3TKHMFIN6V,lSpdre0srBn.X3PxqaO5f9r,lSpdre0srBn.ysWILv7evq2,lSpdre0srBn.sNAzULL8qKr,lSpdre0srBn.U7GsOtvm5XJ,lSpdre0srBn.wmEHb59whXs,lSpdre0srBn.bNGwInf25MO,lSpdre0srBn.SAZugYdkOZK,lSpdre0srBn.z2I8yMDvyXA,lSpdre0srBn.LYariSd5cEq,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=400'
 url2 = urlBase+"29/categoryOptions"
 url3 = urlBase+"29/options?fields=name&filter=optionSet.id:in:[PrAA7nJPXke,IQ7u8KsQfco]&filter=code:eq:"
 url4 = urlBase+"29/categoryOptions?filter=name:ne:default&fields=id,name&filter=identifiable:token:"
@@ -119,8 +121,8 @@ def creacion_Metadata(item_code,Categoria_data,data_rows):
 
 def result_update(updateCategoria,data_rows):
     if updateCategoria.status_code == 200: 
-        # updateCategoria_mantinimiento = requests.post(url7, auth=dhis2_auth, headers=headers)#actualizacion de opciones de categoria en administracion de datos
-        # print(updateCategoria_mantinimiento, "Se realizo la creacion y actualizacion de la metadata del data Set")
+        updateCategoria_mantinimiento = requests.post(url7, auth=dhis2_auth, headers=headers)#actualizacion de opciones de categoria en administracion de datos
+        print(updateCategoria_mantinimiento, "Se realizo la creacion y actualizacion de la metadata del data Set")
         Precarga_datos_analiticos(contar_coincidencias(data_rows))
 
     else:
@@ -130,7 +132,6 @@ def result_update(updateCategoria,data_rows):
 # limpieza de datos para cargar
 def Precarga_datos_analiticos(data_analiticos):   
     print("limpieza de datos")
-    print(len(data_analiticos))
     carga(data_analiticos,len(data_analiticos))
 
 # carga de datos a DHI2, filtrando los datos
@@ -178,7 +179,6 @@ def carga(data_import, num_data):
             co = vacunas+", "+sex+", "+value_json['RangoEdad']+", "+value_json['RangoDiasVacuna']+", "+ grave +", "+ Ispregnancy # Se crea la palabla clave para la búsqueda
             get_co = requests.get(url10+co, auth=dhis2_auth) # se realiza la consulta para consultar el id de CO
             get_co=json.loads(get_co.text)
-            print(len(get_co['categoryOptionCombos']),co)
             date= str(value_json['Registro']).replace("-","").replace(" 00:00:00.0","")
             if len(get_co['categoryOptionCombos'])>0:# Si el tamaño de la lista es igual a 0 no debe de realizar el proceso
                # Construcion de objecto a cargar en DHIS2
@@ -191,10 +191,8 @@ def carga(data_import, num_data):
                 "attributeOptionCombo": "HllvX50cXC0",
                 }
                 data_imporT_carga.append(data)
-    print(data_imporT_carga)
     postData = requests.post(url11,data=json.dumps({"dataValues": data_imporT_carga}), auth=dhis2_auth, headers=headers) # carga del objecto
     _data_postData=json.loads(postData.text)
-    print(_data_postData)
     id_import=_data_postData['response']['id']
     if (postData.status_code==200):
         response_import = requests.get(url12+id_import, auth=dhis2_auth) # se realiza la consulta para consultar el id de CO

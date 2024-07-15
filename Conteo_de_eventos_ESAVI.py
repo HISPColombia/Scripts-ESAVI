@@ -5,7 +5,8 @@ import pandas as pd
 
 dhis2_auth = ('user', 'Passwork')
 urlBase = "https://dominio_instancia.org/api/"
-url = urlBase+"38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=500"
+
+url = urlBase+"38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=500"
 url2 = urlBase+"29/categoryOptions"
 url3 = urlBase+"29/options?fields=name&filter=optionSet.id:in:[PrAA7nJPXke,IQ7u8KsQfco]&filter=code:eq:"
 url4 = urlBase+"29/categoryOptions?filter=name:ne:default&fields=id,name&filter=identifiable:token:"
@@ -87,7 +88,6 @@ def carga(data_import, num_data):
             elif value_json['Grave'] == '':
                 grave = 'G-No sabe'
             
-
             if value_json['Ispregnancy'] == '1':
                 Ispregnancy = 'E-Sí'
 
@@ -97,10 +97,8 @@ def carga(data_import, num_data):
             elif value_json['Ispregnancy'] == '2':
                 Ispregnancy = 'E-No'
             co = "Eventos, "+sex+", "+value_json['RangoEdad']+", "+ grave +", "+ Ispregnancy # Se crea la palabla clave para la búsqueda
-            print(co)
             get_co = requests.get(url10+co, auth=dhis2_auth) # se realiza la consulta para consultar el id de CO
             get_co=json.loads(get_co.text)
-            print(len(get_co['categoryOptionCombos']))
             date= str(value_json['Registro']).replace("-","").replace(" 00:00:00.0","")
             if len(get_co['categoryOptionCombos'])>0:# Si el tamaño de la lista es igual a 0 no debe de realizar el proceso
                # Construcion de objecto a cargar en DHIS2
@@ -113,15 +111,11 @@ def carga(data_import, num_data):
                 "attributeOptionCombo": "HllvX50cXC0",
                 }
                 data_imporT_carga.append(data)
-            print(num_auxi)
     postData = requests.post(url11,data=json.dumps({"dataValues": data_imporT_carga}), auth=dhis2_auth, headers=headers) # carga del objecto
     _data_postData=json.loads(postData.text)
-    print(data_imporT_carga)
     id_import=_data_postData['response']['id']
-    print(id_import)
-    print(postData.status_code)
     if (postData.status_code==200):
         response_import = requests.get(url12+id_import, auth=dhis2_auth) 
         print(json.loads(response_import.text)) #status de proceso
-        
+
 get_Data()
