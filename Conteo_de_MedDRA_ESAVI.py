@@ -54,8 +54,12 @@ def get_Data():
     print("Consultando datos en el servidor")
     response = requests.get(url, auth=dhis2_auth)     
     data_rows = json.loads(response.text)
-    data_rows=data_rows['rows']
-    get_categoryOptions(data_rows)
+    if len(data_rows)>0:
+        data_rows=data_rows['rows']
+        get_categoryOptions(data_rows)
+    else:
+        print("No hay datos")
+
 
 
 def get_categoryOptions(data_rows):
