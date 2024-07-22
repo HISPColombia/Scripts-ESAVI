@@ -2,9 +2,9 @@ import requests
 import json
 import pandas as pd
 from datetime import datetime
+dhis2_auth = ('Configuraciones_Analiticas_DataSets', 'Configuraciones_Analiticas@1')
+urlBase = "https://pruebasit.salud.gob.hn/dev-esavi/api/"
 
-dhis2_auth = ('user', 'Passwork')
-urlBase = "https://dominio_instancia/api/"
 
 url = urlBase+"38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=5"
 url2 = urlBase+"29/categoryOptions"
@@ -24,25 +24,30 @@ def contar_coincidencias(data_rows):
     print("Calculando coincidencias...")
     df = pd.DataFrame(data_rows, columns=["Registro", "OU", "Genero","FechaNacimiento","Grave","Ispregnancy"])
     date_register=df['Registro']
-
+    json_string=[]
     # Convertir la columna 'Fecha' a tipo datetime
     date_register = pd.to_datetime(df['Registro'])
-
-    # Encontrar la fecha máxima y mínima
-    fecha_maxima = date_register.max().strftime('%Y-%m-%d')
-    fecha_minima = date_register.min().strftime('%Y-%m-%d')
-    hospitales = df['OU'].drop_duplicates().tolist()
-    json_data={"fecha_maxima":fecha_maxima,"fecha_minima":fecha_minima,"hospitales":hospitales}
-    json_string = json.dumps(json_data)
+    #Encontrar la fecha máxima y mínima
+    if len(date_register)>0:
+        fecha_maxima = date_register.max().strftime('%Y-%m-%d')
+        fecha_minima = date_register.min().strftime('%Y-%m-%d')
+        hospitales = df['OU'].drop_duplicates().tolist()
+        json_data={"fecha_maxima":fecha_maxima,"fecha_minima":fecha_minima,"hospitales":hospitales}
+        json_string = json.dumps(json_data)
+    else:
+        print("No hay datos")
     return(json_string)
-   
+
 def get_Data():
     print("Consultando datos en el servidor")
     response = requests.get(url, auth=dhis2_auth)     
     data_rows = json.loads(response.text)
+    print(len(data_rows))
     if len(data_rows)>0:
         data_rows=data_rows['rows']
-        carga(contar_coincidencias(data_rows), len(contar_coincidencias(data_rows)))
+        if len(contar_coincidencias(data_rows))>0:
+            carga(contar_coincidencias(data_rows))
+        
     else:
         print("No hay datos")
 

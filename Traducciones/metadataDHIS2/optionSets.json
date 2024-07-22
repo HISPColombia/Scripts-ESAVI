@@ -1,0 +1,1614 @@
+{
+    "optionSets": [
+        {
+            "code": "Clasificacion",
+            "created": "2024-02-29T04:44:19.713",
+            "lastUpdated": "2024-03-19T03:31:58.389",
+            "name": "Custom-ESAVI-Clasificacion",
+            "id": "ZuIUTmEW3Nh",
+            "href": "https://dev.paho-dhis2.org/api/29/optionSets/ZuIUTmEW3Nh",
+            "displayName": "Custom-ESAVI-Clasificacion",
+            "publicAccess": "rw------",
+            "version": 156,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "sharing": {
+                "owner": "MT2MIAfnVdb",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "DqzJGT6qAC7"
+                },
+                {
+                    "id": "VEwrHADuZnX"
+                },
+                {
+                    "id": "QXvz4vl3hoi"
+                },
+                {
+                    "id": "PMTPClDlmXv"
+                },
+                {
+                    "id": "Fn8ssUfbYCe"
+                },
+                {
+                    "id": "ekLhkVQlCX7"
+                },
+                {
+                    "id": "k38pigIea2V"
+                },
+                {
+                    "id": "ztCoK2Ev3Mg"
+                },
+                {
+                    "id": "HJBHVicXjU7"
+                },
+                {
+                    "id": "njihJURfBjs"
+                },
+                {
+                    "id": "Kso8nefADfi"
+                },
+                {
+                    "id": "HREmWYj0vns"
+                },
+                {
+                    "id": "u6CZ8peJuGS"
+                },
+                {
+                    "id": "xAxPEMnsJYj"
+                },
+                {
+                    "id": "IEdo7h7SE2W"
+                },
+                {
+                    "id": "Txe4u9BBpc6"
+                },
+                {
+                    "id": "BXEmGWL0bcy"
+                },
+                {
+                    "id": "R1myNsm4fCs"
+                },
+                {
+                    "id": "GzEQZcLubVy"
+                },
+                {
+                    "id": "xBw8sn1gld6"
+                },
+                {
+                    "id": "zYimhTkxepH"
+                },
+                {
+                    "id": "VgbruGHSQ4s"
+                },
+                {
+                    "id": "uRie9p0D7yq"
+                },
+                {
+                    "id": "ZHM0DucGAcT"
+                },
+                {
+                    "id": "a2MqWT0dLrp"
+                },
+                {
+                    "id": "jHZssklqMES"
+                },
+                {
+                    "id": "kHIvFoXpgKy"
+                },
+                {
+                    "id": "QNJPGMAzwy8"
+                },
+                {
+                    "id": "r8oYHmjGRDb"
+                },
+                {
+                    "id": "IEFax84v4gV"
+                },
+                {
+                    "id": "kS6tWHmJNwC"
+                },
+                {
+                    "id": "HXaXNwWoc9b"
+                },
+                {
+                    "id": "jzZ4Fya0JRq"
+                },
+                {
+                    "id": "icPUHL0qYVW"
+                },
+                {
+                    "id": "Cnqhotycd72"
+                },
+                {
+                    "id": "kO6rdNfKiXm"
+                },
+                {
+                    "id": "MHhQp8qPaK9"
+                },
+                {
+                    "id": "KNFTBFMS6Xx"
+                },
+                {
+                    "id": "fWALBp8alcR"
+                },
+                {
+                    "id": "NQq3pD50aeB"
+                },
+                {
+                    "id": "psKQkEus2Ak"
+                },
+                {
+                    "id": "R0FEm9D2xE3"
+                },
+                {
+                    "id": "O5PjqQpvMoV"
+                },
+                {
+                    "id": "i89O5ML5Bua"
+                },
+                {
+                    "id": "Xr2gq4zpNS0"
+                },
+                {
+                    "id": "t4lZgXdDy1q"
+                },
+                {
+                    "id": "J3FsTLKhJVP"
+                },
+                {
+                    "id": "qwMln9xclu4"
+                },
+                {
+                    "id": "ZkPwiiavNnI"
+                },
+                {
+                    "id": "V7BBum14u4g"
+                },
+                {
+                    "id": "T2N9B3lipWB"
+                },
+                {
+                    "id": "KRH1eUZByX3"
+                },
+                {
+                    "id": "rIvMorRKcVy"
+                },
+                {
+                    "id": "QEe95mgwHIA"
+                },
+                {
+                    "id": "UZymuOZIUtZ"
+                },
+                {
+                    "id": "rhUJSUlRfmY"
+                },
+                {
+                    "id": "BvErzJohRPk"
+                },
+                {
+                    "id": "mkTttVUifzU"
+                },
+                {
+                    "id": "AuDUTcYbmGi"
+                },
+                {
+                    "id": "Pp1gG8gSrCa"
+                },
+                {
+                    "id": "lX90AaEtama"
+                },
+                {
+                    "id": "Fm3tPGuQXm8"
+                },
+                {
+                    "id": "Fq7H4w1JWjz"
+                },
+                {
+                    "id": "kuAlKQqHmTi"
+                },
+                {
+                    "id": "rFdrf2IoAK0"
+                },
+                {
+                    "id": "sEvLDjmgGmP"
+                },
+                {
+                    "id": "TVdi75K3ore"
+                },
+                {
+                    "id": "Zn8c5iL1w62"
+                },
+                {
+                    "id": "KPoMLZtZzxC"
+                },
+                {
+                    "id": "Xn4U4yoYriI"
+                },
+                {
+                    "id": "fzRsjXNUZil"
+                },
+                {
+                    "id": "H15ljUh6CMz"
+                },
+                {
+                    "id": "k1J3mqcXIWK"
+                },
+                {
+                    "id": "AfEb64BYK5d"
+                },
+                {
+                    "id": "alhRMqFe7k9"
+                },
+                {
+                    "id": "mTfV1bqXQ9n"
+                },
+                {
+                    "id": "p5ASJ7qOZ0i"
+                },
+                {
+                    "id": "GxysVHN3oYK"
+                },
+                {
+                    "id": "i0UYwa3Yw0X"
+                },
+                {
+                    "id": "OL1qwOd0H7h"
+                },
+                {
+                    "id": "qaIn96mHAF5"
+                },
+                {
+                    "id": "lHn6U8ECImZ"
+                },
+                {
+                    "id": "OYHq1WpaGsI"
+                },
+                {
+                    "id": "ueY4kaMhmB2"
+                },
+                {
+                    "id": "fyqrwy8eIlG"
+                },
+                {
+                    "id": "Aii7YLDUMiJ"
+                }
+            ]
+        },
+        {
+            "code": "Custom-ESAVI-ESAVI",
+            "created": "2024-03-05T13:52:20.636",
+            "lastUpdated": "2024-04-24T18:52:26.514",
+            "name": "Custom-ESAVI-ESAVI",
+            "id": "pRmjtzVU6vs",
+            "href": "https://dev.paho-dhis2.org/api/29/optionSets/pRmjtzVU6vs",
+            "displayName": "Custom-ESAVI-ESAVI",
+            "publicAccess": "rw------",
+            "version": 184,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "sharing": {
+                "owner": "MT2MIAfnVdb",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "i6cvwzjuZq2"
+                },
+                {
+                    "id": "i6cvwzjuZ19"
+                },
+                {
+                    "id": "i6cvwzjuZ37"
+                },
+                {
+                    "id": "J0MsfIFiKLo"
+                },
+                {
+                    "id": "i6cvwzjuZ12"
+                },
+                {
+                    "id": "i6cvwzjuZ11"
+                },
+                {
+                    "id": "i6cvwzjuZ61"
+                },
+                {
+                    "id": "oua4p9CuQHq"
+                },
+                {
+                    "id": "i6cvwzjuZ65"
+                },
+                {
+                    "id": "i6cvwzjuZ16"
+                },
+                {
+                    "id": "i6cvwzjuZ46"
+                },
+                {
+                    "id": "i6cvwzjuZ63"
+                },
+                {
+                    "id": "i6cvwzjuZ21"
+                },
+                {
+                    "id": "i6cvwzjuZ23"
+                },
+                {
+                    "id": "EYcmGBa5UXC"
+                },
+                {
+                    "id": "IS8UNQc9LVD"
+                },
+                {
+                    "id": "i6cvwzjuZ43"
+                },
+                {
+                    "id": "i6cvwzjuZ33"
+                },
+                {
+                    "id": "i6cvwzjuZ54"
+                },
+                {
+                    "id": "i6cvwzjuZ22"
+                },
+                {
+                    "id": "i6cvwzjuZ14"
+                },
+                {
+                    "id": "i6cvwzjuZ20"
+                },
+                {
+                    "id": "MqUHL2WaSBN"
+                },
+                {
+                    "id": "i6cvwzjuZq3"
+                },
+                {
+                    "id": "i6cvwzjuZ38"
+                },
+                {
+                    "id": "i6cvwzjuZ13"
+                },
+                {
+                    "id": "i6cvwzjuZq8"
+                },
+                {
+                    "id": "i6cvwzjuZq4"
+                },
+                {
+                    "id": "BK4wet8oYsn"
+                },
+                {
+                    "id": "i6cvwzjuZ50"
+                },
+                {
+                    "id": "i6cvwzjuZ51"
+                },
+                {
+                    "id": "i6cvwzjuZ28"
+                },
+                {
+                    "id": "i6cvwzjuZ39"
+                },
+                {
+                    "id": "i6cvwzjuZ64"
+                },
+                {
+                    "id": "MTnTYBse2Go"
+                },
+                {
+                    "id": "i6cvwzjuZ17"
+                },
+                {
+                    "id": "rmumubE8eHp"
+                },
+                {
+                    "id": "i6cvwzjuZ34"
+                },
+                {
+                    "id": "TvW6aZL1buU"
+                },
+                {
+                    "id": "puzFbdh1x0A"
+                },
+                {
+                    "id": "i6cvwzjuZ52"
+                },
+                {
+                    "id": "i6cvwzjuZ53"
+                },
+                {
+                    "id": "xGovkqVxhf7"
+                },
+                {
+                    "id": "i6cvwzjuZ49"
+                },
+                {
+                    "id": "i6cvwzjuZ48"
+                },
+                {
+                    "id": "i6cvwzjuZq6"
+                },
+                {
+                    "id": "i6cvwzjuZq7"
+                },
+                {
+                    "id": "i6cvwzjuZq5"
+                },
+                {
+                    "id": "i6cvwzjuZ10"
+                },
+                {
+                    "id": "i6cvwzjuZ55"
+                },
+                {
+                    "id": "i6cvwzjuZ18"
+                },
+                {
+                    "id": "i6cvwzjuZ15"
+                },
+                {
+                    "id": "iNIhmJDMPPM"
+                },
+                {
+                    "id": "i6cvwzjuZ45"
+                },
+                {
+                    "id": "i6cvwzjuZ40"
+                },
+                {
+                    "id": "i6cvwzjuZ41"
+                },
+                {
+                    "id": "vwXCXDXxGd9"
+                },
+                {
+                    "id": "NtGRfoXWeKh"
+                },
+                {
+                    "id": "yMGuqowmfAN"
+                },
+                {
+                    "id": "bW5IMj5Hlrw"
+                },
+                {
+                    "id": "X1Swlrj0agw"
+                },
+                {
+                    "id": "VJI7TyP2CJD"
+                },
+                {
+                    "id": "ls9nbjVlefI"
+                },
+                {
+                    "id": "M8zcZfpxor2"
+                },
+                {
+                    "id": "fF6t9lVnc1D"
+                },
+                {
+                    "id": "xnMpnBNtrir"
+                },
+                {
+                    "id": "LBlnVuWTmvZ"
+                },
+                {
+                    "id": "OoTtufPKccg"
+                },
+                {
+                    "id": "m0SJSjT41Q1"
+                },
+                {
+                    "id": "ElMjJkw7a47"
+                },
+                {
+                    "id": "hhjGahP96ol"
+                },
+                {
+                    "id": "be4gwnTcQfc"
+                },
+                {
+                    "id": "qcPcVHb2ILY"
+                },
+                {
+                    "id": "lWii9YF0hbr"
+                },
+                {
+                    "id": "k0mWkQPAhN9"
+                },
+                {
+                    "id": "tbwsnOBu3x2"
+                },
+                {
+                    "id": "PhcoSTnczNj"
+                },
+                {
+                    "id": "pmlr6zwK2gR"
+                },
+                {
+                    "id": "ytu85i18we6"
+                },
+                {
+                    "id": "GGIg4BJJTTE"
+                },
+                {
+                    "id": "ZWUO4oyj1gh"
+                },
+                {
+                    "id": "owTqc0HPktZ"
+                },
+                {
+                    "id": "UP5wEVi5UL9"
+                },
+                {
+                    "id": "i6cvwzjuZ01"
+                },
+                {
+                    "id": "i6cvwzjuZ44"
+                },
+                {
+                    "id": "gf7jIBDOHOo"
+                },
+                {
+                    "id": "Z68UaGYZPov"
+                },
+                {
+                    "id": "T9Czj8wLbjA"
+                },
+                {
+                    "id": "CAFoQIccXth"
+                },
+                {
+                    "id": "oba6DwZCzAq"
+                },
+                {
+                    "id": "xEEfJeu4hXt"
+                },
+                {
+                    "id": "J8gZ8veWctY"
+                },
+                {
+                    "id": "i6cvwzjuZ57"
+                },
+                {
+                    "id": "aDekrGorus2"
+                },
+                {
+                    "id": "hEslTutpP9s"
+                },
+                {
+                    "id": "Uyrc7YzRWqQ"
+                },
+                {
+                    "id": "by7zM916MUa"
+                },
+                {
+                    "id": "tm2NkuuHqIG"
+                },
+                {
+                    "id": "s16eKXLphx4"
+                },
+                {
+                    "id": "usb0WyLIKOU"
+                },
+                {
+                    "id": "rm8pn4Us8oZ"
+                },
+                {
+                    "id": "M7WKeN6J935"
+                },
+                {
+                    "id": "Tr8TM47R0UJ"
+                },
+                {
+                    "id": "Sr1vTQRHfDw"
+                },
+                {
+                    "id": "dpvTsT0f18u"
+                },
+                {
+                    "id": "jwWGLKq4Cv1"
+                },
+                {
+                    "id": "r8RRDGLHLiK"
+                },
+                {
+                    "id": "w8CkguZNaOR"
+                },
+                {
+                    "id": "qop2AglS6pp"
+                },
+                {
+                    "id": "F6HZNYS8O5Z"
+                },
+                {
+                    "id": "J81lUssJDJ2"
+                },
+                {
+                    "id": "C7v7eaSWmRs"
+                },
+                {
+                    "id": "gZ0ZA0SfjCi"
+                },
+                {
+                    "id": "aFHdOPitJC7"
+                },
+                {
+                    "id": "ef80X9rSauz"
+                },
+                {
+                    "id": "XIca0N06CfW"
+                },
+                {
+                    "id": "DJCe26Dh1JL"
+                },
+                {
+                    "id": "Z8PYEj8sltp"
+                },
+                {
+                    "id": "UtPDe7T0gED"
+                },
+                {
+                    "id": "BcFZeHckdV5"
+                },
+                {
+                    "id": "zNLu7iQjGet"
+                },
+                {
+                    "id": "ezae17AAwqJ"
+                },
+                {
+                    "id": "RxL0Yl8GnwQ"
+                },
+                {
+                    "id": "uXGQ2pBboqO"
+                },
+                {
+                    "id": "yjdNZPaPsmI"
+                },
+                {
+                    "id": "lx2S0Zf7tq3"
+                },
+                {
+                    "id": "KmmrIhMWJPO"
+                },
+                {
+                    "id": "pW7tjyupxUA"
+                },
+                {
+                    "id": "i6cvwzjuZ36"
+                },
+                {
+                    "id": "gHj10MlvpWe"
+                },
+                {
+                    "id": "fNL2VwTx1eK"
+                },
+                {
+                    "id": "SJ7ugUIWwGE"
+                },
+                {
+                    "id": "mnX1KrPijUt"
+                },
+                {
+                    "id": "u6lXKjOIiXP"
+                },
+                {
+                    "id": "Ep6mAKy2INK"
+                },
+                {
+                    "id": "f01CcG8zgzQ"
+                },
+                {
+                    "id": "eqveRzDJA9S"
+                },
+                {
+                    "id": "tbwsnOBu3xb"
+                },
+                {
+                    "id": "kBpCdKKpzfK"
+                },
+                {
+                    "id": "zo8f9OEN2ML"
+                },
+                {
+                    "id": "i6cvwzjuZ47"
+                },
+                {
+                    "id": "HyBRB1xGtEN"
+                },
+                {
+                    "id": "ycbnyUpCcOK"
+                },
+                {
+                    "id": "due5JKqZBSF"
+                },
+                {
+                    "id": "pm3fMT4QcmJ"
+                },
+                {
+                    "id": "CZIkKpudQJ9"
+                },
+                {
+                    "id": "zX2UHRcXoVH"
+                },
+                {
+                    "id": "XInARVnqR32"
+                },
+                {
+                    "id": "gWH83hRW1nW"
+                },
+                {
+                    "id": "iIkUClmX7TS"
+                },
+                {
+                    "id": "WsgaBZEB1KM"
+                },
+                {
+                    "id": "KEDVKVLlN3D"
+                },
+                {
+                    "id": "ollgbATthp7"
+                },
+                {
+                    "id": "YPf2vT7XWsf"
+                },
+                {
+                    "id": "yg2Ghm5JLNV"
+                },
+                {
+                    "id": "IUccpIlAyoD"
+                },
+                {
+                    "id": "mSlCHk0mAxe"
+                },
+                {
+                    "id": "gaVUM3NQHM4"
+                },
+                {
+                    "id": "qOPT0q1POyF"
+                },
+                {
+                    "id": "Wcf27Z3N6R2"
+                },
+                {
+                    "id": "dOb8zRs3tBr"
+                },
+                {
+                    "id": "i6cvwzj45uZ"
+                },
+                {
+                    "id": "KPxHMYPi5h8"
+                },
+                {
+                    "id": "zOhH7UakGAU"
+                },
+                {
+                    "id": "swY03TxLyFz"
+                }
+            ]
+        },
+        {
+            "created": "2024-02-29T04:46:54.267",
+            "lastUpdated": "2024-03-14T04:06:55.318",
+            "name": "Custom-ESAVI-EVADIE",
+            "id": "GEmUZ8PzOBI",
+            "href": "https://dev.paho-dhis2.org/api/29/optionSets/GEmUZ8PzOBI",
+            "displayName": "Custom-ESAVI-EVADIE",
+            "publicAccess": "rw------",
+            "version": 37,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "sharing": {
+                "owner": "MT2MIAfnVdb",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "cJrhSIiuphg"
+                },
+                {
+                    "id": "pak28X98QPF"
+                },
+                {
+                    "id": "tXsuvd4tmBz"
+                },
+                {
+                    "id": "Bd5NCweZ087"
+                },
+                {
+                    "id": "woS1lYOQziG"
+                },
+                {
+                    "id": "wRIOqKQzTQQ"
+                },
+                {
+                    "id": "MlUfvUi1Vxi"
+                },
+                {
+                    "id": "vgN44kzoxD8"
+                },
+                {
+                    "id": "IvDyO7e4fgU"
+                },
+                {
+                    "id": "cAFRs6t1Pv1"
+                },
+                {
+                    "id": "p8hDFdeEwhU"
+                },
+                {
+                    "id": "oMIt7B507ka"
+                },
+                {
+                    "id": "JJ7YURICJIz"
+                },
+                {
+                    "id": "eWAcaBmnaV8"
+                },
+                {
+                    "id": "sQpJMLkcuPT"
+                },
+                {
+                    "id": "S7MeLWDC3fC"
+                },
+                {
+                    "id": "Kd6SVcgNsCE"
+                },
+                {
+                    "id": "dfAyKOGDp10"
+                },
+                {
+                    "id": "hv77p5Gn3sJ"
+                },
+                {
+                    "id": "iPDbOLDbls6"
+                },
+                {
+                    "id": "TPXxh0vdkId"
+                },
+                {
+                    "id": "khNBshbRDX8"
+                },
+                {
+                    "id": "ZCDTCyOnB1G"
+                },
+                {
+                    "id": "yw6LjtJRYqg"
+                },
+                {
+                    "id": "xBvFccE7QQ2"
+                },
+                {
+                    "id": "zlSMTePSTDQ"
+                },
+                {
+                    "id": "wYFPaZr3CoO"
+                },
+                {
+                    "id": "nQfkBIVlLWd"
+                },
+                {
+                    "id": "pjoSKRLCnGX"
+                },
+                {
+                    "id": "jeE7nQac8z9"
+                },
+                {
+                    "id": "vSxs1HUoWr5"
+                },
+                {
+                    "id": "d6UW4tEo5cp"
+                },
+                {
+                    "id": "fSFxQaz208p"
+                },
+                {
+                    "id": "h7kXyqveHC5"
+                },
+                {
+                    "id": "satIVSCOVix"
+                },
+                {
+                    "id": "hyQ4sSBGtaT"
+                }
+            ]
+        },
+        {
+            "created": "2024-02-29T04:47:51.710",
+            "lastUpdated": "2024-05-28T19:34:23.323",
+            "name": "Custom-ESAVI-INVESTIGACION",
+            "id": "k7zXw5y3nXn",
+            "href": "https://dev.paho-dhis2.org/api/29/optionSets/k7zXw5y3nXn",
+            "displayName": "Custom-ESAVI-INVESTIGACION",
+            "publicAccess": "rw------",
+            "version": 164,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "sharing": {
+                "owner": "MT2MIAfnVdb",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "i6cvwzjuZ68"
+                },
+                {
+                    "id": "zOhH7UaqfAU"
+                },
+                {
+                    "id": "XIca0N06Cs2"
+                },
+                {
+                    "id": "hzPYyo2hmUB"
+                },
+                {
+                    "id": "OBrEHWjVfhP"
+                },
+                {
+                    "id": "oMznUUNRh6E"
+                },
+                {
+                    "id": "dfbyQf0hW8Y"
+                },
+                {
+                    "id": "eI1uy2edX13"
+                },
+                {
+                    "id": "TLc4NjR0Va2"
+                },
+                {
+                    "id": "MrHP8BS251i"
+                },
+                {
+                    "id": "pq9iw7zUkjL"
+                },
+                {
+                    "id": "lHXTuPywqOv"
+                },
+                {
+                    "id": "I0QkfnmJ51d"
+                },
+                {
+                    "id": "qibo0i8SLqS"
+                },
+                {
+                    "id": "OKja9E8lmDI"
+                },
+                {
+                    "id": "G8P9Posn5Yb"
+                },
+                {
+                    "id": "CaQJGtIhj85"
+                },
+                {
+                    "id": "NV2WeJqGD9U"
+                },
+                {
+                    "id": "wbONeoXNFXh"
+                },
+                {
+                    "id": "i6cvwzjuZ25"
+                },
+                {
+                    "id": "PISjlYwwMcU"
+                },
+                {
+                    "id": "hN06GiDnznP"
+                },
+                {
+                    "id": "eAaxnVMaDtN"
+                },
+                {
+                    "id": "Dx0RiJv2RaU"
+                },
+                {
+                    "id": "fX5Mg1setHs"
+                },
+                {
+                    "id": "uD50rjooQyq"
+                },
+                {
+                    "id": "cdNmA9ZoOSS"
+                },
+                {
+                    "id": "UK0D9RxkVfS"
+                },
+                {
+                    "id": "GfX7TVcJcNC"
+                },
+                {
+                    "id": "mwRNbJc5GdZ"
+                },
+                {
+                    "id": "XBs9IuAoAMp"
+                },
+                {
+                    "id": "TJjDLc9Zp46"
+                },
+                {
+                    "id": "ARQW6GRKY11"
+                },
+                {
+                    "id": "ShggcsH1l7d"
+                },
+                {
+                    "id": "mTblZ55QFJ5"
+                },
+                {
+                    "id": "pSySEjUfL5g"
+                },
+                {
+                    "id": "ekcsCcaCFS5"
+                },
+                {
+                    "id": "nxV4u5LG3Et"
+                },
+                {
+                    "id": "JOr2LDmTsra"
+                },
+                {
+                    "id": "rC0R6KkGVi3"
+                },
+                {
+                    "id": "b87BaXIrbgo"
+                },
+                {
+                    "id": "KkD5bqQNiWH"
+                },
+                {
+                    "id": "i6cvwzjuZ26"
+                },
+                {
+                    "id": "UyEbNYdYaTo"
+                },
+                {
+                    "id": "LJfifqx9PH2"
+                },
+                {
+                    "id": "P6gHIO4Mbi4"
+                },
+                {
+                    "id": "MlCJD1WS8zS"
+                },
+                {
+                    "id": "OxtXxEa5thv"
+                },
+                {
+                    "id": "zvuvghpGjm7"
+                },
+                {
+                    "id": "wXTjxIKB6BE"
+                },
+                {
+                    "id": "X8Zy1hsJgIF"
+                },
+                {
+                    "id": "zmuM5fjLsh9"
+                },
+                {
+                    "id": "tlVnCnLahub"
+                },
+                {
+                    "id": "ArQKTMYs5hn"
+                },
+                {
+                    "id": "uLNBNF5xyzO"
+                },
+                {
+                    "id": "zyY6JYZa0qA"
+                },
+                {
+                    "id": "PRR6JlMQ6ad"
+                },
+                {
+                    "id": "DUwKB4E3aKb"
+                },
+                {
+                    "id": "yROEsGdAYCw"
+                },
+                {
+                    "id": "AgyDHZ60ozI"
+                },
+                {
+                    "id": "BcDCMft2AEx"
+                },
+                {
+                    "id": "Pj3UUVghrFB"
+                },
+                {
+                    "id": "NIGTFrqdd3E"
+                },
+                {
+                    "id": "OaXCpbUIzkX"
+                },
+                {
+                    "id": "ru2QhJgWOb5"
+                },
+                {
+                    "id": "K2N1OCCt0OV"
+                },
+                {
+                    "id": "f4DTiPfleT2"
+                },
+                {
+                    "id": "gdrJlqlIAZ4"
+                },
+                {
+                    "id": "raEczlcwqo5"
+                },
+                {
+                    "id": "BB5EXeWoHLJ"
+                },
+                {
+                    "id": "QCkAjmvNRG4"
+                },
+                {
+                    "id": "pAob8twHdSb"
+                },
+                {
+                    "id": "Lqow3MBgHdj"
+                },
+                {
+                    "id": "hXaHpiPA4hi"
+                },
+                {
+                    "id": "ig1QHhm7Mxn"
+                },
+                {
+                    "id": "i6cvwzjuZ24"
+                },
+                {
+                    "id": "z8aOSaDtXwa"
+                },
+                {
+                    "id": "Z8KvybTnPc5"
+                },
+                {
+                    "id": "Gdo7y63VJFg"
+                },
+                {
+                    "id": "IgjRupbo9Ri"
+                },
+                {
+                    "id": "i6cvwzjuZ29"
+                },
+                {
+                    "id": "e9fnNLgPMPu"
+                },
+                {
+                    "id": "d0sihJrax0e"
+                },
+                {
+                    "id": "nxsIsKPlqjK"
+                },
+                {
+                    "id": "qEuWI6Nsrur"
+                },
+                {
+                    "id": "v5SMFSJ6sRt"
+                },
+                {
+                    "id": "dv4FD5e5DK7"
+                },
+                {
+                    "id": "HfaSoZfwtLb"
+                },
+                {
+                    "id": "jSogSJK8ray"
+                },
+                {
+                    "id": "IJaptqSRKV3"
+                },
+                {
+                    "id": "e0YAEnBE59e"
+                },
+                {
+                    "id": "Nq3WRXS42u1"
+                },
+                {
+                    "id": "Lmwl6f7E2RC"
+                },
+                {
+                    "id": "ZRIEobnVnMh"
+                },
+                {
+                    "id": "jNhx6fC0hzp"
+                },
+                {
+                    "id": "VT7RIGKYtrh"
+                },
+                {
+                    "id": "T98Eqrl9aF5"
+                },
+                {
+                    "id": "aRKiDompRr1"
+                },
+                {
+                    "id": "FkTEa8HHYmk"
+                },
+                {
+                    "id": "tzUZaXiHfCL"
+                },
+                {
+                    "id": "gIAqq8j4xw0"
+                },
+                {
+                    "id": "OluAsjh2sgS"
+                },
+                {
+                    "id": "vShtJUvQUTL"
+                },
+                {
+                    "id": "d2yH2fMwtuS"
+                },
+                {
+                    "id": "BKoXHtDceO2"
+                },
+                {
+                    "id": "o9BuKWW8fVf"
+                },
+                {
+                    "id": "n1FuNbPcB00"
+                },
+                {
+                    "id": "ErMvSKJfClj"
+                },
+                {
+                    "id": "lX2V1d6fKXa"
+                },
+                {
+                    "id": "TeH9Um4fSQ9"
+                },
+                {
+                    "id": "pZZdL2yXZ2M"
+                },
+                {
+                    "id": "LGlQRSzgZJi"
+                },
+                {
+                    "id": "lHYhqgyUXog"
+                },
+                {
+                    "id": "mgYFuy7YczY"
+                },
+                {
+                    "id": "OxNeXabNe4F"
+                },
+                {
+                    "id": "jlKrT0Q7QqQ"
+                },
+                {
+                    "id": "piCpLfTfwaK"
+                },
+                {
+                    "id": "DnCKcoJkROb"
+                },
+                {
+                    "id": "VBjCDBG0vkH"
+                },
+                {
+                    "id": "ey6bY4E2fG3"
+                },
+                {
+                    "id": "kqq4EI7uXXd"
+                },
+                {
+                    "id": "s6ejNXKCDUd"
+                },
+                {
+                    "id": "EbyNqoacs5D"
+                },
+                {
+                    "id": "ybix2m4qqpU"
+                },
+                {
+                    "id": "zJUbC7UtAIX"
+                },
+                {
+                    "id": "sBVNjt1OKeA"
+                },
+                {
+                    "id": "ViVoD5zLu5u"
+                },
+                {
+                    "id": "Ad4HzXo76XT"
+                },
+                {
+                    "id": "LU4s5XOacaU"
+                },
+                {
+                    "id": "qGAm61dUupV"
+                },
+                {
+                    "id": "S8Pau97AvoZ"
+                },
+                {
+                    "id": "A9yFKneJEL5"
+                },
+                {
+                    "id": "vX8AIZws33t"
+                },
+                {
+                    "id": "ke03WnjSLVh"
+                },
+                {
+                    "id": "imtAWcmf2qx"
+                },
+                {
+                    "id": "oafpMwPLLmH"
+                },
+                {
+                    "id": "Ffv9s5BtYO9"
+                },
+                {
+                    "id": "aSHjbvR3hRi"
+                },
+                {
+                    "id": "E8IfEk8qRf4"
+                },
+                {
+                    "id": "h5b4onQfvac"
+                },
+                {
+                    "id": "oL7Q3qmO1b7"
+                },
+                {
+                    "id": "K9vmtB6kvYY"
+                },
+                {
+                    "id": "RLDLtyKs6fJ"
+                },
+                {
+                    "id": "fJLDkVbNmaw"
+                },
+                {
+                    "id": "NWrT134ITPN"
+                },
+                {
+                    "id": "ZcQQtgrJmtZ"
+                },
+                {
+                    "id": "ZEqf2xVfTVM"
+                },
+                {
+                    "id": "joduWUomsBy"
+                },
+                {
+                    "id": "SlicSshdcBg"
+                },
+                {
+                    "id": "QTNJcYKaxMi"
+                },
+                {
+                    "id": "BE3DGPBD27V"
+                },
+                {
+                    "id": "irkyGjWuJdO"
+                },
+                {
+                    "id": "xPyijn0qV7h"
+                },
+                {
+                    "id": "tW1Lhjs8VKx"
+                },
+                {
+                    "id": "If9Zg3ahhYj"
+                },
+                {
+                    "id": "JDvIwA2xBfb"
+                },
+                {
+                    "id": "libkmITQUzv"
+                },
+                {
+                    "id": "oAp4DSWr4It"
+                },
+                {
+                    "id": "tmp3SZWR12U"
+                },
+                {
+                    "id": "LuizC8i8zkI"
+                },
+                {
+                    "id": "jZueHCHOXi4"
+                },
+                {
+                    "id": "jNYJZtjLieh"
+                },
+                {
+                    "id": "GjTqrqnFEIN"
+                },
+                {
+                    "id": "KIW2gY6JMsV"
+                },
+                {
+                    "id": "i6cvwzjuZ27"
+                },
+                {
+                    "id": "x07GvOdSHgT"
+                },
+                {
+                    "id": "JgSKEAmUurC"
+                },
+                {
+                    "id": "hXiKaCyOzAP"
+                },
+                {
+                    "id": "uJXK2c6RVsk"
+                },
+                {
+                    "id": "PRQlvzTtMlD"
+                },
+                {
+                    "id": "HnBgrOBoHhc"
+                },
+                {
+                    "id": "Sy5iBKw4Cqo"
+                }
+            ]
+        },
+        {
+            "created": "2024-02-29T04:48:26.617",
+            "lastUpdated": "2024-02-29T04:48:26.617",
+            "name": "Custom-ESAVI-NIVEL_SUPERIOR ",
+            "id": "hIYr6zXZUz7",
+            "href": "https://dev.paho-dhis2.org/api/29/optionSets/hIYr6zXZUz7",
+            "displayName": "Custom-ESAVI-NIVEL_SUPERIOR ",
+            "publicAccess": "rw------",
+            "version": 17,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "sharing": {
+                "owner": "MT2MIAfnVdb",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "aVpDm7z9n9O"
+                },
+                {
+                    "id": "GeogBUOuoZH"
+                },
+                {
+                    "id": "RmzwwCfyWPQ"
+                },
+                {
+                    "id": "cJTsyMxhMnI"
+                },
+                {
+                    "id": "Vjoho9TeRM3"
+                },
+                {
+                    "id": "YccAbbh7tMG"
+                },
+                {
+                    "id": "N2I8nNFqTat"
+                },
+                {
+                    "id": "LMeQSbZdyJD"
+                },
+                {
+                    "id": "XMxd4C5ampk"
+                },
+                {
+                    "id": "PRvhXJiMf8R"
+                },
+                {
+                    "id": "KScBSrmAQvc"
+                },
+                {
+                    "id": "IUIoyoqEc21"
+                },
+                {
+                    "id": "lE8Ql1hwnQ9"
+                },
+                {
+                    "id": "cEGOE9a8KW5"
+                },
+                {
+                    "id": "Jys3s3MXdly"
+                },
+                {
+                    "id": "qp05NrlXCwu"
+                },
+                {
+                    "id": "GN2u5pJoWd9"
+                }
+            ]
+        }
+    ]
+}

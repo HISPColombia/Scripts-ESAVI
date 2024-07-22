@@ -1,0 +1,429 @@
+{
+    "dataSets": [
+        {
+            "lastUpdated": "2024-05-23T12:52:16.257",
+            "id": "T38uzW1DFOj",
+            "created": "2024-04-25T19:06:39.415",
+            "name": "Lista eventos ESAVI",
+            "shortName": "Lista eventos ESAVI",
+            "validCompleteOnly": false,
+            "dataElementDecoration": false,
+            "notifyCompletingUser": false,
+            "noValueRequiresComment": false,
+            "skipOffline": false,
+            "compulsoryFieldsCompleteOnly": false,
+            "fieldCombinationRequired": false,
+            "renderHorizontally": false,
+            "renderAsTabs": false,
+            "mobile": false,
+            "version": 2,
+            "openPeriodsAfterCoEndDate": 0,
+            "timelyDays": 15,
+            "periodType": "Daily",
+            "openFuturePeriods": 0,
+            "expiryDays": 0,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "NVihtmQcw9u"
+                    },
+                    "dataSet": {
+                        "id": "T38uzW1DFOj"
+                    }
+                }
+            ],
+            "compulsoryDataElementOperands": [],
+            "dataInputPeriods": [],
+            "translations": [],
+            "organisationUnits": [],
+            "attributeValues": [],
+            "indicators": [],
+            "legendSets": []
+        }
+    ],
+    "categoryOptions": [
+        {
+            "created": "2024-04-25T18:58:18.427",
+            "lastUpdated": "2024-04-29T14:08:09.075",
+            "name": "25-49 años",
+            "id": "Gpr45O5MqBN",
+            "shortName": "25-49 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-25T14:59:31.948",
+            "lastUpdated": "2024-04-29T14:08:09.075",
+            "name": "G-No",
+            "id": "oT3MZop88wO",
+            "shortName": "G-No",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-21T03:59:50.977",
+            "lastUpdated": "2024-04-29T14:08:09.075",
+            "name": "G-Sí",
+            "id": "qOdSxLlHPT4",
+            "shortName": "G-Sí",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:58:28.485",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "50-59 años",
+            "id": "PaYDBF3cLdR",
+            "shortName": "50-59 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:59:04.887",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "80 o más años",
+            "id": "p46elQQdyC0",
+            "shortName": "80 o más años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-25T14:59:48.605",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "G-No sabe",
+            "id": "h80glqe8Ph5",
+            "shortName": "G-No sabe",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:57:58.422",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "18-24 años",
+            "id": "Dab7glBUfkU",
+            "shortName": "18-24 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:58:39.272",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "60-69 años",
+            "id": "FXlYp90D7ar",
+            "shortName": "60-69 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-21T04:00:48.142",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "E-No sabe",
+            "id": "k2cwnZFiZ8m",
+            "shortName": "E-No sabe",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.576",
+            "lastUpdated": "2021-08-30T18:45:16.587",
+            "name": "default",
+            "id": "xYerKDKCefk",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-26T15:40:07.103",
+            "lastUpdated": "2024-04-29T14:05:44.676",
+            "name": "Eventos",
+            "id": "rVKYlPtLeyO",
+            "shortName": "Eventos",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2023-12-18T20:53:16.228",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "Masculino",
+            "id": "KGnQbRIQ0L9",
+            "shortName": "M",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "Femenino",
+            "created": "2023-12-22T17:52:38.388",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "Femenino",
+            "id": "tSOSzqF40Ws",
+            "shortName": "Femenino",
+            "formName": "Femenino",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:57:48.808",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "1-17 años",
+            "id": "ocUo1SHzmsE",
+            "shortName": "1-17 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-25T14:58:35.628",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "E-Sí",
+            "id": "LzbnsM4f8KT",
+            "shortName": "E-Sí",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:58:51.761",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "70-79 años",
+            "id": "aruFwaYr3r7",
+            "shortName": "70-79 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-21T04:00:33.778",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "E-No",
+            "id": "JdB07nEnqL9",
+            "shortName": "E-No",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:57:36.039",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "0-12 meses",
+            "id": "YZowDMGPZiS",
+            "shortName": "0-12 meses",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        }
+    ],
+    "dataElements": [
+        {
+            "lastUpdated": "2024-04-29T14:05:44.795",
+            "id": "NVihtmQcw9u",
+            "created": "2024-04-25T19:06:11.646",
+            "name": "Lista eventos - ESAVI",
+            "shortName": "Lista eventos - ESAVI",
+            "aggregationType": "COUNT",
+            "domainType": "AGGREGATE",
+            "valueType": "NUMBER",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "translations": [],
+            "attributeValues": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        }
+    ],
+    "categoryCombos": [
+        {
+            "created": "2024-04-25T19:00:03.966",
+            "lastUpdated": "2024-05-27T20:07:46.842",
+            "name": "Edad - Sexo - Grave - Embarazo",
+            "id": "hiSWsjM3CDq",
+            "dataDimensionType": "DISAGGREGATION",
+            "skipTotal": false,
+            "translations": [],
+            "categories": [
+                {
+                    "id": "M09yqFFI4Hk"
+                },
+                {
+                    "id": "j53Jq1FtPc5"
+                },
+                {
+                    "id": "r8mxkfMszT0"
+                },
+                {
+                    "id": "E3lzKSdX3Li"
+                },
+                {
+                    "id": "I26bga5WcD7"
+                }
+            ]
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.581",
+            "lastUpdated": "2024-05-27T20:07:46.842",
+            "name": "default",
+            "id": "bjDvmb4bfuf",
+            "dataDimensionType": "DISAGGREGATION",
+            "skipTotal": false,
+            "translations": [],
+            "categories": [
+                {
+                    "id": "GLevLNI9wkl"
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "created": "2024-03-21T04:28:22.949",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Grave",
+            "id": "E3lzKSdX3Li",
+            "shortName": "Grave",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                }
+            ]
+        },
+        {
+            "created": "2024-03-21T04:28:52.700",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Embarazo ",
+            "id": "I26bga5WcD7",
+            "shortName": "Embarazo",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                }
+            ]
+        },
+        {
+            "created": "2023-12-18T20:54:15.945",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Sexo",
+            "id": "j53Jq1FtPc5",
+            "shortName": "Sexo",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-26T15:40:39.779",
+            "lastUpdated": "2024-04-29T14:05:44.729",
+            "name": "Eventos ESAVI",
+            "id": "M09yqFFI4Hk",
+            "shortName": "Eventos ESAVI",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "rVKYlPtLeyO"
+                }
+            ]
+        },
+        {
+            "created": "2024-01-15T01:15:08.667",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Edad",
+            "id": "r8mxkfMszT0",
+            "shortName": "Edad",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "YZowDMGPZiS"
+                },
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "p46elQQdyC0"
+                }
+            ]
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.579",
+            "lastUpdated": "2024-06-30T10:48:46.393",
+            "name": "default",
+            "id": "GLevLNI9wkl",
+            "shortName": "default",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": false,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ]
+        }
+    ]
+}

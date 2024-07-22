@@ -1,0 +1,2505 @@
+{
+   
+    "options": [
+        {
+            "code": "13#46_efectos_adversos#46_#40indicar_fecha_y_hora_de_inicio_para_",
+            "lastUpdated": "2024-06-03T21:11:01.362",
+            "id": "rmumubE8eHp",
+            "href": "https://dev.paho-dhis2.org/api/29/options/rmumubE8eHp",
+            "created": "2024-02-08T02:37:02.019",
+            "name": "13#46_efectos_adversos#46_#40indicar_fecha_y_hora_de_inicio_para_",
+            "displayName": "Adverse Events. (Specify date and time of onset for each one, corresponding event. There may be more than one):",
+            "externalAccess": false,
+            "displayFormName": "Adverse Events. (Specify date and time of onset for each one, corresponding event. There may be more than one):",
+            "sortOrder": 37,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Negatieve Gebeurtenissen. (Specificeer datum en tijd van aanvang voor elk van de ESAVI. Er kunnen meer dan een zijn):"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Adverse Events. (Specify date and time of onset for each one, corresponding event. There may be more than one):"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "13. Eventos adversos. (Indicar fecha y hora de inicio para cada uno, el evento correspondiente. Puede ser más de uno):"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "1#46_indique_las_fuentes_de_información_consultadas_para_recopila",
+            "lastUpdated": "2024-05-10T21:07:01.622",
+            "id": "hzPYyo2hmUB",
+            "href": "https://dev.paho-dhis2.org/api/29/options/hzPYyo2hmUB",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "1#46_indique_las_fuentes_de_información_consultadas_para_recopila",
+            "displayName": "Indicate the sources of information consulted to compile the information for the following investigation (check all that apply):",
+            "externalAccess": false,
+            "displayFormName": "Indicate the sources of information consulted to compile the information for the following investigation (check all that apply):",
+            "sortOrder": 4,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Geef de bronnen van informatie aan die zijn geraadpleegd om de informatie voor het volgende onderzoek te verzamelen (markeer alle die van toepassing zijn):"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Indique las fuentes de información consultadas para recopilar la información de la siguiente investigación (marque todas las que correspondan):"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Indicate the sources of information consulted to compile the information for the following investigation (check all that apply):"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "16#461_explique#58",
+            "lastUpdated": "2024-04-24T18:52:39.176",
+            "id": "OBrEHWjVfhP",
+            "href": "https://dev.paho-dhis2.org/api/29/options/OBrEHWjVfhP",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "16#461_explique#58",
+            "displayName": "Explain:",
+            "externalAccess": false,
+            "displayFormName": "Explain:",
+            "sortOrder": 5,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Explain:"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Leg uit:"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": " Explique:"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "1_si_falleció_fecha",
+            "lastUpdated": "2024-03-19T07:21:08.863",
+            "id": "vgN44kzoxD8",
+            "href": "https://dev.paho-dhis2.org/api/29/options/vgN44kzoxD8",
+            "created": "2024-03-19T07:21:07.518",
+            "name": "1_si_falleció_fecha",
+            "displayName": "If deceased,  date",
+            "externalAccess": false,
+            "displayFormName": "If deceased,  date",
+            "sortOrder": 8,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "GEmUZ8PzOBI"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Si falleció,  fecha"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Als overledendatum"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "If deceased,  date"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "39#46_¿cómo_se_verificó_la_información_de_vacunación#63",
+            "lastUpdated": "2024-04-24T18:52:26.187",
+            "id": "w8CkguZNaOR",
+            "href": "https://dev.paho-dhis2.org/api/29/options/w8CkguZNaOR",
+            "created": "2024-02-08T02:37:02.019",
+            "name": "39#46_¿cómo_se_verificó_la_información_de_vacunación#63",
+            "displayName": "How was the vaccination information verified?",
+            "externalAccess": false,
+            "displayFormName": "How was the vaccination information verified?",
+            "sortOrder": 108,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Hoe werd de vaccinatie-informatie Gecontroleerd?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": " ¿Cómo se verificó la información de vacunación?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "How was the vaccination information verified?"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "3_¿fue_hecha_autopsia_verbal#63",
+            "lastUpdated": "2024-04-24T18:52:26.178",
+            "id": "aFHdOPitJC7",
+            "href": "https://dev.paho-dhis2.org/api/29/options/aFHdOPitJC7",
+            "created": "2024-02-08T02:37:02.019",
+            "name": "3_¿fue_hecha_autopsia_verbal#63",
+            "displayName": "Was a verbal autopsy conducted?",
+            "externalAccess": false,
+            "displayFormName": "Was a verbal autopsy conducted?",
+            "sortOrder": 114,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Was a verbal autopsy conducted?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Is er een verbale autopsie uitgevoerd?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "¿Fue hecha autopsia verbal?"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#40antecedentes_y_otra_información_relevante#44_como_otros_esavi_",
+            "lastUpdated": "2024-04-24T18:52:26.175",
+            "id": "MqUHL2WaSBN",
+            "href": "https://dev.paho-dhis2.org/api/29/options/MqUHL2WaSBN",
+            "created": "2024-02-08T02:37:02.018",
+            "name": "#40antecedentes_y_otra_información_relevante#44_como_otros_esavi_",
+            "displayName": " ESAVI ",
+            "externalAccess": false,
+            "displayFormName": "ESAVI",
+            "sortOrder": 23,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "ESAVI"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": " ESAVI "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": " ESAVI "
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#40seleccione_del_listado#44_los_diagnósticos_que_correspondan_a_",
+            "lastUpdated": "2024-04-24T18:52:26.178",
+            "id": "IS8UNQc9LVD",
+            "href": "https://dev.paho-dhis2.org/api/29/options/IS8UNQc9LVD",
+            "created": "2024-02-08T02:37:02.018",
+            "name": "#40seleccione_del_listado#44_los_diagnósticos_que_correspondan_a_",
+            "displayName": " Diagnosis ",
+            "externalAccess": false,
+            "displayFormName": "Diagnosis",
+            "sortOrder": 16,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": " Diagnosis "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": " Diagnose "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Diagnóstico"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#40si_hubo_más_de_uno#44_registre_el_más_confiable#41",
+            "lastUpdated": "2024-04-24T18:52:39.175",
+            "id": "dfbyQf0hW8Y",
+            "href": "https://dev.paho-dhis2.org/api/29/options/dfbyQf0hW8Y",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "#40si_hubo_más_de_uno#44_registre_el_más_confiable#41",
+            "displayName": "If not, number the vials used by the cluster of cases.",
+            "externalAccess": false,
+            "displayFormName": "If not, number the vials used by the cluster of cases.",
+            "sortOrder": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Si no,  numere los viales usados por el conglomerado de casos."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Zo niet,  nummer dan de flacons die door de cluster van gevallen worden gebruikt."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "If not, number the vials used by the cluster of cases."
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#40si_son_2_o_más_causalidades_identificadas#44_seleccione_el_ord",
+            "lastUpdated": "2024-03-04T12:32:22.408",
+            "id": "aVpDm7z9n9O",
+            "href": "https://dev.paho-dhis2.org/api/29/options/aVpDm7z9n9O",
+            "created": "2024-02-29T06:04:08.047",
+            "name": "#40si_son_2_o_más_causalidades_identificadas#44_seleccione_el_ord",
+            "displayName": "(If they are 2 or more causalities identified,  select the order of priority/importance,  for each group being 1 the most important and 3 the least important.)",
+            "externalAccess": false,
+            "displayFormName": "(If they are 2 or more causalities identified,  select the order of priority/importance,  for each group being 1 the most important and 3 the least important.)",
+            "sortOrder": 1,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "hIYr6zXZUz7"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "(If they are 2 or more causalities identified,  select the order of priority/importance,  for each group being 1 the most important and 3 the least important.)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "(Si son 2 o más Causalidades identificadas,  seleccione el orden de prioridad/importancia,  para cada grupo siendo 1 el más importante y 3 el menos importante.)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "(Als er 2 of meer causaliteiten zijn geïdentificeerd,  selecteer dan de volgorde van prioriteit/belangrijkheid voor elke groep,  waarbij 1 de belangrijkste is en 3 de minst belangrijke.)"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#42_compulsory_field",
+            "lastUpdated": "2024-03-19T03:00:56.105",
+            "id": "DqzJGT6qAC7",
+            "href": "https://dev.paho-dhis2.org/api/29/options/DqzJGT6qAC7",
+            "created": "2024-03-19T03:00:54.988",
+            "name": "#42_compulsory_field",
+            "displayName": "Compulsory Field",
+            "externalAccess": false,
+            "displayFormName": "Compulsory Field",
+            "sortOrder": 1,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Compulsory Field"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Verplichte velden"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Campos obligatorios"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#42_compulsory_field",
+            "lastUpdated": "2024-04-24T18:52:39.172",
+            "id": "eI1uy2edX13",
+            "href": "https://dev.paho-dhis2.org/api/29/options/eI1uy2edX13",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "#42_compulsory_field",
+            "displayName": "Compulsory Field",
+            "externalAccess": false,
+            "displayFormName": "Compulsory Field",
+            "sortOrder": 8,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Compulsory Field"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Verplichte velden"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Campos obligatorios"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#42_compulsory_field",
+            "lastUpdated": "2024-04-24T18:52:26.182",
+            "id": "YPf2vT7XWsf",
+            "href": "https://dev.paho-dhis2.org/api/29/options/YPf2vT7XWsf",
+            "created": "2024-02-08T02:37:02.018",
+            "name": "#42_compulsory_field",
+            "displayName": "Compulsory Field",
+            "externalAccess": false,
+            "displayFormName": "Compulsory Field",
+            "sortOrder": 154,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Compulsory Field"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Verplichte velden"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Campos obligatorios"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#42date_of_vaccination",
+            "lastUpdated": "2024-04-24T18:52:26.178",
+            "id": "puzFbdh1x0A",
+            "href": "https://dev.paho-dhis2.org/api/29/options/puzFbdh1x0A",
+            "created": "2024-02-08T02:37:02.018",
+            "name": "#42date_of_vaccination",
+            "displayName": " Vaccination date ",
+            "externalAccess": false,
+            "displayFormName": "Vaccination date",
+            "sortOrder": 40,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Fecha de vacunación"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": " Vaccinatiedatum "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": " Vaccination date "
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#42name_of_the_vaccine",
+            "lastUpdated": "2024-04-24T18:52:26.176",
+            "id": "xGovkqVxhf7",
+            "href": "https://dev.paho-dhis2.org/api/29/options/xGovkqVxhf7",
+            "created": "2024-02-08T02:37:02.018",
+            "name": "#42name_of_the_vaccine",
+            "displayName": " Vaccine name ",
+            "externalAccess": false,
+            "displayFormName": "Vaccine name",
+            "sortOrder": 43,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": " Vaccinnaam "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Nombre de la vacuna"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": " Vaccine name "
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#60esta_complementaria#61#34#34_de#61#34#34_es#61#34#34_ficha#61#",
+            "lastUpdated": "2024-04-24T18:52:39.172",
+            "id": "TLc4NjR0Va2",
+            "href": "https://dev.paho-dhis2.org/api/29/options/TLc4NjR0Va2",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "#60esta_complementaria#61#34#34_de#61#34#34_es#61#34#34_ficha#61#",
+            "displayName": "Clusters of cases (groups of two or more cases) have been identified, either in time or space. The frequency of the event is considered higher than expected. It is a new or previously undescribed event, or it is a known event with new or unexpected clinical or epidemiological characteristics (in terms of population groups, geographic areas, etc.). Some data indicate that the event was caused by a programmatic error or a deviation in the quality of the vaccine, its diluent (if applicable), or the device used for its administration. This form serves as a guide to identify all information considered relevant for the causality analysis of the event. Such analysis should be carried out by a committee of experts in ESAVI at the subnational or national level, and factors contributing to its occurrence must be identified in order to establish risk mitigation measures.",
+            "externalAccess": false,
+            "displayFormName": "Clusters of cases (groups of two or more cases) have been identified, either in time or space. The frequency of the event is considered higher than expected. It is a new or previously undescribed event, or it is a known event with new or unexpected clinical or epidemiological characteristics (in terms of population groups, geographic areas, etc.). Some data indicate that the event was caused by a programmatic error or a deviation in the quality of the vaccine, its diluent (if applicable), or the device used for its administration. This form serves as a guide to identify all information considered relevant for the causality analysis of the event. Such analysis should be carried out by a committee of experts in ESAVI at the subnational or national level, and factors contributing to its occurrence must be identified in order to establish risk mitigation measures.",
+            "sortOrder": 9,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Clusters van gevallen (groepen van twee of meer gevallen) zijn geïdentificeerd,  hetzij in tijd of ruimte. De frequentie van de gebeurtenis wordt als hoger beschouwd dan verwacht. Het is een nieuwe of eerder onbeschreven gebeurtenis,  of het is een bekende gebeurtenis met nieuwe of onverwachte klinische of epidemiologische kenmerken (in termen van bevolkingsgroepen,  geografische gebieden,  enz.). Sommige gegevens wijzen erop dat de gebeurtenis werd veroorzaakt door een programmeerfout of door een afwijking in de kwaliteit van het vaccin,  het verdunningsmiddel (indien van toepassing) of het apparaat dat voor de toediening werd gebruikt. Dit blad dient als leidraad om alle informatie te identificeren die relevant wordt geacht voor de causaliteitsanalyse van de gebeurtenis. Deze analyse moet worden uitgevoerd door een commissie van ESAVI-experts op subnationaal of nationaal niveau en de factoren die hebben bijgedragen aan het ontstaan ??ervan moeten worden geïdentificeerd om risicobeperkende maatregelen te kunnen vaststellen."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Esta ficha es complementaria de la ficha de notificación y se debe cumplimentar considerando los datos de la primera. Solo se debe rellenar en casos en que el nivel técnico subnacional haya decidido llevar a cabo una investigación completa por tratarse de un evento grave o de un evento no grave que cumpla algunas de las siguientes condiciones: <br>1. Se han identificado conglomerados de casos (grupos de dos o más casos),  ya sea en el tiempo o en el espacio. <br>2. La frecuencia del evento se considera superior a lo esperado. <br>3. Es un evento nuevo o no descrito antes,  o es un evento conocido con características clínicas o epidemiológicas nuevas o no esperadas (en términos de grupos poblacionales,  zonas geográficas,  etc.). <br>4. Algunos datos indican que el evento fue ocasionado por un error programático o por una desviación de la calidad de la vacuna,  su diluyente (si aplica) o el dispositivo empleado para su administración. <br>Esta ficha sirve de guía para identificar toda la información que se considere relevante para el análisis de causalidad del evento. Dicho análisis debe ser realizado por un comité de expertos en ESAVI a nivel subnacional o nacional y se deben identificar los factores que contribuyeron a su aparición a fin de poder establecer medidas de mitigación del riesgo."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Clusters of cases (groups of two or more cases) have been identified, either in time or space. The frequency of the event is considered higher than expected. It is a new or previously undescribed event, or it is a known event with new or unexpected clinical or epidemiological characteristics (in terms of population groups, geographic areas, etc.). Some data indicate that the event was caused by a programmatic error or a deviation in the quality of the vaccine, its diluent (if applicable), or the device used for its administration. This form serves as a guide to identify all information considered relevant for the causality analysis of the event. Such analysis should be carried out by a committee of experts in ESAVI at the subnational or national level, and factors contributing to its occurrence must be identified in order to establish risk mitigation measures."
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#60span#62antecedentes_farmacológicos_#60em#62#40indique_todos_lo",
+            "lastUpdated": "2024-04-24T18:52:26.175",
+            "id": "Tr8TM47R0UJ",
+            "href": "https://dev.paho-dhis2.org/api/29/options/Tr8TM47R0UJ",
+            "created": "2024-02-08T02:37:02.018",
+            "name": "#60span#62antecedentes_farmacológicos_#60em#62#40indique_todos_lo",
+            "displayName": "Drug history (list all medications the person was taking at the time of vaccination):",
+            "externalAccess": false,
+            "displayFormName": "Drug history (list all medications the person was taking at the time of vaccination):",
+            "sortOrder": 103,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Geneesmiddelengeschiedenis (vermeld alle medicijnen die de persoon gebruikte op het moment van vaccinatie)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Antecedentes farmacológicos (indique todos los medicamentos que la persona estaba tomando en el momento de la vacunación):"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Drug history (list all medications the person was taking at the time of vaccination):"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "#60strong#62otro#58#60#47strong#62a_continuación#44_ingrese_el_no",
+            "lastUpdated": "2024-04-24T18:52:26.185",
+            "id": "oua4p9CuQHq",
+            "href": "https://dev.paho-dhis2.org/api/29/options/oua4p9CuQHq",
+            "created": "2024-02-08T02:37:02.018",
+            "name": "#60strong#62otro#58#60#47strong#62a_continuación#44_ingrese_el_no",
+            "displayName": " Others: Enter the name of the medicine below if you couldn't find it in the catalog: ",
+            "externalAccess": false,
+            "displayFormName": "Others: Enter the name of the medicine below if you couldn't find it in the catalog:",
+            "sortOrder": 8,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": " Others: Enter the name of the medicine below if you couldn't find it in the catalog: "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": " Anderen: Voer hieronder de naam van het medicijn in als u het niet in de catalogus kon vinden: "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Otro:A continuación,  ingrese el nombre del medicamento si no pudo encontrarlo en el catálogo:"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "7._Diagnóstico_de_Egreso_del_EVADIE",
+            "lastUpdated": "2024-03-19T07:21:08.863",
+            "id": "IvDyO7e4fgU",
+            "href": "https://dev.paho-dhis2.org/api/29/options/IvDyO7e4fgU",
+            "created": "2024-03-19T07:21:07.519",
+            "name": "7._Diagnóstico_de_Egreso_del_EVADIE",
+            "displayName": "Discharge Diagnosis of EVADIE (If the patient deceased, record the diagnosis or cause of death)",
+            "externalAccess": false,
+            "displayFormName": "Discharge Diagnosis of EVADIE (If the patient deceased, record the diagnosis or cause of death)",
+            "sortOrder": 9,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "GEmUZ8PzOBI"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Diagnóstico de Egreso del EVADIE (Si el paciente falleció registrar el diagnóstico la causa de muerte"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Ontslagdiagnose van EVADIE (Als de patiënt is overleden, registreer dan de diagnose of doodsoorzaak)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Discharge Diagnosis of EVADIE (If the patient deceased, record the diagnosis or cause of death)"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "8#464_registre_los_resultados_de_la_necropsia#58",
+            "lastUpdated": "2024-04-24T18:52:39.176",
+            "id": "MrHP8BS251i",
+            "href": "https://dev.paho-dhis2.org/api/29/options/MrHP8BS251i",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "8#464_registre_los_resultados_de_la_necropsia#58",
+            "displayName": "Record the results of the necropsy.",
+            "externalAccess": false,
+            "displayFormName": "Record the results of the necropsy.",
+            "sortOrder": 10,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Noteer de resultaten van de autopsie:"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Record the results of the necropsy."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": " Registre los resultados de la necropsia:"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "8._Marcar_la_clasificación_del",
+            "lastUpdated": "2024-03-19T07:21:08.863",
+            "id": "cAFRs6t1Pv1",
+            "href": "https://dev.paho-dhis2.org/api/29/options/cAFRs6t1Pv1",
+            "created": "2024-03-19T07:21:07.519",
+            "name": "8._Marcar_la_clasificación_del",
+            "displayName": "Mark the classification of the case according to the Brighton Collaboration diagnostic certainty levels :",
+            "externalAccess": false,
+            "displayFormName": "Mark the classification of the case according to the Brighton Collaboration diagnostic certainty levels :",
+            "sortOrder": 10,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "GEmUZ8PzOBI"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Classificeer het geval volgens de diagnostische zekerheidsniveaus van de Brighton Collaboration"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Marcar la clasificación del caso según los niveles de certeza diagnóstica de Brighton Collaboration:"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Mark the classification of the case according to the Brighton Collaboration diagnostic certainty levels :"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "aborto",
+            "lastUpdated": "2024-04-24T18:52:26.176",
+            "id": "fF6t9lVnc1D",
+            "href": "https://dev.paho-dhis2.org/api/29/options/fF6t9lVnc1D",
+            "created": "2024-02-08T02:37:02.019",
+            "name": "aborto",
+            "displayName": "Abortion",
+            "externalAccess": false,
+            "displayFormName": "Abortion",
+            "sortOrder": 65,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Causó un aborto "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Abortion"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Abortus"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "aborto",
+            "lastUpdated": "2024-03-19T07:21:08.863",
+            "id": "p8hDFdeEwhU",
+            "href": "https://dev.paho-dhis2.org/api/29/options/p8hDFdeEwhU",
+            "created": "2024-03-19T07:21:07.519",
+            "name": "aborto",
+            "displayName": "Abortion",
+            "externalAccess": false,
+            "displayFormName": "Abortion",
+            "sortOrder": 11,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "GEmUZ8PzOBI"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Abortion"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Aborto"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Abortus"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "aborto",
+            "lastUpdated": "2024-03-19T03:28:57.796",
+            "id": "PMTPClDlmXv",
+            "href": "https://dev.paho-dhis2.org/api/29/options/PMTPClDlmXv",
+            "created": "2024-03-19T03:28:56.514",
+            "name": "aborto",
+            "displayName": "Abortion",
+            "externalAccess": false,
+            "displayFormName": "Abortion",
+            "sortOrder": 4,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Causó un aborto "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Abortion"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Abortus"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "a_continuación#44_ingrese_el_no",
+            "lastUpdated": "2024-04-24T18:52:26.176",
+            "id": "i6cvwzjuZ36",
+            "href": "https://dev.paho-dhis2.org/api/29/options/i6cvwzjuZ36",
+            "created": "2024-03-05T04:06:01.060",
+            "name": "a_continuación#44_ingrese_el_no",
+            "displayName": "Please register the entire vaccination scheme against COVID-19 administered to the person. If the suspicious vaccine of the event is related to Covid-19,  record it in the first place.",
+            "externalAccess": false,
+            "displayFormName": "Please register the entire vaccination scheme against COVID-19 administered to the person. If the suspicious vaccine of the event is related to Covid-19,  record it in the first place.",
+            "sortOrder": 129,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Please register the entire vaccination scheme against COVID-19 administered to the person. If the suspicious vaccine of the event is related to Covid-19,  record it in the first place."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "A continuación,  registre la información disponible sobre las vacunas administradas 60 días antes del inicio del ESAVI. Marque la vacuna que sospecha ocasionó el evento. ."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Noteer hieronder ALLE vaccinatieschema's tegen COVID-19 die aan de persoon zijn toegediend. Als het vermoedelijke vaccin van het evenement COVID-19 is,  noteer dit dan in de eerste plaats."
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "a_continuación_registre_todo_el_esquema_de_vacunación_contra_la_c",
+            "lastUpdated": "2024-06-04T19:59:29.568",
+            "id": "pW7tjyupxUA",
+            "href": "https://dev.paho-dhis2.org/api/29/options/pW7tjyupxUA",
+            "created": "2024-02-08T02:37:02.019",
+            "name": "a_continuación_registre_todo_el_esquema_de_vacunación_contra_la_c",
+            "displayName": "Please register the entire vaccination scheme against COVID-19 administered to the person. If the suspicious vaccine of the event is related to Covid-19,  record it in the first place.",
+            "externalAccess": false,
+            "displayFormName": "Please register the entire vaccination scheme against COVID-19 administered to the person. If the suspicious vaccine of the event is related to Covid-19,  record it in the first place.",
+            "sortOrder": 128,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Please register the entire vaccination scheme against COVID-19 administered to the person. If the suspicious vaccine of the event is related to Covid-19,  record it in the first place."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "A continuación,  registre la información disponible sobre las vacunas administradas 60 días antes del inicio del ESAVI. Marque la vacuna que sospecha ocasionó el evento."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Noteer hieronder ALLE vaccinatieschema's tegen COVID-19 die aan de persoon zijn toegediend. Als het vermoedelijke vaccin van het evenement COVID-19 is,  noteer dit dan in de eerste plaats."
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "Acute_aseptic_arthritis",
+            "lastUpdated": "2024-03-19T05:02:24.369",
+            "id": "mkTttVUifzU",
+            "href": "https://dev.paho-dhis2.org/api/29/options/mkTttVUifzU",
+            "created": "2024-03-19T05:02:22.853",
+            "name": "Acute_aseptic_arthritis",
+            "displayName": "Acute aseptic arthritis",
+            "externalAccess": false,
+            "displayFormName": "Acute aseptic arthritis",
+            "sortOrder": 58,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Acute aseptic arthritis"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Artritis aséptica aguda"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Acute aseptische artritis"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "Acute_disseminated_encephalomyelitis",
+            "lastUpdated": "2024-03-19T05:02:24.369",
+            "id": "sEvLDjmgGmP",
+            "href": "https://dev.paho-dhis2.org/api/29/options/sEvLDjmgGmP",
+            "created": "2024-03-19T05:02:22.853",
+            "name": "Acute_disseminated_encephalomyelitis",
+            "displayName": "Acute disseminated encephalomyelitis",
+            "externalAccess": false,
+            "displayFormName": "Acute disseminated encephalomyelitis",
+            "sortOrder": 66,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Encefalomielitis aguda diseminada"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Acute disseminated encephalomyelitis"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Acute gedissemineerde encefalomyelitis"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "Acute_liver_disease_(Acute_liver_failure)",
+            "lastUpdated": "2024-03-19T05:02:24.369",
+            "id": "TVdi75K3ore",
+            "href": "https://dev.paho-dhis2.org/api/29/options/TVdi75K3ore",
+            "created": "2024-03-19T05:02:22.853",
+            "name": "Acute_liver_disease_(Acute_liver_failure)",
+            "displayName": " Acute liver disease (Acute liver failure)",
+            "externalAccess": false,
+            "displayFormName": "Acute liver disease (Acute liver failure)",
+            "sortOrder": 67,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Acute leverziekte (Acuut leverfalen)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Enfermedad hepática aguda (Fallo hepático agudo)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": " Acute liver disease (Acute liver failure)"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "Acute-pancreatitis",
+            "lastUpdated": "2024-03-19T05:02:24.370",
+            "id": "AfEb64BYK5d",
+            "href": "https://dev.paho-dhis2.org/api/29/options/AfEb64BYK5d",
+            "created": "2024-03-19T05:02:22.853",
+            "name": "Acute-pancreatitis",
+            "displayName": "Acute pancreatitis",
+            "externalAccess": false,
+            "displayFormName": "Acute pancreatitis",
+            "sortOrder": 74,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Acute pancreatitis"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Pancreatitis aguda"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Idiopathic peripheral facial nerve palsy"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "Acute-respiratory-distress-syndrome-(ARDS)",
+            "lastUpdated": "2024-03-19T05:02:24.370",
+            "id": "p5ASJ7qOZ0i",
+            "href": "https://dev.paho-dhis2.org/api/29/options/p5ASJ7qOZ0i",
+            "created": "2024-03-19T05:02:22.853",
+            "name": "Acute-respiratory-distress-syndrome-(ARDS)",
+            "displayName": "Acute respiratory distress syndrome (ARDS)",
+            "externalAccess": false,
+            "displayFormName": "Acute respiratory distress syndrome (ARDS)",
+            "sortOrder": 77,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Acute respiratory distress syndrome (ARDS)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Síndrome de distrés respiratorio agudo (SDRA)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Acuut respiratoir distresssyndroom (ARDS)"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "Address_of_the_vaccination_site",
+            "lastUpdated": "2024-04-24T18:52:26.176",
+            "id": "xnMpnBNtrir",
+            "href": "https://dev.paho-dhis2.org/api/29/options/xnMpnBNtrir",
+            "created": "2024-02-08T02:37:02.019",
+            "name": "Address_of_the_vaccination_site",
+            "displayName": "Address of the vaccination site",
+            "externalAccess": false,
+            "displayFormName": "Address of the vaccination site",
+            "sortOrder": 66,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Adres vaccinatiecentrum"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Dirección del centro de vacunación"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Address of the vaccination site"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "amenaza_a_la_vida",
+            "lastUpdated": "2024-03-19T07:21:08.863",
+            "id": "oMIt7B507ka",
+            "href": "https://dev.paho-dhis2.org/api/29/options/oMIt7B507ka",
+            "created": "2024-03-19T07:21:07.519",
+            "name": "amenaza_a_la_vida",
+            "displayName": "Threat to life",
+            "externalAccess": false,
+            "displayFormName": "Threat to life",
+            "sortOrder": 12,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "GEmUZ8PzOBI"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Threat to life"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Amenaza a la vida"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Levensbedreigend"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "Anaphylaxis",
+            "lastUpdated": "2024-03-19T05:02:24.369",
+            "id": "rhUJSUlRfmY",
+            "href": "https://dev.paho-dhis2.org/api/29/options/rhUJSUlRfmY",
+            "created": "2024-03-19T05:02:22.853",
+            "name": "Anaphylaxis",
+            "displayName": "Anaphylaxis",
+            "externalAccess": false,
+            "displayFormName": "Anaphylaxis",
+            "sortOrder": 56,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Anaphylaxis"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Anafilaxia"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Anafylaxie"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "anomalía_congénita",
+            "lastUpdated": "2024-03-19T07:21:08.863",
+            "id": "JJ7YURICJIz",
+            "href": "https://dev.paho-dhis2.org/api/29/options/JJ7YURICJIz",
+            "created": "2024-03-19T07:21:07.519",
+            "name": "anomalía_congénita",
+            "displayName": "Congenital anomaly",
+            "externalAccess": false,
+            "displayFormName": "Congenital anomaly",
+            "sortOrder": 13,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "GEmUZ8PzOBI"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Anomalía congénita"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Congenital anomaly"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Aangeboren afwijking"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "anomalías_congénitas",
+            "lastUpdated": "2024-04-24T18:52:26.186",
+            "id": "ls9nbjVlefI",
+            "href": "https://dev.paho-dhis2.org/api/29/options/ls9nbjVlefI",
+            "created": "2024-02-08T02:37:02.019",
+            "name": "anomalías_congénitas",
+            "displayName": "Congenital anomalies",
+            "externalAccess": false,
+            "displayFormName": "Congenital anomalies",
+            "sortOrder": 63,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Aangeboren Afwijkingen"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Anomalías congénitas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Congenital anomalies"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "Anosmia_and_ageusia/dysgeusia",
+            "lastUpdated": "2024-03-19T05:02:24.369",
+            "id": "BvErzJohRPk",
+            "href": "https://dev.paho-dhis2.org/api/29/options/BvErzJohRPk",
+            "created": "2024-03-19T05:02:22.853",
+            "name": "Anosmia_and_ageusia/dysgeusia",
+            "displayName": "Anosmia and ageusia/dysgeusia",
+            "externalAccess": false,
+            "displayFormName": "Anosmia and ageusia/dysgeusia",
+            "sortOrder": 57,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Anosmia and ageusia/dysgeusia"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Anosmia en ageusie/dysgeusie"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Anosmia y ageusia/disgeusia"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "antecedentes_de_hospitalización_en_los_30_días_previos_a_la_vacun",
+            "lastUpdated": "2024-04-24T18:52:39.172",
+            "id": "pq9iw7zUkjL",
+            "href": "https://dev.paho-dhis2.org/api/29/options/pq9iw7zUkjL",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "antecedentes_de_hospitalización_en_los_30_días_previos_a_la_vacun",
+            "displayName": "History of hospitalization in the 30 days prior to the current vaccination.",
+            "externalAccess": false,
+            "displayFormName": "History of hospitalization in the 30 days prior to the current vaccination.",
+            "sortOrder": 11,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "History of hospitalization in the 30 days prior to the current vaccination."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Voorgeschiedenis van ziekenhuisopname in de 30 dagen voorafgaand aan de huidige vaccinatie."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": " Antecedentes de hospitalización en los 30 días previos a la vacunación actual."
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "antecedentes_de_la_persona_vacunada",
+            "lastUpdated": "2024-04-24T18:52:26.176",
+            "id": "Sr1vTQRHfDw",
+            "href": "https://dev.paho-dhis2.org/api/29/options/Sr1vTQRHfDw",
+            "created": "2024-02-08T02:37:02.019",
+            "name": "antecedentes_de_la_persona_vacunada",
+            "displayName": "Background of the vaccinated person",
+            "externalAccess": false,
+            "displayFormName": "Background of the vaccinated person",
+            "sortOrder": 104,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "pRmjtzVU6vs"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Background of the vaccinated person"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Antecedentes de la persona vacunada"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Geschiedenis van de gevaccineerde persoon"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "antecedentes_familiares_de_otra_enfermedad_#40relevante_para_un_e",
+            "lastUpdated": "2024-04-24T18:52:39.175",
+            "id": "lHXTuPywqOv",
+            "href": "https://dev.paho-dhis2.org/api/29/options/lHXTuPywqOv",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "antecedentes_familiares_de_otra_enfermedad_#40relevante_para_un_e",
+            "displayName": "Family history of another disease (relevant to an ESAVI) or allergy.",
+            "externalAccess": false,
+            "displayFormName": "Family history of another disease (relevant to an ESAVI) or allergy.",
+            "sortOrder": 12,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Familiegeschiedenis van een andere ziekte (relevant voor een ESAVI) of allergie."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Family history of another disease (relevant to an ESAVI) or allergy."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": " Antecedentes familiares de otra enfermedad (relevante para un ESAVI) o alergia."
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "antecedentes_perinatales_#40este_apartado_solo_se_debe_rellenar_e",
+            "lastUpdated": "2024-04-24T18:52:39.173",
+            "id": "I0QkfnmJ51d",
+            "href": "https://dev.paho-dhis2.org/api/29/options/I0QkfnmJ51d",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "antecedentes_perinatales_#40este_apartado_solo_se_debe_rellenar_e",
+            "displayName": "PERINATAL HISTORY (this section should only be completed in cases of children under 5 years of age or those over 5 years of age when deemed relevant).",
+            "externalAccess": false,
+            "displayFormName": "PERINATAL HISTORY (this section should only be completed in cases of children under 5 years of age or those over 5 years of age when deemed relevant).",
+            "sortOrder": 13,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "PERINATAL HISTORY (this section should only be completed in cases of children under 5 years of age or those over 5 years of age when deemed relevant)."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "PERINATALE GESCHIEDENIS (dit gedeelte mag alleen worden ingevuld in het geval van jongens of meisjes jonger dan 5 jaar of ouder dan 5 jaar,  indien dit relevant wordt geacht)."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "ANTECEDENTES PERINATALES (este apartado solo se debe rellenar en los casos de niños o niñas menores de 5 años o los mayores de 5 años,  cuando se considere relevante)."
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "antes_del_inicio_del_evento_que_va_a_notificar#44_¿recibió_alguna",
+            "lastUpdated": "2024-03-19T03:28:58.134",
+            "id": "ztCoK2Ev3Mg",
+            "href": "https://dev.paho-dhis2.org/api/29/options/ztCoK2Ev3Mg",
+            "created": "2024-03-19T03:28:56.512",
+            "name": "antes_del_inicio_del_evento_que_va_a_notificar#44_¿recibió_alguna",
+            "displayName": "Before the onset of the event you are going to report, did you receive any COVID-19 vaccine?",
+            "externalAccess": false,
+            "displayFormName": "Before the onset of the event you are going to report, did you receive any COVID-19 vaccine?",
+            "sortOrder": 8,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Before the onset of the event you are going to report, did you receive any COVID-19 vaccine?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "  Heeft u vóór het begin van het te melden evenement een COVID-19-vaccin ontvangen?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Antes del inicio del evento que va a notificar, ¿recibió alguna vacuna contra COVID-19?"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "a_partir_de_su_investigación",
+            "lastUpdated": "2024-05-28T15:04:25.893",
+            "id": "HnBgrOBoHhc",
+            "href": "https://dev.paho-dhis2.org/api/29/options/HnBgrOBoHhc",
+            "created": "2024-05-28T15:01:43.812",
+            "name": "a_partir_de_su_investigación",
+            "displayName": "Based on your research:",
+            "externalAccess": false,
+            "displayFormName": "Based on your research:",
+            "sortOrder": 171,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Based on your research:"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Op basis van uw onderzoek:"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "A partir de su investigación:"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "a_partir_de_su_investigación#44_¿considera_que_hubo_un_error_en_l",
+            "lastUpdated": "2024-05-28T15:21:15.301",
+            "id": "qibo0i8SLqS",
+            "href": "https://dev.paho-dhis2.org/api/29/options/qibo0i8SLqS",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "a_partir_de_su_investigación#44_¿considera_que_hubo_un_error_en_l",
+            "displayName": "Do you consider that there was an error in the preparation or reconstitution (wrong product, vaccine or diluent, mixing, syringe, or improper filling of the syringe, etc.) of the vaccine by the vaccinator?",
+            "externalAccess": false,
+            "displayFormName": "Do you consider that there was an error in the preparation or reconstitution (wrong product, vaccine or diluent, mixing, syringe, or improper filling of the syringe, etc.) of the vaccine by the vaccinator?",
+            "sortOrder": 14,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "¿Considera que hubo un error en la preparación o reconstitución (producto, vacuna o diluyente equivocado, mezcla, jeringa o llenado inapropiado de la jeringa, etc.) de la vacuna por el vacunador?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Do you consider that there was an error in the preparation or reconstitution (wrong product, vaccine or diluent, mixing, syringe, or improper filling of the syringe, etc.) of the vaccine by the vaccinator?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Vindt u dat er een fout was in de voorbereiding of reconstructie (verkeerd product, vaccin of verdunningsmiddel, menging, spuit of onjuiste vulling van de spuit, enz.) van het vaccin door de vaccinator?"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "a_partir_de_su_investigación#44_¿considera_que_las_condiciones_fí",
+            "lastUpdated": "2024-05-28T15:10:41.404",
+            "id": "OKja9E8lmDI",
+            "href": "https://dev.paho-dhis2.org/api/29/options/OKja9E8lmDI",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "a_partir_de_su_investigación#44_¿considera_que_las_condiciones_fí",
+            "displayName": "Do you consider that the physical conditions of the vaccine (color, turbidity, foreign substances, etc.) were abnormal at the time of administration?",
+            "externalAccess": false,
+            "displayFormName": "Do you consider that the physical conditions of the vaccine (color, turbidity, foreign substances, etc.) were abnormal at the time of administration?",
+            "sortOrder": 15,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Do you consider that the physical conditions of the vaccine (color, turbidity, foreign substances, etc.) were abnormal at the time of administration?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Dat de fysieke omstandigheden van het vaccin (kleur, troebelheid, vreemde stoffen, enz.) abnormaal waren op het moment van toediening?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "¿Considera que las condiciones físicas de la vacuna (color, turbidez, sustancias extrañas, etc.) eran anormales en el momento de la administración?"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "a_partir_de_su_investigación#44_¿considera_que_la_vacuna_administ",
+            "lastUpdated": "2024-05-28T15:10:09.709",
+            "id": "G8P9Posn5Yb",
+            "href": "https://dev.paho-dhis2.org/api/29/options/G8P9Posn5Yb",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "a_partir_de_su_investigación#44_¿considera_que_la_vacuna_administ",
+            "displayName": "Do you think that the managed vaccine could have been contaminated?",
+            "externalAccess": false,
+            "displayFormName": "Do you think that the managed vaccine could have been contaminated?",
+            "sortOrder": 16,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "¿Considera que la vacuna administrada pudo haber estado contaminada?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Dat het toegediende vaccin besmet kan zijn?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Do you think that the managed vaccine could have been contaminated?"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "a_partir_de_su_investigación#44_¿considera_que_la_vacuna_se_admin",
+            "lastUpdated": "2024-05-28T15:14:38.661",
+            "id": "CaQJGtIhj85",
+            "href": "https://dev.paho-dhis2.org/api/29/options/CaQJGtIhj85",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "a_partir_de_su_investigación#44_¿considera_que_la_vacuna_se_admin",
+            "displayName": "Do you think the vaccine was administered incorrectly (wrong dose, administration site or route, needle of the wrong size, not follow -up to good injection practices, etc.)?",
+            "externalAccess": false,
+            "displayFormName": "Do you think the vaccine was administered incorrectly (wrong dose, administration site or route, needle of the wrong size, not follow -up to good injection practices, etc.)?",
+            "sortOrder": 17,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Do you think the vaccine was administered incorrectly (wrong dose, administration site or route, needle of the wrong size, not follow -up to good injection practices, etc.)?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Dat het vaccin onjuist is toegediend (verkeerde dosis, plaats of toedieningsweg, verkeerde maat naald, niet volgen van goede injectiepraktijken, enz.)?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "¿Considera que la vacuna se administró incorrectamente (dosis equivocada, sitio o ruta de administración, aguja del tamaño equivocado, no seguimiento a buenas prácticas de inyección, etc.)?"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "a_partir_de_su_investigación#66_¿considera_que_hubo_un_error_en_l",
+            "lastUpdated": "2024-05-28T15:13:37.372",
+            "id": "NV2WeJqGD9U",
+            "href": "https://dev.paho-dhis2.org/api/29/options/NV2WeJqGD9U",
+            "created": "2024-03-18T16:15:06.044",
+            "name": "a_partir_de_su_investigación#66_¿considera_que_hubo_un_error_en_l",
+            "displayName": "Do you consider that there was an error in the handling of the vaccine (interruption of the cold chain during transport, storage or vaccination day, etc.)?",
+            "externalAccess": false,
+            "displayFormName": "Do you consider that there was an error in the handling of the vaccine (interruption of the cold chain during transport, storage or vaccination day, etc.)?",
+            "sortOrder": 18,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "k7zXw5y3nXn"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "¿Considera que hubo un error en la manipulación de la vacuna (interrupción de la cadena de frio durante el transporte, el almacenamiento o la jornada de vacunación, etc.)?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Do you consider that there was an error in the handling of the vaccine (interruption of the cold chain during transport, storage or vaccination day, etc.)?"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Dat er een fout is gemaakt bij de behandeling van het vaccin (onderbreking van de koudeketen tijdens transport, opslag of vaccinatiedag, enz.)?"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "apendicitis",
+            "lastUpdated": "2024-03-19T03:28:58.134",
+            "id": "HJBHVicXjU7",
+            "href": "https://dev.paho-dhis2.org/api/29/options/HJBHVicXjU7",
+            "created": "2024-03-19T03:28:56.512",
+            "name": "apendicitis",
+            "displayName": "Appendicitis",
+            "externalAccess": false,
+            "displayFormName": "Appendicitis",
+            "sortOrder": 9,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Appendicitis"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Appendicitis"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Apendicitis"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "code": "Arbotion",
+            "lastUpdated": "2024-03-19T03:28:58.134",
+            "id": "njihJURfBjs",
+            "href": "https://dev.paho-dhis2.org/api/29/options/njihJURfBjs",
+            "created": "2024-03-19T03:28:56.512",
+            "name": "Arbotion",
+            "displayName": "Arbotion.",
+            "externalAccess": false,
+            "displayFormName": "Arbotion.",
+            "sortOrder": 10,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ZuIUTmEW3Nh"
+            },
+            "sharing": {
+                "userGroups": {},
+                "external": false,
+                "users": {}
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nl",
+                    "value": "Abortus."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "Arbotion."
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Aborto."
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        }
+    ]
+}

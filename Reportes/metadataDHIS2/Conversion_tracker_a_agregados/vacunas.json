@@ -1,0 +1,695 @@
+{
+    "dataSets": [
+        {
+            "lastUpdated": "2024-05-23T12:52:06.790",
+            "id": "EnhqAtXXgco",
+            "created": "2024-04-04T02:46:42.705",
+            "name": "Lista de vacunas",
+            "shortName": "Lista de vacunas",
+            "validCompleteOnly": false,
+            "dataElementDecoration": false,
+            "notifyCompletingUser": false,
+            "noValueRequiresComment": false,
+            "skipOffline": false,
+            "compulsoryFieldsCompleteOnly": false,
+            "fieldCombinationRequired": false,
+            "renderHorizontally": false,
+            "renderAsTabs": false,
+            "mobile": false,
+            "version": 2,
+            "openPeriodsAfterCoEndDate": 0,
+            "timelyDays": 15,
+            "periodType": "Daily",
+            "openFuturePeriods": 0,
+            "expiryDays": 0,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "HeiP2JHGQ6R"
+                    },
+                    "dataSet": {
+                        "id": "EnhqAtXXgco"
+                    }
+                }
+            ],
+            "compulsoryDataElementOperands": [],
+            "dataInputPeriods": [],
+            "translations": [],
+            "organisationUnits": [],
+            "attributeValues": [],
+            "indicators": [],
+            "legendSets": []
+        }
+    ],
+    "categoryOptions": [
+        {
+            "created": "2024-04-25T18:58:18.427",
+            "lastUpdated": "2024-04-29T14:08:09.075",
+            "name": "25-49 años",
+            "id": "Gpr45O5MqBN",
+            "shortName": "25-49 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-25T14:59:31.948",
+            "lastUpdated": "2024-04-29T14:08:09.075",
+            "name": "G-No",
+            "id": "oT3MZop88wO",
+            "shortName": "G-No",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-21T03:59:50.977",
+            "lastUpdated": "2024-04-29T14:08:09.075",
+            "name": "G-Sí",
+            "id": "qOdSxLlHPT4",
+            "shortName": "G-Sí",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "1389804001",
+            "created": "2024-04-04T03:03:16.677",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Influenza Pediatric Trivalent (Influenza vaccine inact sAg 3v)",
+            "id": "K2cJkxGcl81",
+            "formName": "Influenza Pediatric Trivalent (Influenza vaccine inact sAg 3v)",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:58:28.485",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "50-59 años",
+            "id": "PaYDBF3cLdR",
+            "shortName": "50-59 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:59:04.887",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "80 o más años",
+            "id": "p46elQQdyC0",
+            "shortName": "80 o más años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-25T14:59:48.605",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "G-No sabe",
+            "id": "h80glqe8Ph5",
+            "shortName": "G-No sabe",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:57:58.422",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "18-24 años",
+            "id": "Dab7glBUfkU",
+            "shortName": "18-24 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "6643104001",
+            "created": "2024-04-04T03:03:26.860",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Varicela (Varicella zoster vaccine live (Oka))",
+            "id": "EahSQXurwDb",
+            "formName": "Varicela (Varicella zoster vaccine live (Oka))",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "1389806016",
+            "created": "2024-04-04T03:03:33.739",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Influenza Pediatric Quadrivalent (Vaxigrip tetra)",
+            "id": "GfpCalWVSOk",
+            "formName": "Influenza Pediatric Quadrivalent (Vaxigrip tetra)",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "15268684002",
+            "created": "2024-04-04T03:02:59.276",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Sputnik V",
+            "id": "BGNUsFyD23D",
+            "formName": "Sputnik V",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.576",
+            "lastUpdated": "2021-08-30T18:45:16.587",
+            "name": "default",
+            "id": "xYerKDKCefk",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "1389806001",
+            "created": "2024-04-04T03:03:29.027",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Influenza vaccine inact split 4v",
+            "id": "CCgCY9tf9SS",
+            "formName": "Influenza vaccine inact split 4v",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2023-12-18T20:53:16.228",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "Masculino",
+            "id": "KGnQbRIQ0L9",
+            "shortName": "M",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "15268643009",
+            "created": "2024-04-04T03:03:21.734",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Hayat vax",
+            "id": "puKzUsaJjqE",
+            "formName": "Hayat vax",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "15268614002",
+            "created": "2024-04-04T03:03:19.582",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Covaxin",
+            "id": "WfvJERkHzci",
+            "formName": "Covaxin",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "Femenino",
+            "created": "2023-12-22T17:52:38.388",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "Femenino",
+            "id": "tSOSzqF40Ws",
+            "shortName": "Femenino",
+            "formName": "Femenino",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:57:48.808",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "1-17 años",
+            "id": "ocUo1SHzmsE",
+            "shortName": "1-17 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-09T15:34:29.799",
+            "lastUpdated": "2024-04-29T21:53:32.793",
+            "name": "80 o más",
+            "id": "kF5wn1MN4nx",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "13948903001",
+            "created": "2024-04-04T03:39:05.495",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Tdap (Tétanos, difteria, tos ferina acelular para adolescentes/ adultos) (Diphtheria vaccine toxoid;Pertussis vaccine acellular 5-component;Tetanus vaccine toxoid)",
+            "id": "ojf1Jkevidk",
+            "formName": "Tdap (Tétanos, difteria, tos ferina acelular para adolescentes/ adultos) (Diphtheria vaccine toxoid;Pertussis vaccine acellular 5-component;Tetanus vaccine toxoid)",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-21T04:00:33.778",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "E-No",
+            "id": "JdB07nEnqL9",
+            "shortName": "E-No",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "13950602001",
+            "created": "2024-04-04T03:03:07.939",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Td (Toxoides diftérico y tetánico para niños mayores y adultos) (Diphtheria vaccine toxoid;Tetanus vaccine toxoid)",
+            "id": "Bxv8GZDPSkf",
+            "formName": "Td (Toxoides diftérico y tetánico para niños mayores y adultos) (Diphtheria vaccine toxoid;Tetanus vaccine toxoid)",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "1389812001",
+            "created": "2024-04-04T03:03:23.891",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Influenza Pediatric Quadrivalent(Influenza vaccine inact sAg 4v)",
+            "id": "MnmxdAXY65q",
+            "formName": "Influenza Pediatric Quadrivalent(Influenza vaccine inact sAg 4v)",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "15268604005",
+            "created": "2024-04-04T03:03:05.768",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Moderna",
+            "id": "mjulextMl0k",
+            "formName": "Moderna",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "1389805001",
+            "created": "2024-04-04T03:03:12.246",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Influenza Adult Trivalent (Influenza vaccine inact split 3v)",
+            "id": "XAYj6dLJ0zU",
+            "formName": "Influenza Adult Trivalent (Influenza vaccine inact split 3v)",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:58:39.272",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "60-69 años",
+            "id": "FXlYp90D7ar",
+            "shortName": "60-69 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "15268625001",
+            "created": "2024-04-04T03:03:01.429",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Pfizer",
+            "id": "TFJ81Owsfbw",
+            "formName": "Pfizer",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "13950206001",
+            "created": "2024-04-04T03:03:31.211",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "SRP (Sarampión, Rubéola y Paróditis) Measles vaccine live (Schwartz);Mumps vaccine live (Urabe Am9);Rubella vaccine live (Wistar RA 27/3)",
+            "id": "S9QzMHRHrx2",
+            "formName": "SRP (Sarampión, Rubéola y Paróditis) Measles vaccine live (Schwartz);Mumps vaccine live (Urabe Am9);Rubella vaccine live (Wistar RA 27/3)",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-21T04:00:48.142",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "E-No sabe",
+            "id": "k2cwnZFiZ8m",
+            "shortName": "E-No sabe",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-09T15:34:16.601",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "30-80",
+            "id": "aDHgUOOcMFH",
+            "shortName": "30-80",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-09T15:34:00.167",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "0-30",
+            "id": "seY6pjhMGNX",
+            "shortName": "0-30",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-25T14:58:35.628",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "E-Sí",
+            "id": "LzbnsM4f8KT",
+            "shortName": "E-Sí",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "15268644002",
+            "created": "2024-04-04T03:03:14.411",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Coronavac",
+            "id": "FyGgdT5owCt",
+            "formName": "Coronavac",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:58:51.761",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "70-79 años",
+            "id": "aruFwaYr3r7",
+            "shortName": "70-79 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "15268603001",
+            "created": "2024-04-04T03:03:10.113",
+            "lastUpdated": "2024-04-29T14:08:09.048",
+            "name": "Astrazeneca",
+            "id": "PpWfjAoVu4A",
+            "formName": "Astrazeneca",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:57:36.039",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "0-12 meses",
+            "id": "YZowDMGPZiS",
+            "shortName": "0-12 meses",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        }
+    ],
+    "dataElements": [
+        {
+            "lastUpdated": "2024-04-29T14:08:09.115",
+            "id": "HeiP2JHGQ6R",
+            "created": "2024-04-04T02:39:50.966",
+            "name": "Lista de vacunas - ESAVI",
+            "shortName": "Lista de vacunas - ESAVI",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "valueType": "NUMBER",
+            "formName": "Lista de vacunas - ESAVI",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "tH8EaBXK9q4"
+            },
+            "translations": [],
+            "attributeValues": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        }
+    ],
+    "categoryCombos": [
+        {
+            "created": "2024-04-04T02:39:24.484",
+            "lastUpdated": "2024-05-27T20:07:46.842",
+            "name": "Vacunas - Sexo - Edad  - Grave - Embarazo",
+            "id": "tH8EaBXK9q4",
+            "dataDimensionType": "DISAGGREGATION",
+            "skipTotal": false,
+            "translations": [],
+            "categories": [
+                {
+                    "id": "X8f6OtfsPwJ"
+                },
+                {
+                    "id": "j53Jq1FtPc5"
+                },
+                {
+                    "id": "r8mxkfMszT0"
+                },
+                {
+                    "id": "b3d2h9L6RYu"
+                },
+                {
+                    "id": "E3lzKSdX3Li"
+                },
+                {
+                    "id": "I26bga5WcD7"
+                }
+            ]
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.581",
+            "lastUpdated": "2024-05-27T20:07:46.842",
+            "name": "default",
+            "id": "bjDvmb4bfuf",
+            "dataDimensionType": "DISAGGREGATION",
+            "skipTotal": false,
+            "translations": [],
+            "categories": [
+                {
+                    "id": "GLevLNI9wkl"
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "created": "2024-04-09T15:35:33.327",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Días de vacunación ",
+            "id": "b3d2h9L6RYu",
+            "shortName": "Días de vacunación ",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "seY6pjhMGNX"
+                },
+                {
+                    "id": "aDHgUOOcMFH"
+                },
+                {
+                    "id": "kF5wn1MN4nx"
+                }
+            ]
+        },
+        {
+            "created": "2024-03-21T04:28:22.949",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Grave",
+            "id": "E3lzKSdX3Li",
+            "shortName": "Grave",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                }
+            ]
+        },
+        {
+            "created": "2024-03-21T04:28:52.700",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Embarazo ",
+            "id": "I26bga5WcD7",
+            "shortName": "Embarazo",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                }
+            ]
+        },
+        {
+            "created": "2023-12-18T20:54:15.945",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Sexo",
+            "id": "j53Jq1FtPc5",
+            "shortName": "Sexo",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T22:07:04.034",
+            "lastUpdated": "2024-04-29T22:07:04.034",
+            "name": "Vacunas",
+            "id": "X8f6OtfsPwJ",
+            "shortName": "Vacunas",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "BGNUsFyD23D"
+                },
+                {
+                    "id": "TFJ81Owsfbw"
+                },
+                {
+                    "id": "mjulextMl0k"
+                },
+                {
+                    "id": "Bxv8GZDPSkf"
+                },
+                {
+                    "id": "PpWfjAoVu4A"
+                },
+                {
+                    "id": "XAYj6dLJ0zU"
+                },
+                {
+                    "id": "FyGgdT5owCt"
+                },
+                {
+                    "id": "K2cJkxGcl81"
+                },
+                {
+                    "id": "WfvJERkHzci"
+                },
+                {
+                    "id": "puKzUsaJjqE"
+                },
+                {
+                    "id": "MnmxdAXY65q"
+                },
+                {
+                    "id": "EahSQXurwDb"
+                },
+                {
+                    "id": "CCgCY9tf9SS"
+                },
+                {
+                    "id": "S9QzMHRHrx2"
+                },
+                {
+                    "id": "GfpCalWVSOk"
+                },
+                {
+                    "id": "ojf1Jkevidk"
+                }
+            ]
+        },
+        {
+            "created": "2024-01-15T01:15:08.667",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Edad",
+            "id": "r8mxkfMszT0",
+            "shortName": "Edad",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "YZowDMGPZiS"
+                },
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "p46elQQdyC0"
+                }
+            ]
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.579",
+            "lastUpdated": "2024-06-30T10:48:46.393",
+            "name": "default",
+            "id": "GLevLNI9wkl",
+            "shortName": "default",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": false,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ]
+        }
+    ]
+}

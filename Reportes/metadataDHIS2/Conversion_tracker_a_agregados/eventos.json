@@ -1,0 +1,4625 @@
+{
+    "dataSets": [
+        {
+            "lastUpdated": "2024-05-23T12:52:16.257",
+            "id": "T38uzW1DFOj",
+            "created": "2024-04-25T19:06:39.415",
+            "name": "Lista eventos ESAVI",
+            "shortName": "Lista eventos ESAVI",
+            "validCompleteOnly": false,
+            "dataElementDecoration": false,
+            "notifyCompletingUser": false,
+            "noValueRequiresComment": false,
+            "skipOffline": false,
+            "compulsoryFieldsCompleteOnly": false,
+            "fieldCombinationRequired": false,
+            "renderHorizontally": false,
+            "renderAsTabs": false,
+            "mobile": false,
+            "version": 2,
+            "openPeriodsAfterCoEndDate": 0,
+            "timelyDays": 15,
+            "periodType": "Daily",
+            "openFuturePeriods": 0,
+            "expiryDays": 0,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "NVihtmQcw9u"
+                    },
+                    "dataSet": {
+                        "id": "T38uzW1DFOj"
+                    }
+                }
+            ],
+            "compulsoryDataElementOperands": [],
+            "dataInputPeriods": [],
+            "translations": [],
+            "organisationUnits": [],
+            "attributeValues": [],
+            "indicators": [],
+            "legendSets": []
+        }
+    ],
+    "categoryOptionCombos": [
+        {
+            "created": "2024-04-29T19:19:46.185",
+            "lastUpdated": "2024-04-29T19:19:46.185",
+            "id": "e7GcwVwh4rj",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 25-49 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.262",
+            "lastUpdated": "2024-04-29T19:19:46.262",
+            "id": "pArgzJzPTBQ",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 1-17 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.255",
+            "lastUpdated": "2024-04-29T19:19:46.255",
+            "id": "wp3y6R48Obd",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 0-12 meses, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.259",
+            "lastUpdated": "2024-04-29T19:19:46.259",
+            "id": "rHx98tzsQ6r",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 1-17 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.215",
+            "lastUpdated": "2024-04-29T19:19:46.215",
+            "id": "RCpo62OnxLP",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 60-69 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.207",
+            "lastUpdated": "2024-04-29T19:19:46.207",
+            "id": "GUGmxVBIi7w",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 60-69 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.267",
+            "lastUpdated": "2024-04-29T19:19:46.267",
+            "id": "x4QgnSI4XNF",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 1-17 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.228",
+            "lastUpdated": "2024-04-29T19:19:46.228",
+            "id": "OcEwAt5n318",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 70-79 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.338",
+            "lastUpdated": "2024-04-29T19:19:46.338",
+            "id": "eqYJQC2mpab",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 80 o más años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.160",
+            "lastUpdated": "2024-04-29T19:19:46.160",
+            "id": "iwBkafeECMb",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 1-17 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.310",
+            "lastUpdated": "2024-04-29T19:19:46.310",
+            "id": "lOENCiPY9Pt",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 60-69 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.319",
+            "lastUpdated": "2024-04-29T19:19:46.319",
+            "id": "lER8g9E394v",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 60-69 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.249",
+            "lastUpdated": "2024-04-29T19:19:46.249",
+            "id": "ijEnO5hlqqn",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 0-12 meses, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.183",
+            "lastUpdated": "2024-04-29T19:19:46.183",
+            "id": "ems0OMVT4XK",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 25-49 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.256",
+            "lastUpdated": "2024-04-29T19:19:46.256",
+            "id": "VQWb9HehSlW",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 1-17 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.219",
+            "lastUpdated": "2024-04-29T19:19:46.219",
+            "id": "gnUtmOal5RD",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 70-79 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.324",
+            "lastUpdated": "2024-04-29T19:19:46.324",
+            "id": "JXsP7il3f0N",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 70-79 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.347",
+            "lastUpdated": "2024-04-29T19:19:46.347",
+            "id": "E9CfgMGoVqH",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 80 o más años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.303",
+            "lastUpdated": "2024-04-29T19:19:46.303",
+            "id": "jSovzIVF26k",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 50-59 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.297",
+            "lastUpdated": "2024-04-29T19:19:46.297",
+            "id": "Rbeiz1QVTBi",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 50-59 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.156",
+            "lastUpdated": "2024-04-29T19:19:46.156",
+            "id": "ZAWyB52jNMx",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 0-12 meses, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.191",
+            "lastUpdated": "2024-04-29T19:19:46.191",
+            "id": "oG7AYqcBtv3",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 25-49 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.238",
+            "lastUpdated": "2024-04-29T19:19:46.238",
+            "id": "xWyXNML4NQ9",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 80 o más años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.292",
+            "lastUpdated": "2024-04-29T19:19:46.292",
+            "id": "NY7Lg1Ghxjx",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 25-49 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.344",
+            "lastUpdated": "2024-04-29T19:19:46.344",
+            "id": "Ja7bISXtaqO",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 80 o más años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.145",
+            "lastUpdated": "2024-04-29T19:19:46.145",
+            "id": "MnPxagkqi8Y",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 0-12 meses, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.195",
+            "lastUpdated": "2024-04-29T19:19:46.195",
+            "id": "ncqPneXnIqx",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 50-59 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.168",
+            "lastUpdated": "2024-04-29T19:19:46.168",
+            "id": "hzsNI27rh7v",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 1-17 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.163",
+            "lastUpdated": "2024-04-29T19:19:46.163",
+            "id": "UFad1kCjwUF",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 1-17 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.316",
+            "lastUpdated": "2024-04-29T19:19:46.316",
+            "id": "Cr7rQPEuwZz",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 60-69 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.212",
+            "lastUpdated": "2024-04-29T19:19:46.212",
+            "id": "v6mqcy0BdFH",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 60-69 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.584",
+            "lastUpdated": "2021-08-30T18:45:16.586",
+            "id": "HllvX50cXC0",
+            "ignoreApproval": false,
+            "name": "default",
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.243",
+            "lastUpdated": "2024-04-29T19:19:46.243",
+            "id": "cS9cmeO3yd3",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 0-12 meses, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.286",
+            "lastUpdated": "2024-04-29T19:19:46.286",
+            "id": "eNhfiAtTJ2I",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 25-49 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.225",
+            "lastUpdated": "2024-04-29T19:19:46.225",
+            "id": "yw7OpKwcEEV",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 70-79 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.330",
+            "lastUpdated": "2024-04-29T19:19:46.330",
+            "id": "MyBFNTZo4Am",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 70-79 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.177",
+            "lastUpdated": "2024-04-29T19:19:46.177",
+            "id": "pcUKILWL64s",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 18-24 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.231",
+            "lastUpdated": "2024-04-29T19:19:46.231",
+            "id": "MTmpA17SwwW",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 80 o más años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.235",
+            "lastUpdated": "2024-04-29T19:19:46.235",
+            "id": "eFbfMucpeei",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 80 o más años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.201",
+            "lastUpdated": "2024-04-29T19:19:46.201",
+            "id": "Yw3REz2omA0",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 50-59 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.196",
+            "lastUpdated": "2024-04-29T19:19:46.196",
+            "id": "H45VjkX9e4h",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 50-59 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.200",
+            "lastUpdated": "2024-04-29T19:19:46.200",
+            "id": "V5HZznrg0jd",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 50-59 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.295",
+            "lastUpdated": "2024-04-29T19:19:46.295",
+            "id": "SfU6ow5J0yI",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 50-59 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.172",
+            "lastUpdated": "2024-04-29T19:19:46.172",
+            "id": "fgBtFBsKwz8",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 18-24 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.176",
+            "lastUpdated": "2024-04-29T19:19:46.176",
+            "id": "vF75SS6xFI2",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 18-24 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.162",
+            "lastUpdated": "2024-04-29T19:19:46.162",
+            "id": "oTj8qJT4qiE",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 1-17 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.269",
+            "lastUpdated": "2024-04-29T19:19:46.269",
+            "id": "kNVzf0cKrAJ",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 18-24 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.180",
+            "lastUpdated": "2024-04-29T19:19:46.180",
+            "id": "RuFAFZTCBxv",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 18-24 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.157",
+            "lastUpdated": "2024-04-29T19:19:46.157",
+            "id": "Mi9S3akNtEj",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 1-17 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.288",
+            "lastUpdated": "2024-04-29T19:19:46.288",
+            "id": "cikTNWPvGMa",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 25-49 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.173",
+            "lastUpdated": "2024-04-29T19:19:46.173",
+            "id": "FJzbbjBe9fy",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 18-24 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.197",
+            "lastUpdated": "2024-04-29T19:19:46.197",
+            "id": "x1X6Xq4ND2I",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 50-59 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.210",
+            "lastUpdated": "2024-04-29T19:19:46.210",
+            "id": "UeCZ2vnAZsE",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 60-69 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.241",
+            "lastUpdated": "2024-04-29T19:19:46.241",
+            "id": "gdbGL6UFkuG",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 80 o más años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.248",
+            "lastUpdated": "2024-04-29T19:19:46.248",
+            "id": "qJ3rohhqVHx",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 0-12 meses, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.166",
+            "lastUpdated": "2024-04-29T19:19:46.166",
+            "id": "hc4uwWqCI9d",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 1-17 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.252",
+            "lastUpdated": "2024-04-29T19:19:46.252",
+            "id": "UgerPwOVkT8",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 0-12 meses, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.214",
+            "lastUpdated": "2024-04-29T19:19:46.214",
+            "id": "SGsnkTcqAI7",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 60-69 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.204",
+            "lastUpdated": "2024-04-29T19:19:46.204",
+            "id": "iP0ESnFCqf0",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 50-59 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.203",
+            "lastUpdated": "2024-04-29T19:19:46.203",
+            "id": "szHSlZy1JyM",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 50-59 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.232",
+            "lastUpdated": "2024-04-29T19:19:46.232",
+            "id": "uENER3bphrU",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 80 o más años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.234",
+            "lastUpdated": "2024-04-29T19:19:46.234",
+            "id": "p5TUrfuhNKt",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 80 o más años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.334",
+            "lastUpdated": "2024-04-29T19:19:46.334",
+            "id": "Wjnqfa89x6b",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 70-79 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.294",
+            "lastUpdated": "2024-04-29T19:19:46.294",
+            "id": "NaT0lMgDsO4",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 25-49 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.178",
+            "lastUpdated": "2024-04-29T19:19:46.178",
+            "id": "vOL9Gyjo8fC",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 18-24 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.326",
+            "lastUpdated": "2024-04-29T19:19:46.326",
+            "id": "xQ5hVZaYGcQ",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 70-79 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.158",
+            "lastUpdated": "2024-04-29T19:19:46.158",
+            "id": "OiTTAs9MxHh",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 1-17 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.175",
+            "lastUpdated": "2024-04-29T19:19:46.175",
+            "id": "Gex7Slz8fRX",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 18-24 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.239",
+            "lastUpdated": "2024-04-29T19:19:46.239",
+            "id": "i3PymvigNvl",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 80 o más años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.327",
+            "lastUpdated": "2024-04-29T19:19:46.327",
+            "id": "hPDaxRbhZ3r",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 70-79 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.246",
+            "lastUpdated": "2024-04-29T19:19:46.246",
+            "id": "vZWi7O8YPGB",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 0-12 meses, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.289",
+            "lastUpdated": "2024-04-29T19:19:46.289",
+            "id": "MN2vapvoe3f",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 25-49 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.199",
+            "lastUpdated": "2024-04-29T19:19:46.199",
+            "id": "oTYz4QxH16H",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 50-59 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.181",
+            "lastUpdated": "2024-04-29T19:19:46.181",
+            "id": "GHT9teDwCBL",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 25-49 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.224",
+            "lastUpdated": "2024-04-29T19:19:46.224",
+            "id": "p5dU4ozEeUe",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 70-79 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.253",
+            "lastUpdated": "2024-04-29T19:19:46.253",
+            "id": "hvxcE211K6A",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 0-12 meses, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.257",
+            "lastUpdated": "2024-04-29T19:19:46.257",
+            "id": "nyqS2SwoAKT",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 1-17 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.263",
+            "lastUpdated": "2024-04-29T19:19:46.263",
+            "id": "Uk0ssyw8UL5",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 1-17 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.318",
+            "lastUpdated": "2024-04-29T19:19:46.318",
+            "id": "qukKlUNaNTv",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 60-69 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.216",
+            "lastUpdated": "2024-04-29T19:19:46.216",
+            "id": "HauX2bSlVtk",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 60-69 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.208",
+            "lastUpdated": "2024-04-29T19:19:46.208",
+            "id": "fJwSxXWYKRn",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 60-69 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.309",
+            "lastUpdated": "2024-04-29T19:19:46.309",
+            "id": "vEkuiQUNrh3",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 60-69 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.266",
+            "lastUpdated": "2024-04-29T19:19:46.266",
+            "id": "hwZtHCkV5QG",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 1-17 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.189",
+            "lastUpdated": "2024-04-29T19:19:46.189",
+            "id": "zWzEouSYReh",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 25-49 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.229",
+            "lastUpdated": "2024-04-29T19:19:46.229",
+            "id": "nzUD3RkPYxL",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 70-79 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.332",
+            "lastUpdated": "2024-04-29T19:19:46.332",
+            "id": "NtzaBBDreDF",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 70-79 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.343",
+            "lastUpdated": "2024-04-29T19:19:46.343",
+            "id": "UaGZsMZZExy",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 80 o más años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.329",
+            "lastUpdated": "2024-04-29T19:19:46.329",
+            "id": "tDvXCaYK69c",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 70-79 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.340",
+            "lastUpdated": "2024-04-29T19:19:46.340",
+            "id": "sSp6zAaFjUR",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 80 o más años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.164",
+            "lastUpdated": "2024-04-29T19:19:46.164",
+            "id": "qLrtXaztNwu",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 1-17 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.315",
+            "lastUpdated": "2024-04-29T19:19:46.315",
+            "id": "omCYeMwafDd",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 60-69 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.167",
+            "lastUpdated": "2024-04-29T19:19:46.167",
+            "id": "rAWkbC9zgP0",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 1-17 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.260",
+            "lastUpdated": "2024-04-29T19:19:46.260",
+            "id": "bZmHApW7MPb",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 1-17 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.211",
+            "lastUpdated": "2024-04-29T19:19:46.211",
+            "id": "A6C2FSEQWHR",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 60-69 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.186",
+            "lastUpdated": "2024-04-29T19:19:46.186",
+            "id": "WWVLGLLwvyt",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 25-49 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.245",
+            "lastUpdated": "2024-04-29T19:19:46.245",
+            "id": "x8LJWfSk2CF",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 0-12 meses, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.270",
+            "lastUpdated": "2024-04-29T19:19:46.270",
+            "id": "p8TJkD2u2FS",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 18-24 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.276",
+            "lastUpdated": "2024-04-29T19:19:46.276",
+            "id": "ZhUXUA8hWFg",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 18-24 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.236",
+            "lastUpdated": "2024-04-29T19:19:46.236",
+            "id": "TScgi9qo85n",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 80 o más años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.147",
+            "lastUpdated": "2024-04-29T19:19:46.147",
+            "id": "f7xFeuznKeR",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 0-12 meses, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.152",
+            "lastUpdated": "2024-04-29T19:19:46.152",
+            "id": "WK7IXIo7Xo5",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 0-12 meses, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.206",
+            "lastUpdated": "2024-04-29T19:19:46.206",
+            "id": "P1AoTX2r1ay",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 60-69 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.291",
+            "lastUpdated": "2024-04-29T19:19:46.291",
+            "id": "JikY369q3Q5",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 25-49 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.335",
+            "lastUpdated": "2024-04-29T19:19:46.335",
+            "id": "GUkegNpEa3e",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 70-79 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.337",
+            "lastUpdated": "2024-04-29T19:19:46.337",
+            "id": "Od99QZoR93q",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 80 o más años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.321",
+            "lastUpdated": "2024-04-29T19:19:46.321",
+            "id": "hhCQk2rhBpm",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 60-69 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.171",
+            "lastUpdated": "2024-04-29T19:19:46.171",
+            "id": "TWthtuGF8Aj",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 18-24 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.218",
+            "lastUpdated": "2024-04-29T19:19:46.218",
+            "id": "OwSskY79iET",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 70-79 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.250",
+            "lastUpdated": "2024-04-29T19:19:46.250",
+            "id": "bEXTaqmv0aE",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 0-12 meses, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.322",
+            "lastUpdated": "2024-04-29T19:19:46.322",
+            "id": "FFiMS9vpocl",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 70-79 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.285",
+            "lastUpdated": "2024-04-29T19:19:46.285",
+            "id": "Dr8MZOJlwql",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 25-49 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.242",
+            "lastUpdated": "2024-04-29T19:19:46.242",
+            "id": "YDLqCUrGZmY",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 80 o más años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.349",
+            "lastUpdated": "2024-04-29T19:19:46.349",
+            "id": "KCfsdoYXGyh",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 80 o más años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.184",
+            "lastUpdated": "2024-04-29T19:19:46.184",
+            "id": "aIH3IMRIm6d",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 25-49 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.304",
+            "lastUpdated": "2024-04-29T19:19:46.304",
+            "id": "Yp7ewDaw7Vj",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 50-59 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.153",
+            "lastUpdated": "2024-04-29T19:19:46.153",
+            "id": "QiCB3CyCqBr",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 0-12 meses, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.169",
+            "lastUpdated": "2024-04-29T19:19:46.169",
+            "id": "jIFySxgKxnx",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 18-24 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.278",
+            "lastUpdated": "2024-04-29T19:19:46.278",
+            "id": "uYUIqmHHmRU",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 18-24 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.193",
+            "lastUpdated": "2024-04-29T19:19:46.193",
+            "id": "mRA9SXaEWPW",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 50-59 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.273",
+            "lastUpdated": "2024-04-29T19:19:46.273",
+            "id": "njcfzmSyTeG",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 18-24 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.300",
+            "lastUpdated": "2024-04-29T19:19:46.300",
+            "id": "hK3Yjys7y4I",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 50-59 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.283",
+            "lastUpdated": "2024-04-29T19:19:46.283",
+            "id": "aRh1SZpl6s9",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 25-49 años, G-Sí, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.272",
+            "lastUpdated": "2024-04-29T19:19:46.272",
+            "id": "Grkv9wZP3gq",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 18-24 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.346",
+            "lastUpdated": "2024-04-29T19:19:46.346",
+            "id": "sGMjn6SjKi0",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 80 o más años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.275",
+            "lastUpdated": "2024-04-29T19:19:46.275",
+            "id": "zPmtPjuXVri",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 18-24 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.298",
+            "lastUpdated": "2024-04-29T19:19:46.298",
+            "id": "RCGLVWELBf4",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 50-59 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.280",
+            "lastUpdated": "2024-04-29T19:19:46.280",
+            "id": "O1gBUh9x7KP",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 18-24 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.151",
+            "lastUpdated": "2024-04-29T19:19:46.151",
+            "id": "qHAaIYglyK3",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 0-12 meses, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.279",
+            "lastUpdated": "2024-04-29T19:19:46.279",
+            "id": "APz0YGjRXqM",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 18-24 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.307",
+            "lastUpdated": "2024-04-29T19:19:46.307",
+            "id": "TGcdg3r5aaj",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 50-59 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.341",
+            "lastUpdated": "2024-04-29T19:19:46.341",
+            "id": "LsV1RXaFLc9",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 80 o más años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "p46elQQdyC0"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.306",
+            "lastUpdated": "2024-04-29T19:19:46.306",
+            "id": "W1uPwABLHAt",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 50-59 años, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.192",
+            "lastUpdated": "2024-04-29T19:19:46.192",
+            "id": "F3kUfRZK3pC",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 25-49 años, G-No sabe, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.227",
+            "lastUpdated": "2024-04-29T19:19:46.227",
+            "id": "FolvxPTowIi",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 70-79 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.265",
+            "lastUpdated": "2024-04-29T19:19:46.265",
+            "id": "doc86TngXzn",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 1-17 años, G-No sabe, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.312",
+            "lastUpdated": "2024-04-29T19:19:46.312",
+            "id": "jpacJW9aORZ",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 60-69 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.155",
+            "lastUpdated": "2024-04-29T19:19:46.155",
+            "id": "GdSTrQUna3e",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 0-12 meses, G-No sabe, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "h80glqe8Ph5"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.313",
+            "lastUpdated": "2024-04-29T19:19:46.313",
+            "id": "VnT0d82Q82F",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 60-69 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.149",
+            "lastUpdated": "2024-04-29T19:19:46.149",
+            "id": "hSxucYgjwB3",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 0-12 meses, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.148",
+            "lastUpdated": "2024-04-29T19:19:46.148",
+            "id": "alPgFeyrdKw",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 0-12 meses, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "YZowDMGPZiS"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.188",
+            "lastUpdated": "2024-04-29T19:19:46.188",
+            "id": "syRm7se9L8s",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 25-49 años, G-No, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.223",
+            "lastUpdated": "2024-04-29T19:19:46.223",
+            "id": "O8g0IoMGKTq",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 70-79 años, G-No, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.282",
+            "lastUpdated": "2024-04-29T19:19:46.282",
+            "id": "L2M09Yu7U6s",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 25-49 años, G-Sí, E-Sí",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.301",
+            "lastUpdated": "2024-04-29T19:19:46.301",
+            "id": "be4qvtcEVun",
+            "ignoreApproval": false,
+            "name": "Eventos, Femenino, 50-59 años, G-No, E-No",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-29T19:19:46.221",
+            "lastUpdated": "2024-04-29T19:19:46.221",
+            "id": "l8jnGvKxYTg",
+            "ignoreApproval": false,
+            "name": "Eventos, Masculino, 70-79 años, G-Sí, E-No sabe",
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "rVKYlPtLeyO"
+                },
+                {
+                    "id": "KGnQbRIQ0L9"
+                }
+            ]
+        }
+    ],
+    "categoryOptions": [
+        {
+            "created": "2024-04-25T18:58:18.427",
+            "lastUpdated": "2024-04-29T14:08:09.075",
+            "name": "25-49 años",
+            "id": "Gpr45O5MqBN",
+            "shortName": "25-49 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-25T14:59:31.948",
+            "lastUpdated": "2024-04-29T14:08:09.075",
+            "name": "G-No",
+            "id": "oT3MZop88wO",
+            "shortName": "G-No",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-21T03:59:50.977",
+            "lastUpdated": "2024-04-29T14:08:09.075",
+            "name": "G-Sí",
+            "id": "qOdSxLlHPT4",
+            "shortName": "G-Sí",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:58:28.485",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "50-59 años",
+            "id": "PaYDBF3cLdR",
+            "shortName": "50-59 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:59:04.887",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "80 o más años",
+            "id": "p46elQQdyC0",
+            "shortName": "80 o más años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-25T14:59:48.605",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "G-No sabe",
+            "id": "h80glqe8Ph5",
+            "shortName": "G-No sabe",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:57:58.422",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "18-24 años",
+            "id": "Dab7glBUfkU",
+            "shortName": "18-24 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:58:39.272",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "60-69 años",
+            "id": "FXlYp90D7ar",
+            "shortName": "60-69 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-21T04:00:48.142",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "E-No sabe",
+            "id": "k2cwnZFiZ8m",
+            "shortName": "E-No sabe",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.576",
+            "lastUpdated": "2021-08-30T18:45:16.587",
+            "name": "default",
+            "id": "xYerKDKCefk",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-26T15:40:07.103",
+            "lastUpdated": "2024-04-29T14:05:44.676",
+            "name": "Eventos",
+            "id": "rVKYlPtLeyO",
+            "shortName": "Eventos",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2023-12-18T20:53:16.228",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "Masculino",
+            "id": "KGnQbRIQ0L9",
+            "shortName": "M",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "code": "Femenino",
+            "created": "2023-12-22T17:52:38.388",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "Femenino",
+            "id": "tSOSzqF40Ws",
+            "shortName": "Femenino",
+            "formName": "Femenino",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:57:48.808",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "1-17 años",
+            "id": "ocUo1SHzmsE",
+            "shortName": "1-17 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-25T14:58:35.628",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "E-Sí",
+            "id": "LzbnsM4f8KT",
+            "shortName": "E-Sí",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:58:51.761",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "70-79 años",
+            "id": "aruFwaYr3r7",
+            "shortName": "70-79 años",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-03-21T04:00:33.778",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "E-No",
+            "id": "JdB07nEnqL9",
+            "shortName": "E-No",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        },
+        {
+            "created": "2024-04-25T18:57:36.039",
+            "lastUpdated": "2024-04-29T14:08:09.076",
+            "name": "0-12 meses",
+            "id": "YZowDMGPZiS",
+            "shortName": "0-12 meses",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        }
+    ],
+    "dataElements": [
+        {
+            "lastUpdated": "2024-04-29T14:05:44.795",
+            "id": "NVihtmQcw9u",
+            "created": "2024-04-25T19:06:11.646",
+            "name": "Lista eventos - ESAVI",
+            "shortName": "Lista eventos - ESAVI",
+            "aggregationType": "COUNT",
+            "domainType": "AGGREGATE",
+            "valueType": "NUMBER",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "hiSWsjM3CDq"
+            },
+            "translations": [],
+            "attributeValues": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        }
+    ],
+    "categoryCombos": [
+        {
+            "created": "2024-04-25T19:00:03.966",
+            "lastUpdated": "2024-05-27T20:07:46.842",
+            "name": "Edad - Sexo - Grave - Embarazo",
+            "id": "hiSWsjM3CDq",
+            "dataDimensionType": "DISAGGREGATION",
+            "skipTotal": false,
+            "translations": [],
+            "categories": [
+                {
+                    "id": "M09yqFFI4Hk"
+                },
+                {
+                    "id": "j53Jq1FtPc5"
+                },
+                {
+                    "id": "r8mxkfMszT0"
+                },
+                {
+                    "id": "E3lzKSdX3Li"
+                },
+                {
+                    "id": "I26bga5WcD7"
+                }
+            ]
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.581",
+            "lastUpdated": "2024-05-27T20:07:46.842",
+            "name": "default",
+            "id": "bjDvmb4bfuf",
+            "dataDimensionType": "DISAGGREGATION",
+            "skipTotal": false,
+            "translations": [],
+            "categories": [
+                {
+                    "id": "GLevLNI9wkl"
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "created": "2024-03-21T04:28:22.949",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Grave",
+            "id": "E3lzKSdX3Li",
+            "shortName": "Grave",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "qOdSxLlHPT4"
+                },
+                {
+                    "id": "oT3MZop88wO"
+                },
+                {
+                    "id": "h80glqe8Ph5"
+                }
+            ]
+        },
+        {
+            "created": "2024-03-21T04:28:52.700",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Embarazo ",
+            "id": "I26bga5WcD7",
+            "shortName": "Embarazo",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "LzbnsM4f8KT"
+                },
+                {
+                    "id": "JdB07nEnqL9"
+                },
+                {
+                    "id": "k2cwnZFiZ8m"
+                }
+            ]
+        },
+        {
+            "created": "2023-12-18T20:54:15.945",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Sexo",
+            "id": "j53Jq1FtPc5",
+            "shortName": "Sexo",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "KGnQbRIQ0L9"
+                },
+                {
+                    "id": "tSOSzqF40Ws"
+                }
+            ]
+        },
+        {
+            "created": "2024-04-26T15:40:39.779",
+            "lastUpdated": "2024-04-29T14:05:44.729",
+            "name": "Eventos ESAVI",
+            "id": "M09yqFFI4Hk",
+            "shortName": "Eventos ESAVI",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "rVKYlPtLeyO"
+                }
+            ]
+        },
+        {
+            "created": "2024-01-15T01:15:08.667",
+            "lastUpdated": "2024-04-29T14:08:09.103",
+            "name": "Edad",
+            "id": "r8mxkfMszT0",
+            "shortName": "Edad",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": true,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "YZowDMGPZiS"
+                },
+                {
+                    "id": "ocUo1SHzmsE"
+                },
+                {
+                    "id": "Dab7glBUfkU"
+                },
+                {
+                    "id": "Gpr45O5MqBN"
+                },
+                {
+                    "id": "PaYDBF3cLdR"
+                },
+                {
+                    "id": "FXlYp90D7ar"
+                },
+                {
+                    "id": "aruFwaYr3r7"
+                },
+                {
+                    "id": "p46elQQdyC0"
+                }
+            ]
+        },
+        {
+            "code": "default",
+            "created": "2021-08-30T18:45:16.579",
+            "lastUpdated": "2024-06-30T10:48:46.393",
+            "name": "default",
+            "id": "GLevLNI9wkl",
+            "shortName": "default",
+            "dataDimensionType": "DISAGGREGATION",
+            "dataDimension": false,
+            "attributeValues": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ]
+        }
+    ]
+}

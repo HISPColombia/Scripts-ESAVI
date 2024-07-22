@@ -1,0 +1,2834 @@
+{
+    "dashboards": [
+        {
+            "created": "2024-05-06T15:29:02.039",
+            "lastUpdated": "2024-06-05T22:24:39.082",
+            "name": "Tablero regional ESAVI - Análisis por gravedad",
+            "id": "dSqGpdnmSG0",
+            "restrictFilters": false,
+            
+            "layout": {
+                "columns": []
+            },
+            "itemConfig": {
+                "insertPosition": "END"
+            },
+            "favorites": [],
+            "dashboardItems": [
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "M1viZbNsu1B",
+                    "created": "2024-05-15T14:21:37.872",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 24,
+                    "interpretationCount": 0,
+                    "x": 0,
+                    "width": 30,
+                    "y": 0,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "JkcmrZVv4gd"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "myiFCR6XkZG",
+                    "created": "2024-05-15T14:21:37.872",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 25,
+                    "interpretationCount": 0,
+                    "x": 0,
+                    "width": 30,
+                    "y": 24,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "YGyWgJWLzJv"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "IxNgUeipdIt",
+                    "created": "2024-05-15T14:21:37.872",
+                    "type": "EVENT_CHART",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 25,
+                    "interpretationCount": 0,
+                    "x": 30,
+                    "width": 30,
+                    "y": 24,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "eventChart": {
+                        "id": "dylmEm4PgN2"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "Hu2SKrY0kkd",
+                    "created": "2024-05-15T14:21:37.872",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 25,
+                    "interpretationCount": 0,
+                    "x": 0,
+                    "width": 30,
+                    "y": 49,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "lVByvbR8dkM"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "r5xXMPal5WY",
+                    "created": "2024-05-15T14:21:37.873",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 25,
+                    "interpretationCount": 0,
+                    "x": 30,
+                    "width": 30,
+                    "y": 49,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "WtLRMBfHqb2"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "yyWbr4zmMVY",
+                    "created": "2024-05-15T14:21:37.873",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 22,
+                    "interpretationCount": 0,
+                    "x": 0,
+                    "width": 30,
+                    "y": 74,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "hLt2WkXjLCI"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "KsWpJYJRTKY",
+                    "created": "2024-05-15T14:21:37.873",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 22,
+                    "interpretationCount": 0,
+                    "x": 30,
+                    "width": 30,
+                    "y": 74,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "EpTLLYnVSjy"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "LEDvLalrriD",
+                    "created": "2024-05-15T14:21:37.873",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 23,
+                    "interpretationCount": 0,
+                    "x": 0,
+                    "width": 60,
+                    "y": 96,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "fu5mrFiBrMT"
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "oAu93TrhFeE",
+                    "created": "2024-05-15T14:21:37.873",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 24,
+                    "interpretationCount": 0,
+                    "x": 30,
+                    "width": 30,
+                    "y": 0,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "RAKjYJcFXmc"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "rmh48imFAQe",
+                    "created": "2024-05-15T14:21:37.873",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 47,
+                    "interpretationCount": 0,
+                    "x": 0,
+                    "width": 20,
+                    "y": 119,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "TD3Mg60f33O"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "gaXNESelPj7",
+                    "created": "2024-05-15T14:21:37.873",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 47,
+                    "interpretationCount": 0,
+                    "x": 20,
+                    "width": 20,
+                    "y": 119,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "uRpJWbsQPJt"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-05-15T14:21:37.900",
+                    "id": "tsv2lVpi0TE",
+                    "created": "2024-05-15T14:21:37.873",
+                    "type": "VISUALIZATION",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 47,
+                    "interpretationCount": 0,
+                    "x": 40,
+                    "width": 20,
+                    "y": 119,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "visualization": {
+                        "id": "UpCw4EBSTp0"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                }
+            ],
+            "translations": [],
+            "allowedFilters": []
+        }
+    ],
+    "maps": [
+        {
+            "lastUpdated": "2024-05-15T16:31:02.686",
+            "id": "fu5mrFiBrMT",
+            "created": "2024-03-25T18:25:00.792",
+            "name": "Mapa de notificaciones de los ESAVI por notificador y gravedad",
+            "basemap": "osmLight",
+            "description": "",
+            
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "lastUpdated": "2024-05-07T15:06:28.873",
+                    "id": "QNiYncoBbcg",
+                    "created": "2024-03-25T18:25:00.729",
+                    "userOrganisationUnitChildren": false,
+                    "subscribed": false,
+                    "userOrganisationUnit": false,
+                    "method": 2,
+                    "renderingStrategy": "SINGLE",
+                    "sortOrder": 0,
+                    "topLimit": 0,
+                    "favorite": false,
+                    "userOrganisationUnitGrandChildren": false,
+                    "displayName": "CENTINELA -AEFI non serious cases",
+                    "layer": "thematic",
+                    "hideTitle": false,
+                    "eventClustering": false,
+                    "opacity": 1.0,
+                    "skipRounding": false,
+                    "colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+                    "parentLevel": 0,
+                    "parentGraphMap": {},
+                    "completedOnly": false,
+                    "eventPointRadius": 0,
+                    "displayFormName": "CENTINELA -AEFI non serious cases",
+                    "name": "CENTINELA -AEFI non serious cases",
+                    "classes": 5,
+                    "hideSubtitle": false,
+                    "externalAccess": false,
+                    "digitGroupSeparator": "SPACE",
+                    "program": {
+                        "id": "aFGRl00bzio"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "relativePeriods": {
+                        "thisYear": false,
+                        "quartersLastYear": false,
+                        "last30Days": false,
+                        "last10Years": false,
+                        "last52Weeks": false,
+                        "last90Days": false,
+                        "thisWeek": false,
+                        "last60Days": false,
+                        "lastMonth": false,
+                        "last14Days": false,
+                        "biMonthsThisYear": false,
+                        "yesterday": false,
+                        "monthsThisYear": false,
+                        "last2SixMonths": false,
+                        "thisQuarter": false,
+                        "last12Months": false,
+                        "last5FinancialYears": false,
+                        "lastQuarter": false,
+                        "thisSixMonth": false,
+                        "last3Months": false,
+                        "thisFinancialYear": false,
+                        "last4Weeks": false,
+                        "thisDay": false,
+                        "thisMonth": false,
+                        "last5Years": true,
+                        "last6BiMonths": false,
+                        "last10FinancialYears": false,
+                        "last4BiWeeks": false,
+                        "lastFinancialYear": false,
+                        "weeksThisYear": false,
+                        "lastBiWeek": false,
+                        "last6Months": false,
+                        "last3Days": false,
+                        "quartersThisYear": false,
+                        "monthsLastYear": false,
+                        "lastWeek": false,
+                        "last7Days": false,
+                        "last180Days": false,
+                        "thisBimonth": false,
+                        "lastBimonth": false,
+                        "lastSixMonth": false,
+                        "thisBiWeek": false,
+                        "lastYear": false,
+                        "last12Weeks": false,
+                        "last4Quarters": false
+                    },
+                    "dataElementGroupSetDimensions": [],
+                    "attributeDimensions": [],
+                    "translations": [],
+                    "filterDimensions": [
+                        "pe"
+                    ],
+                    "interpretations": [],
+                    "userGroupAccesses": [],
+                    "subscribers": [],
+                    "columns": [],
+                    "dataElementDimensions": [],
+                    "periods": [],
+                    "categoryDimensions": [],
+                    "itemOrganisationUnitGroups": [],
+                    "programIndicatorDimensions": [],
+                    "columnDimensions": [
+                        "dx"
+                    ],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "favorites": [],
+                    "dataDimensionItems": [
+                        {
+                            "dataDimensionItemType": "PROGRAM_INDICATOR",
+                            "programIndicator": {
+                                "id": "f4bKlyoOxGA"
+                            }
+                        }
+                    ],
+                    "categoryOptionGroupSetDimensions": [],
+                    "organisationUnitGroupSetDimensions": [],
+                    "organisationUnitLevels": [],
+                    "organisationUnits": [
+                        {
+                            "id": "MDzTj1yWApH"
+                        },
+                        {
+                            "id": "q8kYW2iwzeU"
+                        }
+                    ],
+                    "filters": [],
+                    "rows": []
+                },
+                {
+                    "lastUpdated": "2024-05-07T15:06:28.873",
+                    "id": "gJxzxTE0mx7",
+                    "created": "2024-03-25T18:32:50.919",
+                    "userOrganisationUnitChildren": false,
+                    "subscribed": false,
+                    "userOrganisationUnit": false,
+                    "method": 2,
+                    "renderingStrategy": "SINGLE",
+                    "sortOrder": 0,
+                    "topLimit": 0,
+                    "favorite": false,
+                    "userOrganisationUnitGrandChildren": false,
+                    "displayName": "CENTINELA -AEFI serious cases",
+                    "layer": "thematic",
+                    "hideTitle": false,
+                    "eventClustering": false,
+                    "opacity": 0.94,
+                    "skipRounding": false,
+                    "colorScale": "#edf8e9,#bae4b3,#74c476,#31a354,#006d2c",
+                    "parentLevel": 0,
+                    "parentGraphMap": {},
+                    "completedOnly": false,
+                    "eventPointRadius": 0,
+                    "displayFormName": "CENTINELA -AEFI serious cases",
+                    "name": "CENTINELA -AEFI serious cases",
+                    "classes": 5,
+                    "hideSubtitle": false,
+                    "externalAccess": false,
+                    "digitGroupSeparator": "SPACE",
+                    "program": {
+                        "id": "aFGRl00bzio"
+                    },
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "relativePeriods": {
+                        "thisYear": false,
+                        "quartersLastYear": false,
+                        "last30Days": false,
+                        "last10Years": false,
+                        "last52Weeks": false,
+                        "last90Days": false,
+                        "thisWeek": false,
+                        "last60Days": false,
+                        "lastMonth": false,
+                        "last14Days": false,
+                        "biMonthsThisYear": false,
+                        "yesterday": false,
+                        "monthsThisYear": false,
+                        "last2SixMonths": false,
+                        "thisQuarter": false,
+                        "last12Months": false,
+                        "last5FinancialYears": false,
+                        "lastQuarter": false,
+                        "thisSixMonth": false,
+                        "last3Months": false,
+                        "thisFinancialYear": false,
+                        "last4Weeks": false,
+                        "thisDay": false,
+                        "thisMonth": false,
+                        "last5Years": true,
+                        "last6BiMonths": false,
+                        "last10FinancialYears": false,
+                        "last4BiWeeks": false,
+                        "lastFinancialYear": false,
+                        "weeksThisYear": false,
+                        "lastBiWeek": false,
+                        "last6Months": false,
+                        "last3Days": false,
+                        "quartersThisYear": false,
+                        "monthsLastYear": false,
+                        "lastWeek": false,
+                        "last7Days": false,
+                        "last180Days": false,
+                        "thisBimonth": false,
+                        "lastBimonth": false,
+                        "lastSixMonth": false,
+                        "thisBiWeek": false,
+                        "lastYear": false,
+                        "last12Weeks": false,
+                        "last4Quarters": false
+                    },
+                    "dataElementGroupSetDimensions": [],
+                    "attributeDimensions": [],
+                    "translations": [],
+                    "filterDimensions": [
+                        "pe"
+                    ],
+                    "interpretations": [],
+                    "userGroupAccesses": [],
+                    "subscribers": [],
+                    "columns": [],
+                    "dataElementDimensions": [],
+                    "periods": [],
+                    "categoryDimensions": [],
+                    "itemOrganisationUnitGroups": [],
+                    "programIndicatorDimensions": [],
+                    "columnDimensions": [
+                        "dx"
+                    ],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "favorites": [],
+                    "dataDimensionItems": [
+                        {
+                            "dataDimensionItemType": "PROGRAM_INDICATOR",
+                            "programIndicator": {
+                                "id": "XOKlMdcw4qy"
+                            }
+                        }
+                    ],
+                    "categoryOptionGroupSetDimensions": [],
+                    "organisationUnitGroupSetDimensions": [],
+                    "organisationUnitLevels": [],
+                    "organisationUnits": [
+                        {
+                            "id": "FLc3aZivutf"
+                        },
+                        {
+                            "id": "MDzTj1yWApH"
+                        },
+                        {
+                            "id": "q8kYW2iwzeU"
+                        }
+                    ],
+                    "filters": [],
+                    "rows": []
+                }
+            ],
+            "subscribers": [],
+            "attributeValues": []
+        }
+    ],
+    "eventCharts": [
+        {
+            "lastUpdated": "2024-05-15T16:25:25.244",
+            "id": "dylmEm4PgN2",
+            "created": "2023-10-09T22:09:09.422",
+            "name": "Frecuencia de los ESAVI graves por desenlace",
+            "showData": true,
+            "userOrganisationUnitChildren": false,
+            "type": "COLUMN",
+            "userOrganisationUnit": true,
+            "hideNaData": false,
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "sortOrder": 0,
+            "topLimit": 0,
+            "collapseDataDimensions": false,
+            "hideEmptyRowItems": "NONE",
+            "legacy": true,
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "outputType": "EVENT",
+            "description": "",
+            "hideLegend": false,
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "hideTitle": true,
+            "skipRounding": false,
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "programStage": {
+                "id": "lSpdre0srBn"
+            },
+            "attributeDimensions": [],
+            "translations": [],
+            "filterDimensions": [
+                "pe",
+                "fq1c1A3EOX5"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "yRrSDiR5v1M"
+            ],
+            "attributeValues": [],
+            "favorites": [],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [
+                {
+                    "dataElement": {
+                        "id": "yRrSDiR5v1M"
+                    }
+                },
+                {
+                    "filter": "IN:1",
+                    "dataElement": {
+                        "id": "fq1c1A3EOX5"
+                    }
+                }
+            ],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "rowDimensions": [
+                "ou"
+            ]
+        }
+    ],
+    "visualizations": [
+        {
+            "lastUpdated": "2024-05-15T16:30:14.142",
+            "id": "EpTLLYnVSjy",
+            "created": "2024-03-25T18:58:46.638",
+            "name": "Distribución de los ESAVI no graves por sexo",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": false,
+            "type": "PIE",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 0,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "SUM",
+            "userOrganisationUnitGrandChildren": true,
+            "hideSubtitle": true,
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DEFAULT",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": false
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "ou",
+                "pe"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "Vqz3lOcheE6"
+                    }
+                },
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "sy3cQQ9Q0Rn"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "rowDimensions": [],
+            "series": [
+                {
+                    "dimensionItem": "Vqz3lOcheE6",
+                    "axis": 0
+                },
+                {
+                    "dimensionItem": "sy3cQQ9Q0Rn",
+                    "axis": 0
+                }
+            ]
+        },
+        {
+            "lastUpdated": "2024-05-16T19:12:33.589",
+            "id": "lVByvbR8dkM",
+            "created": "2024-05-02T23:15:10.104",
+            "name": "Distribución de los ESAVI graves por grupo de edad",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": false,
+            "type": "STACKED_COLUMN",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 0,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DEFAULT",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": true
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "pe",
+                "ou",
+                "dx"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "E3lzKSdX3Li"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "DATA_ELEMENT",
+                    "dataElement": {
+                        "id": "NVihtmQcw9u"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [
+                {
+                    "category": {
+                        "id": "E3lzKSdX3Li"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "qOdSxLlHPT4"
+                        }
+                    ]
+                },
+                {
+                    "category": {
+                        "id": "r8mxkfMszT0"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "YZowDMGPZiS"
+                        },
+                        {
+                            "id": "ocUo1SHzmsE"
+                        },
+                        {
+                            "id": "Dab7glBUfkU"
+                        },
+                        {
+                            "id": "Gpr45O5MqBN"
+                        },
+                        {
+                            "id": "PaYDBF3cLdR"
+                        },
+                        {
+                            "id": "FXlYp90D7ar"
+                        },
+                        {
+                            "id": "aruFwaYr3r7"
+                        },
+                        {
+                            "id": "p46elQQdyC0"
+                        }
+                    ]
+                }
+            ],
+            "rowDimensions": [
+                "r8mxkfMszT0"
+            ],
+            "series": []
+        },
+        {
+            "lastUpdated": "2024-05-16T19:12:45.627",
+            "id": "WtLRMBfHqb2",
+            "created": "2024-05-02T23:15:10.104",
+            "name": "Distribución de los ESAVI no graves por grupo de edad",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": false,
+            "type": "STACKED_COLUMN",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 0,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DARK",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": true
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "pe",
+                "ou",
+                "dx"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "E3lzKSdX3Li"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "DATA_ELEMENT",
+                    "dataElement": {
+                        "id": "NVihtmQcw9u"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [
+                {
+                    "category": {
+                        "id": "E3lzKSdX3Li"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "oT3MZop88wO"
+                        }
+                    ]
+                },
+                {
+                    "category": {
+                        "id": "r8mxkfMszT0"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "YZowDMGPZiS"
+                        },
+                        {
+                            "id": "ocUo1SHzmsE"
+                        },
+                        {
+                            "id": "Dab7glBUfkU"
+                        },
+                        {
+                            "id": "Gpr45O5MqBN"
+                        },
+                        {
+                            "id": "PaYDBF3cLdR"
+                        },
+                        {
+                            "id": "FXlYp90D7ar"
+                        },
+                        {
+                            "id": "aruFwaYr3r7"
+                        },
+                        {
+                            "id": "p46elQQdyC0"
+                        }
+                    ]
+                }
+            ],
+            "rowDimensions": [
+                "r8mxkfMszT0"
+            ],
+            "series": []
+        },
+        {
+            "lastUpdated": "2024-05-15T16:29:49.288",
+            "id": "hLt2WkXjLCI",
+            "created": "2024-03-20T22:26:03.802",
+            "name": "Distribución de los ESAVI graves por sexo",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": false,
+            "type": "PIE",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 0,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "description": "",
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DEFAULT",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": false
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "ou",
+                "pe"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "YutyKzeUECh"
+                    }
+                },
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "otYCjdZ86fA"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "rowDimensions": [],
+            "series": [
+                {
+                    "dimensionItem": "YutyKzeUECh",
+                    "axis": 0
+                },
+                {
+                    "dimensionItem": "otYCjdZ86fA",
+                    "axis": 0
+                }
+            ]
+        },
+        {
+            "lastUpdated": "2024-05-16T19:13:12.520",
+            "id": "TD3Mg60f33O",
+            "created": "2024-03-20T22:26:03.802",
+            "name": "Ranking de eventos por frecuencia de los ESAVI graves en poblacion de 0-17 años",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": false,
+            "type": "STACKED_BAR",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 1,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "ALL",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DEFAULT",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": true
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "r8mxkfMszT0",
+                "E3lzKSdX3Li",
+                "ou",
+                "pe"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "DATA_ELEMENT",
+                    "dataElement": {
+                        "id": "YHgy9RoyhCt"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [
+                {
+                    "category": {
+                        "id": "MdRePBAz8PD"
+                    },
+                    "categoryOptions": []
+                },
+                {
+                    "category": {
+                        "id": "r8mxkfMszT0"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "YZowDMGPZiS"
+                        },
+                        {
+                            "id": "ocUo1SHzmsE"
+                        }
+                    ]
+                },
+                {
+                    "category": {
+                        "id": "E3lzKSdX3Li"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "qOdSxLlHPT4"
+                        }
+                    ]
+                }
+            ],
+            "rowDimensions": [
+                "MdRePBAz8PD"
+            ],
+            "series": [
+                {
+                    "dimensionItem": "YutyKzeUECh",
+                    "axis": 0
+                },
+                {
+                    "dimensionItem": "otYCjdZ86fA",
+                    "axis": 0
+                }
+            ]
+        },
+        {
+            "lastUpdated": "2024-05-16T19:12:14.449",
+            "id": "RAKjYJcFXmc",
+            "created": "2024-04-22T17:39:16.312",
+            "name": "Tendencia de la frecuencia de los ESAVI no graves por mes de notificación",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": false,
+            "type": "LINE",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 0,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DEFAULT",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": true
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [
+                {
+                    "index": 0,
+                    "type": "DOMAIN",
+                    "title": {
+                        "textMode": "CUSTOM"
+                    }
+                }
+            ],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "ou"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "f4bKlyoOxGA"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [
+                {
+                    "id": "202101"
+                },
+                {
+                    "id": "202102"
+                },
+                {
+                    "id": "202103"
+                },
+                {
+                    "id": "202104"
+                },
+                {
+                    "id": "202105"
+                },
+                {
+                    "id": "202106"
+                },
+                {
+                    "id": "202107"
+                },
+                {
+                    "id": "202108"
+                },
+                {
+                    "id": "202109"
+                },
+                {
+                    "id": "202110"
+                },
+                {
+                    "id": "202111"
+                },
+                {
+                    "id": "202112"
+                },
+                {
+                    "id": "202201"
+                },
+                {
+                    "id": "202202"
+                },
+                {
+                    "id": "202203"
+                },
+                {
+                    "id": "202204"
+                },
+                {
+                    "id": "202205"
+                },
+                {
+                    "id": "202206"
+                },
+                {
+                    "id": "202207"
+                },
+                {
+                    "id": "202208"
+                },
+                {
+                    "id": "202209"
+                },
+                {
+                    "id": "202210"
+                },
+                {
+                    "id": "202211"
+                },
+                {
+                    "id": "202212"
+                },
+                {
+                    "id": "202301"
+                },
+                {
+                    "id": "202302"
+                },
+                {
+                    "id": "202303"
+                },
+                {
+                    "id": "202304"
+                },
+                {
+                    "id": "202305"
+                },
+                {
+                    "id": "202306"
+                },
+                {
+                    "id": "202307"
+                },
+                {
+                    "id": "202308"
+                },
+                {
+                    "id": "202309"
+                },
+                {
+                    "id": "202310"
+                },
+                {
+                    "id": "202311"
+                },
+                {
+                    "id": "202312"
+                },
+                {
+                    "id": "202401"
+                },
+                {
+                    "id": "202402"
+                },
+                {
+                    "id": "202403"
+                },
+                {
+                    "id": "202404"
+                },
+                {
+                    "id": "202405"
+                },
+                {
+                    "id": "202406"
+                },
+                {
+                    "id": "202407"
+                },
+                {
+                    "id": "202408"
+                },
+                {
+                    "id": "202409"
+                },
+                {
+                    "id": "202410"
+                },
+                {
+                    "id": "202411"
+                },
+                {
+                    "id": "202412"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "rowDimensions": [
+                "pe"
+            ],
+            "series": [
+                {
+                    "dimensionItem": "XOKlMdcw4qy",
+                    "axis": 0
+                },
+                {
+                    "dimensionItem": "f4bKlyoOxGA",
+                    "axis": 0
+                }
+            ]
+        },
+        {
+            "lastUpdated": "2024-05-16T19:11:58.835",
+            "id": "JkcmrZVv4gd",
+            "created": "2024-04-22T17:39:16.312",
+            "name": "Tendencia de la frecuencia de los ESAVI graves por mes de notificación",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": false,
+            "type": "LINE",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 0,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DEFAULT",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": true
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [
+                {
+                    "index": 0,
+                    "type": "DOMAIN",
+                    "title": {
+                        "textMode": "CUSTOM"
+                    }
+                }
+            ],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "ou"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "XOKlMdcw4qy"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [
+                {
+                    "id": "202101"
+                },
+                {
+                    "id": "202102"
+                },
+                {
+                    "id": "202103"
+                },
+                {
+                    "id": "202104"
+                },
+                {
+                    "id": "202105"
+                },
+                {
+                    "id": "202106"
+                },
+                {
+                    "id": "202107"
+                },
+                {
+                    "id": "202108"
+                },
+                {
+                    "id": "202109"
+                },
+                {
+                    "id": "202110"
+                },
+                {
+                    "id": "202111"
+                },
+                {
+                    "id": "202112"
+                },
+                {
+                    "id": "202201"
+                },
+                {
+                    "id": "202202"
+                },
+                {
+                    "id": "202203"
+                },
+                {
+                    "id": "202204"
+                },
+                {
+                    "id": "202205"
+                },
+                {
+                    "id": "202206"
+                },
+                {
+                    "id": "202207"
+                },
+                {
+                    "id": "202208"
+                },
+                {
+                    "id": "202209"
+                },
+                {
+                    "id": "202210"
+                },
+                {
+                    "id": "202211"
+                },
+                {
+                    "id": "202212"
+                },
+                {
+                    "id": "202301"
+                },
+                {
+                    "id": "202302"
+                },
+                {
+                    "id": "202303"
+                },
+                {
+                    "id": "202304"
+                },
+                {
+                    "id": "202305"
+                },
+                {
+                    "id": "202306"
+                },
+                {
+                    "id": "202307"
+                },
+                {
+                    "id": "202308"
+                },
+                {
+                    "id": "202309"
+                },
+                {
+                    "id": "202310"
+                },
+                {
+                    "id": "202311"
+                },
+                {
+                    "id": "202312"
+                },
+                {
+                    "id": "202401"
+                },
+                {
+                    "id": "202402"
+                },
+                {
+                    "id": "202403"
+                },
+                {
+                    "id": "202404"
+                },
+                {
+                    "id": "202405"
+                },
+                {
+                    "id": "202406"
+                },
+                {
+                    "id": "202407"
+                },
+                {
+                    "id": "202408"
+                },
+                {
+                    "id": "202409"
+                },
+                {
+                    "id": "202410"
+                },
+                {
+                    "id": "202411"
+                },
+                {
+                    "id": "202412"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "rowDimensions": [
+                "pe"
+            ],
+            "series": [
+                {
+                    "dimensionItem": "XOKlMdcw4qy",
+                    "axis": 0
+                },
+                {
+                    "dimensionItem": "f4bKlyoOxGA",
+                    "axis": 0
+                }
+            ]
+        },
+        {
+            "lastUpdated": "2024-05-16T19:13:26.359",
+            "id": "uRpJWbsQPJt",
+            "created": "2024-03-20T22:26:03.802",
+            "name": "Ranking de eventos por frecuencia de los ESAVI graves en poblacion de 18 a 59 años",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": false,
+            "type": "STACKED_BAR",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 1,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "ALL",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DEFAULT",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": true
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "r8mxkfMszT0",
+                "E3lzKSdX3Li",
+                "ou",
+                "pe"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "DATA_ELEMENT",
+                    "dataElement": {
+                        "id": "YHgy9RoyhCt"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [
+                {
+                    "category": {
+                        "id": "MdRePBAz8PD"
+                    },
+                    "categoryOptions": []
+                },
+                {
+                    "category": {
+                        "id": "r8mxkfMszT0"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "Dab7glBUfkU"
+                        },
+                        {
+                            "id": "Gpr45O5MqBN"
+                        },
+                        {
+                            "id": "PaYDBF3cLdR"
+                        }
+                    ]
+                },
+                {
+                    "category": {
+                        "id": "E3lzKSdX3Li"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "qOdSxLlHPT4"
+                        }
+                    ]
+                }
+            ],
+            "rowDimensions": [
+                "MdRePBAz8PD"
+            ],
+            "series": [
+                {
+                    "dimensionItem": "YutyKzeUECh",
+                    "axis": 0
+                },
+                {
+                    "dimensionItem": "otYCjdZ86fA",
+                    "axis": 0
+                }
+            ]
+        },
+        {
+            "lastUpdated": "2024-05-15T16:22:14.705",
+            "id": "YGyWgJWLzJv",
+            "created": "2024-04-22T18:50:59.250",
+            "name": "Ranking de la unidad geografica por fecuencia de los ESAVI y gravedad",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": true,
+            "type": "STACKED_BAR",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 1,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "ALL",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "description": "",
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DEFAULT",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": false
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "pe"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "KE2GRRAuNvG"
+                    }
+                },
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "lEdZdC5S2YV"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "rowDimensions": [
+                "ou"
+            ],
+            "series": [
+                {
+                    "dimensionItem": "E3MhndplToh",
+                    "axis": 0
+                },
+                {
+                    "dimensionItem": "KLEBYnhklIG",
+                    "axis": 0
+                }
+            ]
+        },
+        {
+            "lastUpdated": "2024-05-16T19:13:39.947",
+            "id": "UpCw4EBSTp0",
+            "created": "2024-03-20T22:26:03.802",
+            "name": "Ranking de eventos por frecuencia de los ESAVI graves en poblacion mayor de 60 años",
+            "showData": true,
+            "fixRowHeaders": false,
+            "numberType": "VALUE",
+            "userOrganisationUnitChildren": false,
+            "type": "STACKED_BAR",
+            "hideEmptyColumns": false,
+            "hideEmptyRows": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "displayDensity": "NORMAL",
+            "regressionType": "NONE",
+            "cumulativeValues": false,
+            "completedOnly": false,
+            "colTotals": false,
+            "showDimensionLabels": false,
+            "sortOrder": 1,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "hideEmptyRowItems": "ALL",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "hideSubtitle": true,
+            "hideLegend": false,
+            "fixColumnHeaders": false,
+            "percentStackedValues": false,
+            "colSubTotals": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "hideTitle": true,
+            "regression": false,
+            "colorSet": "DEFAULT",
+            "skipRounding": false,
+            "legend": {
+                "showKey": false
+            },
+            
+            "fontStyle": {},
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last30Days": false,
+                "last10Years": false,
+                "last52Weeks": false,
+                "last90Days": false,
+                "thisWeek": false,
+                "last60Days": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "yesterday": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "lastQuarter": false,
+                "thisSixMonth": false,
+                "last3Months": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last10FinancialYears": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "weeksThisYear": false,
+                "lastBiWeek": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "last180Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "seriesKey": {
+                "hidden": true
+            },
+            "reportingParams": {
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false,
+                "organisationUnit": false,
+                "grandParentOrganisationUnit": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "axes": [],
+            "translations": [],
+            "yearlySeries": [],
+            "filterDimensions": [
+                "r8mxkfMszT0",
+                "E3lzKSdX3Li",
+                "ou",
+                "pe"
+            ],
+            "itemOrganisationUnitGroups": [],
+            "subscribers": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "attributeValues": [],
+            "optionalAxes": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "DATA_ELEMENT",
+                    "dataElement": {
+                        "id": "YHgy9RoyhCt"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [
+                {
+                    "category": {
+                        "id": "MdRePBAz8PD"
+                    },
+                    "categoryOptions": []
+                },
+                {
+                    "category": {
+                        "id": "r8mxkfMszT0"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "FXlYp90D7ar"
+                        },
+                        {
+                            "id": "aruFwaYr3r7"
+                        },
+                        {
+                            "id": "p46elQQdyC0"
+                        }
+                    ]
+                },
+                {
+                    "category": {
+                        "id": "E3lzKSdX3Li"
+                    },
+                    "categoryOptions": [
+                        {
+                            "id": "qOdSxLlHPT4"
+                        }
+                    ]
+                }
+            ],
+            "rowDimensions": [
+                "MdRePBAz8PD"
+            ],
+            "series": [
+                {
+                    "dimensionItem": "YutyKzeUECh",
+                    "axis": 0
+                },
+                {
+                    "dimensionItem": "otYCjdZ86fA",
+                    "axis": 0
+                }
+            ]
+        }
+    ]
+}
