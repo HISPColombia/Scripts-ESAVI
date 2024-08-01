@@ -5,7 +5,6 @@ import pandas as pd
 
 dhis2_auth = ('user', 'Passwork')
 urlBase = "https://dominio_instancia/api/"
-
 url = urlBase+'38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,oindugucx72,NI0QRzJvQ0k,oindugucx72%3AIN%3A2%3B1%3B3,lSpdre0srBn.PZxZirhNzgS,lSpdre0srBn.maY0Vi68Fv9,lSpdre0srBn.Sy1uqYvgR3r,lSpdre0srBn.Og99AH5tIQz,lSpdre0srBn.vqf60JfNqsf,lSpdre0srBn.pQJc4VA2SDW,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,NI0QRzJvQ0k,oindugucx72,lSpdre0srBn.PZxZirhNzgS,lSpdre0srBn.maY0Vi68Fv9,lSpdre0srBn.Sy1uqYvgR3r,lSpdre0srBn.Og99AH5tIQz,lSpdre0srBn.vqf60JfNqsf,lSpdre0srBn.pQJc4VA2SDW,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=200'
 url2 = urlBase+"29/categoryOptions"
 url3 = urlBase+"29/options?fields=name&filter=optionSet.id:eq:OzARj1D09Dm&filter=code:eq:"
@@ -27,11 +26,8 @@ def contar_coincidencias(data_rows):
     date_register=df['Registro']
     df['Registro'] = pd.to_datetime(df['Registro'])
     df['FechaNacimiento'] = pd.to_datetime(df['FechaNacimiento'])
-
     df['DiferenciaDias'] = (df['Registro'] - df['FechaNacimiento']).dt.days
-
     df['Edad'] = df['DiferenciaDias'] / 365.25  # Tomando en cuenta años bisiestos
-  
     rangos_edad = [(-1, 0.999), (1, 17), (18, 24), (25, 49), (50, 59), (60, 69), (70, 79), (80, float('inf'))]
     labels = ['0-12 meses', '1-17 años', '18-24 años', '25-49 años', '50-59 años', '60-69 años', '70-79 años', '80 o más años']
     df['RangoEdad'] = pd.cut(df['Edad'], bins=[lim_inf for (lim_inf, lim_sup) in rangos_edad] + [float('inf')], labels=labels)
@@ -145,8 +141,7 @@ def carga(data_import, num_data):
                     get_options = requests.get(url3+value_json['ESAVI'+str(index+1)], auth=dhis2_auth)
                     name_option=json.loads(get_options.text)
                     esavi = name_option['options'][0]['name']
-            
-           
+    
             if value_json['Genero'] == '2': # se selecciona el genero debido a las combinaciones de opciones de categoria
                 sex ='Femenino'
             
@@ -161,8 +156,7 @@ def carga(data_import, num_data):
 
             elif value_json['Grave'] == '':
                 grave = 'G-No sabe'
-            
-
+    
             if value_json['Ispregnancy'] == '1':
                 Ispregnancy = 'E-Sí'
 
@@ -171,7 +165,6 @@ def carga(data_import, num_data):
 
             elif value_json['Ispregnancy'] == '2' and value_json['Genero'] == '1':
                 Ispregnancy = 'E-No'
-            
             
             co = esavi+", "+sex+", "+value_json['RangoEdad']+", "+ grave +", "+Ispregnancy # Se crea la palabla clave para la búsqueda
             get_co = requests.get(url10+co, auth=dhis2_auth) # se realiza la consulta para consultar el id de CO
@@ -194,5 +187,5 @@ def carga(data_import, num_data):
     if (postData.status_code==200):
         response_import = requests.get(url12+id_import, auth=dhis2_auth) # se realiza la consulta para consultar el id de CO
         print(json.loads(response_import.text)["importCount"]) #status de proceso
-        
+            
 get_Data()

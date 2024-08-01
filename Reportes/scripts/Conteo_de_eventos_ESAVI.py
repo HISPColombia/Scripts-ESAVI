@@ -28,18 +28,15 @@ def contar_coincidencias(data_rows):
     df['Registro'] = pd.to_datetime(df['Registro'])
     df['FechaNacimiento'] = pd.to_datetime(df['FechaNacimiento'])
     df['DiferenciaDias'] = (df['Registro'] - df['FechaNacimiento']).dt.days
-    df['Edad'] = df['DiferenciaDias'] / 365.25  # Tomando en cuenta años bisiestos
-
+    df['Edad'] = df['DiferenciaDias'] / 365.25
     rangos_edad = [(-1, 0.999), (1, 17), (18, 24), (25, 49), (50, 59), (60, 69), (70, 79), (80, float('inf'))]
     labels = ['0-12 meses', '1-17 años', '18-24 años', '25-49 años', '50-59 años', '60-69 años', '70-79 años', '80 o más años']
     df['RangoEdad'] = pd.cut(df['Edad'], bins=[lim_inf for (lim_inf, lim_sup) in rangos_edad] + [float('inf')], labels=labels)
-
     print("Tabla de datos")
     df['Registro']=date_register
     df=df[['Registro', 'OU', 'Genero', 'FechaNacimiento', 'Edad', 'RangoEdad',"Grave","Ispregnancy"]]
     grupo_por_hospital = df.groupby(['Registro','OU', 'Genero','RangoEdad',"Grave","Ispregnancy"]).size().reset_index(name='Cantidad')
     json_data = grupo_por_hospital.to_json(orient='records')
-    
     for data_export in json.loads(json_data):
         if( data_export['Cantidad'] >= 1):
             list_data.append(data_export)   
