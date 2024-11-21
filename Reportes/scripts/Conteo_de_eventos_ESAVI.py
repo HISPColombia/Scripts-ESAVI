@@ -2,9 +2,9 @@ import requests
 import json
 import pandas as pd
 
-
 dhis2_auth = ('user', 'Passwork')
 urlBase = "https://dominio_instancia.org/api/"
+
 
 url = urlBase+"38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=500"
 url2 = urlBase+"29/categoryOptions"
@@ -35,7 +35,7 @@ def contar_coincidencias(data_rows):
     print("Tabla de datos")
     df['Registro']=date_register
     df=df[['Registro', 'OU', 'Genero', 'FechaNacimiento', 'Edad', 'RangoEdad',"Grave","Ispregnancy"]]
-    grupo_por_hospital = df.groupby(['Registro','OU', 'Genero','RangoEdad',"Grave","Ispregnancy"]).size().reset_index(name='Cantidad')
+    grupo_por_hospital = df.groupby(['Registro','OU', 'Genero','RangoEdad',"Grave","Ispregnancy"], observed=False).size().reset_index(name='Cantidad')
     json_data = grupo_por_hospital.to_json(orient='records')
     for data_export in json.loads(json_data):
         if( data_export['Cantidad'] >= 1):
@@ -47,13 +47,14 @@ def get_Data():
     print("Consultando datos en el servidor")
     response = requests.get(url, auth=dhis2_auth)     
     data_rows = json.loads(response.text)
-
-    if len(data_rows)>0:
-        data_rows=data_rows['rows']
-        carga(contar_coincidencias(data_rows), len(contar_coincidencias(data_rows)))
-
+    if(data_rows.get('rows')):
+        if len(data_rows)>0:
+            data_rows=data_rows['rows']
+            carga(contar_coincidencias(data_rows), len(contar_coincidencias(data_rows)))
+        else:
+            print("No hay datos")
     else:
-        print("No hay datos")
+        print("Error a consultar los datos")
 
     
 
@@ -76,6 +77,9 @@ def carga(data_import, num_data):
             elif value_json['Genero'] == '1':
                 sex ='Masculino'
 
+            elif value_json['Genero'] != '1' and value_json['Genero'] != '2':
+                sex ='Otro'
+
             if value_json['Grave'] == '1':
                 grave = 'G-Sí'
                 
@@ -97,6 +101,7 @@ def carga(data_import, num_data):
             get_co = requests.get(url10+co, auth=dhis2_auth) # se realiza la consulta para consultar el id de CO
             get_co=json.loads(get_co.text)
             date= str(value_json['Registro']).replace("-","").replace(" 00:00:00.0","")
+            print(co)
             if len(get_co['categoryOptionCombos'])>0:# Si el tamaño de la lista es igual a 0 no debe de realizar el proceso
                # Construcion de objecto a cargar en DHIS2
                 data={
@@ -108,11 +113,13 @@ def carga(data_import, num_data):
                 "attributeOptionCombo": "HllvX50cXC0",
                 }
                 data_imporT_carga.append(data)
+    print(data_imporT_carga)
     postData = requests.post(url11,data=json.dumps({"dataValues": data_imporT_carga}), auth=dhis2_auth, headers=headers) # carga del objecto
     _data_postData=json.loads(postData.text)
     id_import=_data_postData['response']['id']
     if (postData.status_code==200):
         response_import = requests.get(url12+id_import, auth=dhis2_auth) 
-        print(json.loads(response_import.text)) #status de proceso
+        response_import =json.loads(response_import.text)
+        print(response_import['importCount']) #status de proceso
 
 get_Data()

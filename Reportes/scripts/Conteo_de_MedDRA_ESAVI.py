@@ -2,12 +2,13 @@ import requests
 import json
 import pandas as pd
 
-
 dhis2_auth = ('user', 'Passwork')
-urlBase = "https://dominio_instancia/api/"
-url = urlBase+'38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,oindugucx72,NI0QRzJvQ0k,oindugucx72%3AIN%3A2%3B1%3B3,lSpdre0srBn.PZxZirhNzgS,lSpdre0srBn.maY0Vi68Fv9,lSpdre0srBn.Sy1uqYvgR3r,lSpdre0srBn.Og99AH5tIQz,lSpdre0srBn.vqf60JfNqsf,lSpdre0srBn.pQJc4VA2SDW,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,NI0QRzJvQ0k,oindugucx72,lSpdre0srBn.PZxZirhNzgS,lSpdre0srBn.maY0Vi68Fv9,lSpdre0srBn.Sy1uqYvgR3r,lSpdre0srBn.Og99AH5tIQz,lSpdre0srBn.vqf60JfNqsf,lSpdre0srBn.pQJc4VA2SDW,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=200'
+urlBase = "https://dominio_instancia.org/api/"
+
+headers = {'Accept': 'application/json', "Content-Type": "application/json"}
+url = urlBase+'38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,NI0QRzJvQ0k,oindugucx72%3AIN%3A2%3B1%3B3,lSpdre0srBn.PZxZirhNzgS,lSpdre0srBn.maY0Vi68Fv9,lSpdre0srBn.Sy1uqYvgR3r,lSpdre0srBn.Og99AH5tIQz,lSpdre0srBn.vqf60JfNqsf,lSpdre0srBn.pQJc4VA2SDW,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.ZzoWAqln5xc&headers=eventdate,ouname,NI0QRzJvQ0k,oindugucx72,lSpdre0srBn.PZxZirhNzgS,lSpdre0srBn.maY0Vi68Fv9,lSpdre0srBn.Sy1uqYvgR3r,lSpdre0srBn.Og99AH5tIQz,lSpdre0srBn.vqf60JfNqsf,lSpdre0srBn.pQJc4VA2SDW,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.ZzoWAqln5xc&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=NAME&includeMetadataDetails=true&outputType=EVENT&stage=lSpdre0srBn&pageSize=10000'
 url2 = urlBase+"29/categoryOptions"
-url3 = urlBase+"29/options?fields=name&filter=optionSet.id:eq:OzARj1D09Dm&filter=code:eq:"
+url3 = urlBase+"29/options?fields=name,code&filter=optionSet.id:eq:OzARj1D09Dm&filter=name:eq:"
 url4 = urlBase+"29/categoryOptions?filter=name:ne:default&fields=id,name&filter=identifiable:token:"
 url5 = urlBase+"29/categories/MdRePBAz8PD.json"
 url6 = urlBase+"29/categories"
@@ -17,7 +18,6 @@ url10 = urlBase+"29/categoryOptionCombos?fields=id,name&filter=name:eq:"
 url11 = urlBase+"dataValueSets.json?async=true&dryRun=false&strategy=NEW_AND_UPDATES&preheatCache=false&skipAudit=false&dataElementIdScheme=UID&orgUnitIdScheme=UID&idScheme=UID&skipExistingCheck=false&format=json"
 url12 = urlBase+"system/taskSummaries/DATAVALUE_IMPORT/"
 
-headers = {'Accept': 'application/json', "Content-Type": "application/json"}
 
 def contar_coincidencias(data_rows):
     list_data=[]
@@ -35,12 +35,16 @@ def contar_coincidencias(data_rows):
     print("Tabla de datos")
     df['Registro']=date_register
     df=df[['Registro', 'OU', 'Genero', 'FechaNacimiento', 'Edad', 'RangoEdad', "ESAVI1", "ESAVI2", "ESAVI3", "ESAVI4", "ESAVI5", "ESAVI6","Grave","Ispregnancy"]]
-    
     for index in range(6):
-        grupo_por_hospital = df.groupby(['Registro','OU', 'Genero','RangoEdad','ESAVI'+str(index+1),"Grave","Ispregnancy"]).size().reset_index(name='Cantidad')
+        grupo_por_hospital = df.groupby(['Registro','OU', 'Genero','RangoEdad','ESAVI'+str(index+1),"Grave","Ispregnancy"], observed=False).size().reset_index(name='Cantidad')
         json_data = grupo_por_hospital.to_json(orient='records')
         for data_export in json.loads(json_data):
-            if( data_export['Cantidad'] >= 1 and data_export['ESAVI'+str(index+1)]!=""):
+            clave = 'ESAVI' + str(index + 1)
+            if( data_export['Cantidad'] >= 1 and data_export[clave]!="" ):
+                list_data.append(data_export)
+            
+            if( data_export['Cantidad'] >= 1 and index == 0 and data_export[clave]=="" ):
+                data_export[clave]="Sin info"
                 list_data.append(data_export)
     return(list_data)
 
@@ -49,11 +53,14 @@ def get_Data():
     print("Consultando datos en el servidor")
     response = requests.get(url, auth=dhis2_auth)     
     data_rows = json.loads(response.text)
-    if len(data_rows)>0:
-        data_rows=data_rows['rows']
-        get_categoryOptions(data_rows)
+    if(data_rows.get('rows')):
+        if len(data_rows)>0:
+            data_rows=data_rows['rows']
+            get_categoryOptions(data_rows)
+        else:
+            print("No hay datos")
     else:
-        print("No hay datos")
+        print("Error a consultar los datos")
 
 
 
@@ -62,12 +69,14 @@ def get_categoryOptions(data_rows):
     # filtro para categorizar los inputs que estan vacios
     for valor_a_row in data_rows:
         for indice, valor in enumerate(valor_a_row):
-            if indice >= 2:
+            if indice >=4 and valor != '':
                 if valor != '':
                     if valor not in item_code:
                         if '00:00:00.0' not in valor and valor!='2' and valor!='1':
                             item_code.append(valor)
-    
+            elif indice ==4 and valor == '':
+                if "Sin info" not in item_code:
+                    item_code.append('Sin info')
     response_categories = requests.get(url5, auth=dhis2_auth)
     Categoria_data = json.loads(response_categories.text)
     # Eliminacion de atributos de la respuesta que no permiten la actializacion de la categoria con las nuevas opciones de categoria
@@ -78,15 +87,16 @@ def get_categoryOptions(data_rows):
 def creacion_Metadata(item_code,Categoria_data,data_rows):
     print("Creacion y actualizacion de Metadatos")
     print(len(item_code), " tipos de ESAVI detectados")
-    for value_options in item_code:  
+    for value_options in item_code:
         # consulta de nombre de las opcines del optionSet de ESAVI
         response_options = requests.get(url3+value_options, auth=dhis2_auth)
         name_options=json.loads(response_options.text)
         if len(name_options['options'])>0:
+            code_options=name_options['options'][0]['code']
             name_options=name_options['options'][0]['name']
-            categoryOptions={"code": value_options, "formName": name_options,"name": name_options, "organisationUnits": []}
+            categoryOptions={"code":code_options, "formName": name_options,"name": name_options, "organisationUnits": []}
           # Consulta de las opciones de la categoria
-            response_categoryOptions = requests.get(url4+value_options, auth=dhis2_auth)
+            response_categoryOptions = requests.get(url4+code_options, auth=dhis2_auth)
             lista_categoryOptions=json.loads(response_categoryOptions.text)
             lent_categoryOptions=len(lista_categoryOptions['categoryOptions'])
             # Creacion de las opciones que no existen
@@ -111,10 +121,9 @@ def creacion_Metadata(item_code,Categoria_data,data_rows):
 
 def result_update(updateCategoria,data_rows):
     if updateCategoria.status_code == 200:
-        updateCategoria_mantinimiento = requests.post(url7, auth=dhis2_auth, headers=headers)#actualizacion de opciones de categoria en administracion de datos
-        print(updateCategoria_mantinimiento, "Se realizo la creacion y actualizacion de la metadata del data Set")
+        # updateCategoria_mantinimiento = requests.post(url7, auth=dhis2_auth, headers=headers)#actualizacion de opciones de categoria en administracion de datos
+        # print(updateCategoria_mantinimiento, "Se realizo la creacion y actualizacion de la metadata del data Set")
         Precarga_datos_analiticos(contar_coincidencias(data_rows))
-
     else:
         print("fallo el proceso creacion y actualizacion de metadatos")
 
@@ -140,13 +149,18 @@ def carga(data_import, num_data):
                 if 'ESAVI'+str(index+1) in value_json:
                     get_options = requests.get(url3+value_json['ESAVI'+str(index+1)], auth=dhis2_auth)
                     name_option=json.loads(get_options.text)
-                    esavi = name_option['options'][0]['name']
-    
+                    if len(name_option['options'])>0:
+                        esavi = name_option['options'][0]['name']
+                    else:
+                        esavi = None
             if value_json['Genero'] == '2': # se selecciona el genero debido a las combinaciones de opciones de categoria
                 sex ='Femenino'
             
             elif value_json['Genero'] == '1':
                 sex ='Masculino'
+            
+            elif value_json['Genero'] != '1' and value_json['Genero'] != '2':
+                sex ='Otro'
 
             if value_json['Grave'] == '1':
                 grave = 'G-Sí'
@@ -165,22 +179,22 @@ def carga(data_import, num_data):
 
             elif value_json['Ispregnancy'] == '2' and value_json['Genero'] == '1':
                 Ispregnancy = 'E-No'
-            
-            co = esavi+", "+sex+", "+value_json['RangoEdad']+", "+ grave +", "+Ispregnancy # Se crea la palabla clave para la búsqueda
-            get_co = requests.get(url10+co, auth=dhis2_auth) # se realiza la consulta para consultar el id de CO
-            get_co=json.loads(get_co.text)
-            date= str(value_json['Registro']).replace("-","").replace(" 00:00:00.0","")
-            if len(get_co['categoryOptionCombos'])>0:# Si el tamaño de la lista es igual a 0 no debe de realizar el proceso
-                # Construcion de objecto a cargar en DHIS2
-                data={
-                "dataElement": "YHgy9RoyhCt", #dato por defecto
-                "categoryOptionCombo": get_co['categoryOptionCombos'][0]['id'], 
-                "period": date, # periodo a registrar en el DataSet
-                "orgUnit": get_id_OU['organisationUnits'][0]['id'],
-                "value": value_json['Cantidad'],
-                "attributeOptionCombo": "HllvX50cXC0",
-                }
-                data_imporT_carga.append(data)
+            if esavi != None:
+                co = esavi+", "+sex+", "+value_json['RangoEdad']+", "+ grave +", "+Ispregnancy # Se crea la palabla clave para la búsqueda
+                get_co = requests.get(url10+co, auth=dhis2_auth) # se realiza la consulta para consultar el id de CO
+                get_co=json.loads(get_co.text)
+                date= str(value_json['Registro']).replace("-","").replace(" 00:00:00.0","")
+                if len(get_co['categoryOptionCombos'])>0:# Si el tamaño de la lista es igual a 0 no debe de realizar el proceso
+                    # Construcion de objecto a cargar en DHIS2
+                    data={
+                    "dataElement": "YHgy9RoyhCt", #dato por defecto
+                    "categoryOptionCombo": get_co['categoryOptionCombos'][0]['id'], 
+                    "period": date, # periodo a registrar en el DataSet
+                    "orgUnit": get_id_OU['organisationUnits'][0]['id'],
+                    "value": value_json['Cantidad'],
+                    "attributeOptionCombo": "HllvX50cXC0",
+                    }
+                    data_imporT_carga.append(data)
     postData = requests.post(url11,data=json.dumps({"dataValues": data_imporT_carga}), auth=dhis2_auth, headers=headers) # carga del objecto
     _data_postData=json.loads(postData.text)
     id_import=_data_postData['response']['id']

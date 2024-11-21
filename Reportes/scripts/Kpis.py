@@ -6,7 +6,9 @@ from datetime import datetime
 dhis2_auth = ('user', 'Passwork')
 urlBase = "https://dominio_instancia.org/api/"
 
-url = urlBase+"38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=100000"
+
+
+url = urlBase+"38/analytics/events/query/aFGRl00bzio?dimension=ou%3AUSER_ORGUNIT%3BUSER_ORGUNIT_CHILDREN%3BUSER_ORGUNIT_GRANDCHILDREN,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&headers=eventdate,ouname,oindugucx72,NI0QRzJvQ0k,lSpdre0srBn.fq1c1A3EOX5,lSpdre0srBn.U19JzF3LjsS&totalPages=false&eventDate=THIS_YEAR,LAST_5_YEARS&displayProperty=SHORTNAME&outputType=EVENT&includeMetadataDetails=true&stage=lSpdre0srBn&pageSize=10000"
 url2 = urlBase+"29/categoryOptions"
 url3 = urlBase+"29/options?fields=name&filter=optionSet.id:in:[PrAA7nJPXke,IQ7u8KsQfco]&filter=code:eq:"
 url4 = urlBase+"29/categoryOptions?filter=name:ne:default&fields=id,name&filter=identifiable:token:"
@@ -40,7 +42,6 @@ def get_Data():
     print("Consultando datos en el servidor")
     response = requests.get(url, auth=dhis2_auth)     
     data_rows = json.loads(response.text)
-    print(len(data_rows))
     if len(data_rows)>0:
         data_rows=data_rows['rows']
         if len(contar_coincidencias(data_rows))>0:
@@ -48,7 +49,7 @@ def get_Data():
         
     else:
         print("No hay datos")
-
+    
 
 # carga de datos a DHI2, filtrando los datos
 def carga(data_import):
@@ -57,12 +58,11 @@ def carga(data_import):
         "dataElement": "NVihtmQcw9u", #dato por defecto
         "categoryOptionCombo": "H2R9gmcGZEI", 
         "period":  datetime.now().date().strftime("%Y-%m-%d"), # periodo a registrar en el DataSet
-        "orgUnit": "FLc3aZivutf",
+        "orgUnit": "hJHOsA7rdfs",#cambiar por la ou correspondiente
         "value": data_import,
         "attributeOptionCombo": "HllvX50cXC0",
         }
-
-    postData = requests.post(url11,data=json.dumps({"dataValues": data}), auth=dhis2_auth, headers=headers) # carga del objecto
+    postData = requests.post(url11,data=json.dumps({"dataValues": [data]}), auth=dhis2_auth, headers=headers) # carga del objecto
     _data_postData=json.loads(postData.text)
     id_import=_data_postData['response']['id']
     if (postData.status_code==200):
