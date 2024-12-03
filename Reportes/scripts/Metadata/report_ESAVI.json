@@ -1,0 +1,690 @@
+{
+    "eventVisualizations": [
+        {
+            "lastUpdated": "2024-08-07T09:03:52.655",
+            "id": "zlE5Isusdpi",
+            "created": "2023-12-03T17:38:28.973",
+            "name": "ESAVI - Detalle tipos de ESAVI últimos 5 años (19/12/2023)",
+            "userOrganisationUnitChildren": true,
+            "publicAccess": "rw------",
+            "type": "LINE_LIST",
+            "subscribed": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "cumulativeValues": false,
+            "showDimensionLabels": true,
+            "sortOrder": 0,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "favorite": false,
+            "collapseDataDimensions": false,
+            "userOrganisationUnitGrandChildren": true,
+            "displayName": "ESAVI - Detalle tipos de ESAVI últimos 5 años (19/12/2023)",
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "hideTitle": false,
+            "skipRounding": false,
+            "showData": false,
+            "hideEmptyRows": false,
+            "parentGraphMap": {},
+            "hideNaData": false,
+            "displayDensity": "NORMAL",
+            "dataType": "EVENTS",
+            "regressionType": "NONE",
+            "completedOnly": false,
+            "colTotals": true,
+            "displayFormName": "ESAVI - Detalle tipos de ESAVI últimos 5 años (19/12/2023)",
+            "hideEmptyRowItems": "NONE",
+            "legacy": false,
+            "hideSubtitle": false,
+            "outputType": "EVENT",
+            "hideLegend": false,
+            "externalAccess": false,
+            "colSubTotals": true,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "programStage": {
+                "id": "lSpdre0srBn"
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [
+                {
+                    "attribute": {
+                        "id": "NI0QRzJvQ0k"
+                    }
+                },
+                {
+                    "filter": "IN:2;1;3",
+                    "attribute": {
+                        "id": "oindugucx72"
+                    }
+                }
+            ],
+            "translations": [],
+            "filterDimensions": [],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "columns": [],
+            "dataElementDimensions": [
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "PZxZirhNzgS"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "maY0Vi68Fv9"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "Sy1uqYvgR3r"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "Og99AH5tIQz"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "vqf60JfNqsf"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "pQJc4VA2SDW"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "fq1c1A3EOX5"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "ZzoWAqln5xc"
+                    }
+                }
+            ],
+            "periods": [],
+            "categoryDimensions": [],
+            "rowDimensions": [],
+            "repetitions": [],
+            "itemOrganisationUnitGroups": [],
+            "programIndicatorDimensions": [],
+            "columnDimensions": [
+                "eventDate",
+                "ou",
+                "NI0QRzJvQ0k",
+                "oindugucx72",
+                "PZxZirhNzgS",
+                "maY0Vi68Fv9",
+                "Sy1uqYvgR3r",
+                "Og99AH5tIQz",
+                "vqf60JfNqsf",
+                "pQJc4VA2SDW",
+                "fq1c1A3EOX5",
+                "ZzoWAqln5xc"
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "sorting": [],
+            "organisationUnits": [],
+            "simpleDimensions": [
+                {
+                    "parent": "COLUMN",
+                    "dimension": "eventDate",
+                    "values": [
+                        "THIS_YEAR",
+                        "LAST_5_YEARS"
+                    ]
+                }
+            ],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "lastUpdated": "2024-07-15T11:35:53.264",
+            "id": "EXHSfgyUQpJ",
+            "created": "2024-04-04T01:44:02.616",
+            "name": "ESAVI - Detalle tipos de Vacuna últimos 5 años (03/04/2024)",
+            "userOrganisationUnitChildren": true,
+            "publicAccess": "rw------",
+            "type": "LINE_LIST",
+            "subscribed": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "cumulativeValues": false,
+            "showDimensionLabels": true,
+            "sortOrder": 0,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "favorite": false,
+            "collapseDataDimensions": false,
+            "userOrganisationUnitGrandChildren": true,
+            "displayName": "ESAVI - Detalle tipos de Vacuna últimos 5 años (03/04/2024)",
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "hideTitle": false,
+            "skipRounding": false,
+            "showData": false,
+            "hideEmptyRows": false,
+            "parentGraphMap": {},
+            "hideNaData": false,
+            "displayDensity": "NORMAL",
+            "dataType": "EVENTS",
+            "regressionType": "NONE",
+            "completedOnly": false,
+            "colTotals": true,
+            "displayFormName": "ESAVI - Detalle tipos de Vacuna últimos 5 años (03/04/2024)",
+            "hideEmptyRowItems": "NONE",
+            "legacy": false,
+            "hideSubtitle": false,
+            "outputType": "EVENT",
+            "hideLegend": false,
+            "externalAccess": false,
+            "colSubTotals": true,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "programStage": {
+                "id": "lSpdre0srBn"
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [
+                {
+                    "attribute": {
+                        "id": "NI0QRzJvQ0k"
+                    }
+                },
+                {
+                    "filter": "IN:2;1;3",
+                    "attribute": {
+                        "id": "oindugucx72"
+                    }
+                }
+            ],
+            "translations": [],
+            "filterDimensions": [],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "columns": [],
+            "dataElementDimensions": [
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "uSVcZzSM3zg"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "dOkuCjpD978"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "g9PjywVj2fs"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "VrzEutEnzSJ"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "menOXwIFZh5"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "f4WCAVwjHz0"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "OU5klvkk3SM"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "H3TKHMFIN6V"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "X3PxqaO5f9r"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "ysWILv7evq2"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "sNAzULL8qKr"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "U7GsOtvm5XJ"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "wmEHb59whXs"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "bNGwInf25MO"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "SAZugYdkOZK"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "z2I8yMDvyXA"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "LYariSd5cEq"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "fq1c1A3EOX5"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "U19JzF3LjsS"
+                    }
+                }
+            ],
+            "periods": [],
+            "categoryDimensions": [],
+            "rowDimensions": [],
+            "repetitions": [],
+            "itemOrganisationUnitGroups": [],
+            "programIndicatorDimensions": [],
+            "columnDimensions": [
+                "eventDate",
+                "ou",
+                "NI0QRzJvQ0k",
+                "oindugucx72",
+                "uSVcZzSM3zg",
+                "dOkuCjpD978",
+                "g9PjywVj2fs",
+                "VrzEutEnzSJ",
+                "menOXwIFZh5",
+                "f4WCAVwjHz0",
+                "OU5klvkk3SM",
+                "H3TKHMFIN6V",
+                "X3PxqaO5f9r",
+                "ysWILv7evq2",
+                "sNAzULL8qKr",
+                "U7GsOtvm5XJ",
+                "wmEHb59whXs",
+                "bNGwInf25MO",
+                "SAZugYdkOZK",
+                "z2I8yMDvyXA",
+                "LYariSd5cEq",
+                "fq1c1A3EOX5",
+                "U19JzF3LjsS"
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "sorting": [],
+            "organisationUnits": [],
+            "simpleDimensions": [
+                {
+                    "parent": "COLUMN",
+                    "dimension": "eventDate",
+                    "values": [
+                        "THIS_YEAR",
+                        "LAST_5_YEARS"
+                    ]
+                }
+            ],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "lastUpdated": "2024-07-12T11:17:46.907",
+            "id": "z9aVImJTD3O",
+            "created": "2024-04-23T02:27:40.749",
+            "name": "ESAVI - Detalle últimos 5 años ",
+            "userOrganisationUnitChildren": true,
+            "publicAccess": "rw------",
+            "type": "LINE_LIST",
+            "subscribed": false,
+            "userOrganisationUnit": true,
+            "rowSubTotals": false,
+            "cumulativeValues": false,
+            "showDimensionLabels": true,
+            "sortOrder": 0,
+            "fontSize": "NORMAL",
+            "topLimit": 0,
+            "favorite": false,
+            "collapseDataDimensions": false,
+            "userOrganisationUnitGrandChildren": true,
+            "displayName": "ESAVI - Detalle últimos 5 años ",
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "showHierarchy": false,
+            "hideTitle": false,
+            "skipRounding": false,
+            "showData": false,
+            "hideEmptyRows": false,
+            "parentGraphMap": {},
+            "hideNaData": false,
+            "displayDensity": "NORMAL",
+            "dataType": "EVENTS",
+            "regressionType": "NONE",
+            "completedOnly": false,
+            "colTotals": true,
+            "displayFormName": "ESAVI - Detalle últimos 5 años ",
+            "hideEmptyRowItems": "NONE",
+            "legacy": false,
+            "hideSubtitle": false,
+            "outputType": "EVENT",
+            "hideLegend": false,
+            "externalAccess": false,
+            "colSubTotals": true,
+            "rowTotals": false,
+            "digitGroupSeparator": "SPACE",
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "programStage": {
+                "id": "lSpdre0srBn"
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [
+                {
+                    "attribute": {
+                        "id": "oindugucx72"
+                    }
+                },
+                {
+                    "attribute": {
+                        "id": "NI0QRzJvQ0k"
+                    }
+                }
+            ],
+            "translations": [],
+            "filterDimensions": [],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "columns": [],
+            "dataElementDimensions": [
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "fq1c1A3EOX5"
+                    }
+                },
+                {
+                    "programStage": {
+                        "id": "lSpdre0srBn"
+                    },
+                    "dataElement": {
+                        "id": "U19JzF3LjsS"
+                    }
+                }
+            ],
+            "periods": [],
+            "categoryDimensions": [],
+            "rowDimensions": [],
+            "repetitions": [],
+            "itemOrganisationUnitGroups": [],
+            "programIndicatorDimensions": [],
+            "columnDimensions": [
+                "eventDate",
+                "ou",
+                "oindugucx72",
+                "NI0QRzJvQ0k",
+                "fq1c1A3EOX5",
+                "U19JzF3LjsS"
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [],
+            "categoryOptionGroupSetDimensions": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "sorting": [],
+            "organisationUnits": [],
+            "simpleDimensions": [
+                {
+                    "parent": "COLUMN",
+                    "dimension": "eventDate",
+                    "values": [
+                        "THIS_YEAR",
+                        "LAST_5_YEARS"
+                    ]
+                }
+            ],
+            "filters": [],
+            "rows": []
+        }
+    ]
+}
