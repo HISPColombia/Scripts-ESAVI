@@ -1,0 +1,1046 @@
+{
+    "programIndicators": [
+        {
+            "lastUpdated": "2024-07-01T12:11:24.476",
+            "id": "f4bKlyoOxGA",
+            "href": "https://pruebasit.salud.gob.hn/dev-esavi/api/programIndicators/f4bKlyoOxGA",
+            "created": "2022-07-02T21:13:46.994",
+            "name": "CENTINELA -AEFI non serious cases",
+            "shortName": "C AEFI non serious cases",
+            "aggregationType": "COUNT",
+            "displayName": "ESAVI casos no graves",
+            "publicAccess": "rw------",
+            "description": "Evento adverso supuestamente atribuible a la vacunación o inmunización que no cumple los criterios de gravedad y, en consecuencia, no genera riesgos de afectar la salud de la persona vacunada de manera permanente.",
+            "displayShortName": "ESAVI casos no graves",
+            "externalAccess": false,
+            "displayDescription": "Evento adverso supuestamente atribuible a la vacunación o inmunización que no cumple los criterios de gravedad y, en consecuencia, no genera riesgos de afectar la salud de la persona vacunada de manera permanente.",
+            "expression": "V{event_count}",
+            "dimensionItem": "f4bKlyoOxGA",
+            "displayFormName": "ESAVI casos no graves",
+            "filter": "#{lSpdre0srBn.fq1c1A3EOX5} ==0  && V{program_stage_id} == 'lSpdre0srBn'",
+            "analyticsType": "EVENT",
+            "favorite": false,
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "ESAVI casos no graves"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Cas non graves de MAPI"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "ESAVI casos no graves"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Cas non graves de MAPI"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "EAPV non serious cases"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "EAPV non serious cases"
+                }
+            ],
+            "programIndicatorGroups": [],
+            "analyticsPeriodBoundaries": [
+                {
+                    "lastUpdated": "2024-07-01T12:11:24.476",
+                    "id": "A4dYMhOMZBD",
+                    "created": "2022-07-02T21:13:46.994",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-07-01T12:11:24.476",
+                    "id": "IAlxPnhLRwP",
+                    "created": "2022-07-02T21:13:46.994",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "lastUpdated": "2024-07-01T12:11:24.500",
+            "id": "XOKlMdcw4qy",
+            "href": "https://pruebasit.salud.gob.hn/dev-esavi/api/programIndicators/XOKlMdcw4qy",
+            "created": "2022-07-02T21:13:46.996",
+            "name": "CENTINELA -AEFI serious cases",
+            "shortName": "C AEFI serious cases",
+            "aggregationType": "COUNT",
+            "displayName": "ESAVI casos graves",
+            "publicAccess": "rw------",
+            "description": "Evento adverso supuestamente atribuible a la vacunación o inmunización que causa la muerte, pone en riesgo la vida, requiere hospitalización o la prolonga, o causa una discapacidad grave o permanente, un aborto o una anomalía congénita",
+            "displayShortName": "ESAVI casos graves",
+            "externalAccess": false,
+            "displayDescription": "Evento adverso supuestamente atribuible a la vacunación o inmunización que causa la muerte, pone en riesgo la vida, requiere hospitalización o la prolonga, o causa una discapacidad grave o permanente, un aborto o una anomalía congénita",
+            "expression": "V{event_count}",
+            "dimensionItem": "XOKlMdcw4qy",
+            "displayFormName": "ESAVI casos graves",
+            "filter": "#{lSpdre0srBn.fq1c1A3EOX5} == 1",
+            "analyticsType": "EVENT",
+            "favorite": false,
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Cas graves de MAPI"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "ESAVI casos graves"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "ESAVI casos graves"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Cas graves de MAPI"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "EAPV serious cases"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "EAPV serious cases"
+                }
+            ],
+            "programIndicatorGroups": [],
+            "analyticsPeriodBoundaries": [
+                {
+                    "lastUpdated": "2024-07-01T12:11:24.500",
+                    "id": "G83y6QJq8sB",
+                    "created": "2022-07-02T21:13:46.996",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-07-01T12:11:24.500",
+                    "id": "PJhoJyG7Fdo",
+                    "created": "2022-07-02T21:13:46.996",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "lastUpdated": "2024-08-07T11:01:38.162",
+            "id": "KE2GRRAuNvG",
+            "href": "https://pruebasit.salud.gob.hn/dev-esavi/api/programIndicators/KE2GRRAuNvG",
+            "created": "2023-09-19T15:57:09.221",
+            "name": "ESAVI - Casos graves ESAVI",
+            "shortName": "Notificaciones Graves ESAVI",
+            "aggregationType": "COUNT",
+            "displayName": "ESAVI - Casos graves ESAVI",
+            "publicAccess": "rw------",
+            "displayShortName": "Notificaciones Graves ESAVI",
+            "externalAccess": false,
+            "expression": "V{event_count}",
+            "dimensionItem": "KE2GRRAuNvG",
+            "displayFormName": "ESAVI - Casos graves ESAVI",
+            "filter": "V{program_stage_id} == 'lSpdre0srBn' && #{lSpdre0srBn.fq1c1A3EOX5}  == 1 ",
+            "analyticsType": "EVENT",
+            "favorite": false,
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "favorites": [],
+            "translations": [],
+            "programIndicatorGroups": [],
+            "analyticsPeriodBoundaries": [
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.163",
+                    "id": "uvGVOt1r27V",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.163",
+                    "id": "hPGBp2GMYEg",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "lastUpdated": "2024-08-07T11:01:38.138",
+            "id": "otYCjdZ86fA",
+            "href": "https://pruebasit.salud.gob.hn/dev-esavi/api/programIndicators/otYCjdZ86fA",
+            "created": "2024-03-20T22:17:59.141",
+            "name": "ESAVI - Casos graves ESAVI Femenino",
+            "shortName": "Notificaciones Graves ESAVI Femenino",
+            "aggregationType": "COUNT",
+            "displayName": "ESAVI - Casos graves ESAVI Femenino",
+            "publicAccess": "rw------",
+            "displayShortName": "Notificaciones Graves ESAVI Femenino",
+            "externalAccess": false,
+            "expression": "V{event_count}",
+            "dimensionItem": "otYCjdZ86fA",
+            "displayFormName": "ESAVI - Casos graves ESAVI Femenino",
+            "filter": "V{program_stage_id} == 'lSpdre0srBn' && #{lSpdre0srBn.fq1c1A3EOX5}  == 1  && A{oindugucx72} == '2'",
+            "analyticsType": "EVENT",
+            "favorite": false,
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "favorites": [],
+            "translations": [],
+            "programIndicatorGroups": [],
+            "analyticsPeriodBoundaries": [
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.139",
+                    "id": "RlQwJ7ZmEgb",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.139",
+                    "id": "Pb3yPVFvGNk",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "lastUpdated": "2024-08-07T11:01:38.139",
+            "id": "YutyKzeUECh",
+            "href": "https://pruebasit.salud.gob.hn/dev-esavi/api/programIndicators/YutyKzeUECh",
+            "created": "2024-03-20T22:17:09.970",
+            "name": "ESAVI - Casos graves ESAVI Hombres",
+            "shortName": "Notificaciones Graves ESAVI Maculino",
+            "aggregationType": "COUNT",
+            "displayName": "ESAVI - Casos graves ESAVI Hombres",
+            "publicAccess": "rw------",
+            "displayShortName": "Notificaciones Graves ESAVI Maculino",
+            "externalAccess": false,
+            "expression": "V{event_count}",
+            "dimensionItem": "YutyKzeUECh",
+            "displayFormName": "ESAVI - Casos graves ESAVI Hombres",
+            "filter": "V{program_stage_id} == 'lSpdre0srBn' && #{lSpdre0srBn.fq1c1A3EOX5}  == 1  && A{oindugucx72} == '1'",
+            "analyticsType": "EVENT",
+            "favorite": false,
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "favorites": [],
+            "translations": [],
+            "programIndicatorGroups": [],
+            "analyticsPeriodBoundaries": [
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.139",
+                    "id": "SbtlzgXPRvm",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.139",
+                    "id": "WWGbIYhOzml",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "lastUpdated": "2024-08-07T11:01:38.164",
+            "id": "lEdZdC5S2YV",
+            "href": "https://pruebasit.salud.gob.hn/dev-esavi/api/programIndicators/lEdZdC5S2YV",
+            "created": "2023-09-19T17:23:28.938",
+            "name": "ESAVI - Casos no graves ESAVI",
+            "shortName": "Notificaciones No Graves ESAVI",
+            "aggregationType": "COUNT",
+            "displayName": "ESAVI - Casos no graves ESAVI",
+            "publicAccess": "rw------",
+            "displayShortName": "Notificaciones No Graves ESAVI",
+            "externalAccess": false,
+            "expression": "V{event_count}",
+            "dimensionItem": "lEdZdC5S2YV",
+            "displayFormName": "ESAVI - Casos no graves ESAVI",
+            "filter": " V{program_stage_id} == 'lSpdre0srBn' && #{lSpdre0srBn.fq1c1A3EOX5}   == 0",
+            "analyticsType": "EVENT",
+            "favorite": false,
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "favorites": [],
+            "translations": [],
+            "programIndicatorGroups": [],
+            "analyticsPeriodBoundaries": [
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.165",
+                    "id": "OW2O6lxYxQK",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.165",
+                    "id": "Yl0eVD2Elxk",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "lastUpdated": "2024-08-07T11:01:38.140",
+            "id": "Vqz3lOcheE6",
+            "href": "https://pruebasit.salud.gob.hn/dev-esavi/api/programIndicators/Vqz3lOcheE6",
+            "created": "2024-03-20T22:36:46.699",
+            "name": "ESAVI - Casos no graves ESAVI Femenino",
+            "shortName": "Notificaciones No Graves ESAVI Femenino",
+            "aggregationType": "COUNT",
+            "displayName": "ESAVI - Casos no graves ESAVI Femenino",
+            "publicAccess": "rw------",
+            "displayShortName": "Notificaciones No Graves ESAVI Femenino",
+            "externalAccess": false,
+            "expression": "V{event_count}",
+            "dimensionItem": "Vqz3lOcheE6",
+            "displayFormName": "ESAVI - Casos no graves ESAVI Femenino",
+            "filter": " V{program_stage_id} == 'lSpdre0srBn' && #{lSpdre0srBn.fq1c1A3EOX5}   == 0 && A{oindugucx72} == '2'",
+            "analyticsType": "EVENT",
+            "favorite": false,
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "favorites": [],
+            "translations": [],
+            "programIndicatorGroups": [],
+            "analyticsPeriodBoundaries": [
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.140",
+                    "id": "ZsWfv7Vi1Ak",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.140",
+                    "id": "Dnz3FCGkiLb",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "lastUpdated": "2024-08-07T11:01:38.140",
+            "id": "sy3cQQ9Q0Rn",
+            "href": "https://pruebasit.salud.gob.hn/dev-esavi/api/programIndicators/sy3cQQ9Q0Rn",
+            "created": "2024-03-20T22:35:30.679",
+            "name": "ESAVI - Casos no graves ESAVI Maculino",
+            "shortName": "Notificaciones No Graves ESAVI Masculino",
+            "aggregationType": "COUNT",
+            "displayName": "ESAVI - Casos no graves ESAVI Maculino",
+            "publicAccess": "rw------",
+            "displayShortName": "Notificaciones No Graves ESAVI Masculino",
+            "externalAccess": false,
+            "expression": "V{event_count}",
+            "dimensionItem": "sy3cQQ9Q0Rn",
+            "displayFormName": "ESAVI - Casos no graves ESAVI Maculino",
+            "filter": " V{program_stage_id} == 'lSpdre0srBn' && #{lSpdre0srBn.fq1c1A3EOX5}   == 0 && A{oindugucx72} == '1'",
+            "analyticsType": "EVENT",
+            "favorite": false,
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "write": true,
+                "delete": true,
+                "manage": true
+            },
+            "program": {
+                "id": "aFGRl00bzio"
+            },
+            "lastUpdatedBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "userGroups": {},
+                "external": false,
+                "public": "rw------",
+                "users": {}
+            },
+            "createdBy": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "user": {
+                "code": "admin",
+                "displayName": "admin admin",
+                "name": "admin admin",
+                "id": "M5zQapPyTZI",
+                "username": "admin"
+            },
+            "favorites": [],
+            "translations": [],
+            "programIndicatorGroups": [],
+            "analyticsPeriodBoundaries": [
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.140",
+                    "id": "WBTDqHojpKb",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2024-08-07T11:01:38.140",
+                    "id": "XhjN4RxX6al",
+                    "created": "2023-09-05T18:05:22.867",
+                    "externalAccess": false,
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true
+                    },
+                    "sharing": {
+                        "userGroups": {},
+                        "external": false,
+                        "users": {}
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        }
+    ]
+}
